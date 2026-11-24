@@ -1,0 +1,24 @@
+{
+ "compared_statuses": 10263,
+ "differing": 2,
+ "examples": [
+  [
+   "HumanEval/39",
+   "W5",
+   "m048",
+   "fail",
+   "timeout"
+  ],
+  [
+   "HumanEval/59",
+   "W2",
+   "m013",
+   "timeout",
+   "pass"
+  ]
+ ],
+ "coverage_identical": true,
+ "mutants_identical": true,
+ "run1_wall_s": 653.3464978002012,
+ "run2_wall_s": 712.3963094996288
+}

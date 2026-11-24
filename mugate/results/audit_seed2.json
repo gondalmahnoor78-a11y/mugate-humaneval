@@ -1,0 +1,583 @@
+{
+ "seed": 2,
+ "wall_s": 176.94131089979783,
+ "tasks": {
+  "HumanEval/1": {
+   "n_inputs": 252,
+   "n_valid": 252,
+   "mutants": {}
+  },
+  "HumanEval/5": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {}
+  },
+  "HumanEval/6": {
+   "n_inputs": 368,
+   "n_valid": 368,
+   "mutants": {
+    "m006": {
+     "verdict": "differs",
+     "input": "(')))(()((',)",
+     "P_out": "['list', 0]",
+     "mut_out": "['list', 1]"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "('(()) )) (((()())',)",
+     "P_out": "['list', 2, 0, 4]",
+     "mut_out": "['list', 2, -1, 4]"
+    }
+   }
+  },
+  "HumanEval/7": {
+   "n_inputs": 244,
+   "n_valid": 244,
+   "mutants": {}
+  },
+  "HumanEval/8": {
+   "n_inputs": 387,
+   "n_valid": 387,
+   "mutants": {}
+  },
+  "HumanEval/12": {
+   "n_inputs": 135,
+   "n_valid": 135,
+   "mutants": {}
+  },
+  "HumanEval/15": {
+   "n_inputs": 35,
+   "n_valid": 35,
+   "mutants": {}
+  },
+  "HumanEval/22": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {}
+  },
+  "HumanEval/23": {
+   "n_inputs": 110,
+   "n_valid": 110,
+   "mutants": {}
+  },
+  "HumanEval/26": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {}
+  },
+  "HumanEval/28": {
+   "n_inputs": 101,
+   "n_valid": 101,
+   "mutants": {}
+  },
+  "HumanEval/33": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {
+    "m000": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    }
+   }
+  },
+  "HumanEval/35": {
+   "n_inputs": 400,
+   "n_valid": 399,
+   "mutants": {
+    "m003": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m004": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    }
+   }
+  },
+  "HumanEval/39": {
+   "n_inputs": 28,
+   "n_valid": 12,
+   "mutants": {
+    "m008": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m010": {
+     "verdict": "timeout"
+    },
+    "m011": {
+     "verdict": "differs",
+     "input": "(0,)",
+     "P_out": "1",
+     "mut_out": "0"
+    },
+    "m027": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m034": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m041": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m043": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m044": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    }
+   }
+  },
+  "HumanEval/40": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {}
+  },
+  "HumanEval/44": {
+   "n_inputs": 246,
+   "n_valid": 232,
+   "mutants": {}
+  },
+  "HumanEval/45": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {}
+  },
+  "HumanEval/48": {
+   "n_inputs": 76,
+   "n_valid": 76,
+   "mutants": {}
+  },
+  "HumanEval/50": {
+   "n_inputs": 48,
+   "n_valid": 48,
+   "mutants": {}
+  },
+  "HumanEval/55": {
+   "n_inputs": 44,
+   "n_valid": 31,
+   "mutants": {}
+  },
+  "HumanEval/56": {
+   "n_inputs": 60,
+   "n_valid": 60,
+   "mutants": {}
+  },
+  "HumanEval/57": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {}
+  },
+  "HumanEval/58": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {}
+  },
+  "HumanEval/59": {
+   "n_inputs": 165,
+   "n_valid": 165,
+   "mutants": {
+    "m003": {
+     "verdict": "differs",
+     "input": "(-13195,)",
+     "P_out": "1",
+     "mut_out": "2"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "(-13195,)",
+     "P_out": "1",
+     "mut_out": "0"
+    },
+    "m008": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m011": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m012": {
+     "verdict": "differs",
+     "input": "(19,)",
+     "P_out": "19",
+     "mut_out": "1"
+    },
+    "m017": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m018": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m024": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m025": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m026": {
+     "verdict": "differs",
+     "input": "(19,)",
+     "P_out": "19",
+     "mut_out": "1"
+    },
+    "m029": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    }
+   }
+  },
+  "HumanEval/62": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {}
+  },
+  "HumanEval/68": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {
+    "m009": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    }
+   }
+  },
+  "HumanEval/70": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {}
+  },
+  "HumanEval/71": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {}
+  },
+  "HumanEval/77": {
+   "n_inputs": 123,
+   "n_valid": 123,
+   "mutants": {}
+  },
+  "HumanEval/86": {
+   "n_inputs": 208,
+   "n_valid": 208,
+   "mutants": {}
+  },
+  "HumanEval/87": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {}
+  },
+  "HumanEval/93": {
+   "n_inputs": 198,
+   "n_valid": 198,
+   "mutants": {}
+  },
+  "HumanEval/97": {
+   "n_inputs": 355,
+   "n_valid": 355,
+   "mutants": {}
+  },
+  "HumanEval/103": {
+   "n_inputs": 320,
+   "n_valid": 320,
+   "mutants": {}
+  },
+  "HumanEval/107": {
+   "n_inputs": 59,
+   "n_valid": 59,
+   "mutants": {
+    "m040": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    }
+   }
+  },
+  "HumanEval/108": {
+   "n_inputs": 326,
+   "n_valid": 326,
+   "mutants": {
+    "m005": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m007": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m011": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m012": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    }
+   }
+  },
+  "HumanEval/114": {
+   "n_inputs": 400,
+   "n_valid": 399,
+   "mutants": {
+    "m005": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m016": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m022": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m023": {
+     "verdict": "differs",
+     "input": "([1, -2, -3],)",
+     "P_out": "-5",
+     "mut_out": "-4"
+    }
+   }
+  },
+  "HumanEval/129": {
+   "n_inputs": 400,
+   "n_valid": 341,
+   "mutants": {
+    "m001": {
+     "verdict": "differs",
+     "input": "([], 3)",
+     "P_out": "['list', 1, 1, 1]",
+     "mut_out": "EXC:UnboundLocalError"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "([], 3)",
+     "P_out": "['list', 1, 1, 1]",
+     "mut_out": "['list', 1, -1, 1]"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "([], 3)",
+     "P_out": "['list', 1, 1, 1]",
+     "mut_out": "EXC:ZeroDivisionError"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "([], 3)",
+     "P_out": "['list', 1, 1, 1]",
+     "mut_out": "['list', 1, 2, 1]"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "([], 3)",
+     "P_out": "['list', 1, 1, 1]",
+     "mut_out": "['list', 1, 0, 1]"
+    },
+    "m040": {
+     "verdict": "differs",
+     "input": "([[1, 3, 1], [4, 2]], 2)",
+     "P_out": "['list', 1, 3]",
+     "mut_out": "['list', 1, 1]"
+    }
+   }
+  },
+  "HumanEval/135": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {
+    "m013": {
+     "verdict": "differs",
+     "input": "([2, 2],)",
+     "P_out": "-1",
+     "mut_out": "1"
+    }
+   }
+  },
+  "HumanEval/138": {
+   "n_inputs": 40,
+   "n_valid": 40,
+   "mutants": {
+    "m009": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    }
+   }
+  },
+  "HumanEval/139": {
+   "n_inputs": 27,
+   "n_valid": 27,
+   "mutants": {
+    "m011": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    }
+   }
+  },
+  "HumanEval/143": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {
+    "m013": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m026": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m030": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    }
+   }
+  },
+  "HumanEval/148": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {
+    "m006": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    }
+   }
+  },
+  "HumanEval/149": {
+   "n_inputs": 168,
+   "n_valid": 168,
+   "mutants": {}
+  },
+  "HumanEval/151": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {
+    "m006": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m011": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    }
+   }
+  },
+  "HumanEval/152": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {}
+  },
+  "HumanEval/155": {
+   "n_inputs": 135,
+   "n_valid": 135,
+   "mutants": {}
+  },
+  "HumanEval/156": {
+   "n_inputs": 156,
+   "n_valid": 141,
+   "mutants": {}
+  },
+  "HumanEval/161": {
+   "n_inputs": 77,
+   "n_valid": 77,
+   "mutants": {
+    "m024": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    }
+   }
+  },
+  "HumanEval/163": {
+   "n_inputs": 329,
+   "n_valid": 329,
+   "mutants": {
+    "m004": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m005": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "_rule": "Applies only to mutants that no sound suite kills AND for which the seed-0 differential audit found a difference or timed out. 'killable' = a distinguishing input exists that satisfies the docstring's precondition; 'equivalent_precondition' = every difference found requires an input the docstring excludes. Labels were assigned after inspecting the canonical solution; each rationale names the input class involved.",
+ "HumanEval/6:m006": {"label": "equivalent_precondition", "rationale": "max_depth initialised to 1 instead of 0. Every valid group contains at least one '(' so the maximum depth is >= 1 either way; the audit input ')()(' is not a balanced group."},
+ "HumanEval/6:m007": {"label": "equivalent_precondition", "rationale": "max_depth initialised to -1. Differs only for a group with no '(' (audit split produced the group ')'), which is not a valid nested-parentheses group."},
+ "HumanEval/39:m010": {"label": "equivalent_precondition", "rationale": "Sequence seeded [1,1] instead of [0,1]: identical prime Fibonacci numbers for n = 1..10 (checked by direct execution). Audit timeout is caused by n = 0, where the mutant loops forever and P returns 1; n-th requires n >= 1."},
+ "HumanEval/39:m011": {"label": "equivalent_precondition", "rationale": "Sequence seeded [-1,1]: differs only for n = 0 (P returns 1, mutant 0); identical for n >= 1."},
+ "HumanEval/59:m003": {"label": "equivalent_precondition", "rationale": "largest initialised to 2: differs only for n <= 1 (audit input -100); docstring assumes n > 1 and not prime, so the largest prime factor is >= 2."},
+ "HumanEval/59:m004": {"label": "equivalent_precondition", "rationale": "largest initialised to 0: same argument as m003 (audit input -100)."},
+ "HumanEval/59:m012": {"label": "equivalent_precondition", "rationale": "range(2, n-1): differs only when n itself is prime (audit input 331); the docstring excludes prime n."},
+ "HumanEval/59:m026": {"label": "equivalent_precondition", "rationale": "range(2, n): differs only when n itself is prime (audit input 331)."},
+ "HumanEval/114:m023": {"label": "killable", "rationale": "Reset condition s < -1 instead of s < 0. Valid input [0, -2, 3, -4]: P returns -4, mutant -3. Genuine fault missed by every suite, including the human reference tests."},
+ "HumanEval/129:m001": {"label": "equivalent_precondition", "rationale": "Deleting val = n*n+1: val is always reassigned by val = min(temp) because the grid must contain 1; the audit grid has a duplicate 2 and no 1."},
+ "HumanEval/129:m004": {"label": "equivalent_precondition", "rationale": "Initial val is overwritten by min(temp) whenever 1 is in the grid (guaranteed); audit grid lacks 1."},
+ "HumanEval/129:m005": {"label": "equivalent_precondition", "rationale": "Same as m004 (initial value overwritten). Note: the agent's round-1 case for this mutant was based on a wrong reading of the code and does not kill it."},
+ "HumanEval/129:m006": {"label": "equivalent_precondition", "rationale": "Same as m004."},
+ "HumanEval/129:m007": {"label": "equivalent_precondition", "rationale": "Same as m004."},
+ "HumanEval/129:m040": {"label": "killable", "rationale": "Left-neighbour guard j != 0 mutated to j != -1, so column 0 wraps to the last column. Valid 3x3 permutation grid [[5,9,3],[1,6,4],[7,8,2]], k=3: P returns [1,5,1], mutant [1,4,1]. Genuine fault missed by every suite, including the human reference tests."},
+ "HumanEval/135:m013": {"label": "equivalent_precondition", "rationale": "< vs <=: differs only with equal adjacent values (audit input [1,3,3]); docstring guarantees no duplicates."}
+}

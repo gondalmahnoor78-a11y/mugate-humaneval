@@ -1,0 +1,18 @@
+\begin{tabular}{@{}lr@{}}
+\toprule
+Statistic & Value\\
+\midrule
+HumanEval tasks in sample (seed 42) & 50 / 164\\
+Agent cases written / kept after assertion repair (vanilla) & 266 / 265\\
+Agent cases written / kept (blind augmentation) & 150 / 149\\
+Agent cases written / kept (gate round 1) & 9 / 9\\
+First-order mutants generated (all operators) & 883\\
+\quad gate group (AOR, ROR, LCR, UOD, CND) & 282\\
+\quad held-out group (CRP, RVR, SDL, BCR) & 601\\
+Mutants surviving all four sound suites & 52\\
+\quad equivalent (no difference on any audit input) & 36\\
+\quad equivalent under the documented precondition & 14\\
+\quad killable (valid distinguishing input found) & 2\\
+Killable mutants (adjusted denominator) & 833 (94.3\%)\\
+\bottomrule
+\end{tabular}

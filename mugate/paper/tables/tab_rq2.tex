@@ -1,0 +1,14 @@
+\begin{tabular}{@{}llrr@{}}
+\toprule
+ID & Transformation of the sound vanilla cases & Adj.\ MS (\%) & Raw MS (\%)\\
+\midrule
+-- & none (sound vanilla suite) & 96.3 & 90.8\\
+W5 & Test deletion (keep first case only) & 67.5 & 63.6\\
+W3 & Type-only oracle (assert isinstance(f(x), T)) & 31.8 & 30.0\\
+W2 & Tautological oracle (assert f(x) $==$ f(x)) & 22.3 & 21.1\\
+W1 & No-oracle (call, then assert True) & 22.2 & 21.0\\
+W4 & Exception-swallowing (try/except Exception: pass) & 3.4 & 3.2\\
+W6 & Skipped tests (dead if False: branch) & 0.0 & 0.0\\
+W7 & Mocked-out logic (stub returns expected value) & 0.0 & 0.0\\
+\bottomrule
+\end{tabular}

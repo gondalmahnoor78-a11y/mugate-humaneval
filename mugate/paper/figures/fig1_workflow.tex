@@ -1,0 +1,46 @@
+% MuGate workflow as implemented in mugate/pipeline.py (stages repair, survivors, evaluate, audit).
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+  font=\sffamily\footnotesize,
+  box/.style={draw, rounded corners=2pt, align=center, minimum height=1.05cm, text width=3.0cm, fill=white},
+  agent/.style={box, fill=gray!12},
+  off/.style={box, dashed, text width=3.3cm},
+  dec/.style={draw, diamond, aspect=2.2, align=center, inner sep=0.5pt, fill=white},
+  arr/.style={-{Stealth[length=2mm]}, thick},
+  darr/.style={arr, dashed},
+  gap/.style={preaction={draw, white, line width=4pt}},
+  lab/.style={font=\sffamily\scriptsize, align=center}
+]
+% --- column 1: agent side
+\node[box]   (prompt) at (0,4.2)  {\textbf{HumanEval prompt}\\signature + docstring};
+\node[agent] (agent)  at (0,2.1)  {\textbf{LLM agent} (Claude)\\writes test cases $T_i$};
+\node[box]   (repair) at (0,0)    {\textbf{Assertion repair}\\drop cases failing on $P$};
+% --- column 2: program side
+\node[box]   (prog)   at (4.2,4.2) {\textbf{Reference program} $P$\\canonical solution};
+\node[box]   (mut)    at (4.2,2.1) {\textbf{AST mutation engine}\\9 operators on\\solver-written lines};
+\node[box]   (run)    at (4.2,0)   {\textbf{Sandboxed runner}\\\texttt{python -I} worker,\\2\,s watchdog, 1\,GiB cap};
+% --- column 3: gate
+\node[box]   (gate)   at (8.4,2.1) {\textbf{Gate mutants} $M_{gate}$\\AOR, ROR, LCR, UOD, CND};
+\node[dec]   (dec)    at (8.4,0)   {all killable\\$M_{gate}$ killed?};
+\node[agent] (fb)     at (12.4,2.1) {\textbf{Survivor feedback}\\diff of every surviving\\gate mutant};
+\node[box, very thick] (acc) at (8.4,-2.3) {\textbf{Accept} $T_{final}$};
+% --- offline evaluation
+\node[off]   (held)   at (4.2,-2.3) {\textbf{Held-out mutants} $M_{held}$\\CRP, RVR, SDL, BCR\\(never shown)};
+\node[off]   (eval)   at (12.4,-2.3) {\textbf{Offline evaluation}\\human, blind, W1--W7 suites;\\equivalence audit (5 seeds);\\bootstrap statistics};
+
+\draw[arr] (prompt) -- (agent);
+\draw[arr] (agent) -- (repair);
+\draw[arr] (prog) -- node[lab, right]{mutate} (mut);
+\draw[arr] (mut) -- (gate);
+\draw[arr] (mut) -- (run);
+\draw[arr] (repair) -- node[lab, above]{$T_i$} (run);
+\draw[arr] (run) -- node[lab, above]{$\mathrm{MS}(T_i,M_{gate})$} (dec);
+\draw[arr] (gate) -- (dec);
+\draw[arr] (dec) -- node[lab, right]{yes (or $i=R$)} (acc);
+\draw[arr] (dec.east) -| node[lab, pos=0.25, below]{no, $i<R$} (fb.south);
+\draw[arr] (fb.north) |- node[lab, pos=0.75, above]{revise: $T_{i+1}=T_i\cup\{\text{new cases}\}$ (here $R=1$)} (-2.2,5.3) |- (agent.west);
+\draw[darr, gap] (mut.west) -- ++(-0.5,0) |- (held.west);
+\draw[darr] (held.south) -- ++(0,-0.45) -| (eval.south);
+\draw[darr] (acc) -- (eval);
+\end{tikzpicture}%
+}

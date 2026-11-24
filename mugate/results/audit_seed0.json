@@ -1,0 +1,5535 @@
+{
+ "seed": 0,
+ "wall_s": 421.68639189982787,
+ "tasks": {
+  "HumanEval/1": {
+   "n_inputs": 251,
+   "n_valid": 251,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "('( ) (( )) (( )( ))',)",
+     "P_out": "['list', '()', '(())', '(()())']",
+     "mut_out": "EXC:NameError"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "('( ) (( )) (( )( ))',)",
+     "P_out": "['list', '()', '(())', '(()())']",
+     "mut_out": "EXC:NameError"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "('( ) (( )) (( )( ))',)",
+     "P_out": "['list', '()', '(())', '(()())']",
+     "mut_out": "EXC:UnboundLocalError"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "('( ) (( )) (( )( ))',)",
+     "P_out": "['list', '()', '(())', '(()())']",
+     "mut_out": "None"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "('( ) (( )) (( )( ))',)",
+     "P_out": "['list', '()', '(())', '(()())']",
+     "mut_out": "['list']"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "('( ) (( )) (( )( ))',)",
+     "P_out": "['list', '()', '(())', '(()())']",
+     "mut_out": "['list', '()(()', ')(()', '()']"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "('( ) (( )) (( )( ))',)",
+     "P_out": "['list', '()', '(())', '(()())']",
+     "mut_out": "['list']"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "('( ) (( )) (( )( ))',)",
+     "P_out": "['list', '()', '(())', '(()())']",
+     "mut_out": "['list']"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "('( ) (( )) (( )( ))',)",
+     "P_out": "['list', '()', '(())', '(()())']",
+     "mut_out": "['list']"
+    },
+    "m009": {
+     "verdict": "differs",
+     "input": "('( ) (( )) (( )( ))',)",
+     "P_out": "['list', '()', '(())', '(()())']",
+     "mut_out": "['list']"
+    },
+    "m010": {
+     "verdict": "differs",
+     "input": "('( ) (( )) (( )( ))',)",
+     "P_out": "['list', '()', '(())', '(()())']",
+     "mut_out": "['list', ')', '))', ')))']"
+    },
+    "m011": {
+     "verdict": "differs",
+     "input": "('( ) (( )) (( )( ))',)",
+     "P_out": "['list', '()', '(())', '(()())']",
+     "mut_out": "['list']"
+    },
+    "m012": {
+     "verdict": "differs",
+     "input": "('( ) (( )) (( )( ))',)",
+     "P_out": "['list', '()', '(())', '(()())']",
+     "mut_out": "['list']"
+    },
+    "m013": {
+     "verdict": "differs",
+     "input": "('( ) (( )) (( )( ))',)",
+     "P_out": "['list', '()', '(())', '(()())']",
+     "mut_out": "['list']"
+    },
+    "m014": {
+     "verdict": "differs",
+     "input": "('( ) (( )) (( )( ))',)",
+     "P_out": "['list', '()', '(())', '(()())']",
+     "mut_out": "['list', '( ', ' (( ', ' (( ', '( ']"
+    },
+    "m015": {
+     "verdict": "differs",
+     "input": "('( ) (( )) (( )( ))',)",
+     "P_out": "['list', '()', '(())', '(()())']",
+     "mut_out": "['list', '( ', ' (( ', ' (( ', '( ']"
+    },
+    "m016": {
+     "verdict": "differs",
+     "input": "('( ) (( )) (( )( ))',)",
+     "P_out": "['list', '()', '(())', '(()())']",
+     "mut_out": "['list']"
+    },
+    "m017": {
+     "verdict": "differs",
+     "input": "('( ) (( )) (( )( ))',)",
+     "P_out": "['list', '()', '(())', '(()())']",
+     "mut_out": "['list']"
+    },
+    "m018": {
+     "verdict": "differs",
+     "input": "('( ) (( )) (( )( ))',)",
+     "P_out": "['list', '()', '(())', '(()())']",
+     "mut_out": "['list', '(', '((', '(((']"
+    },
+    "m019": {
+     "verdict": "differs",
+     "input": "('( ) (( )) (( )( ))',)",
+     "P_out": "['list', '()', '(())', '(()())']",
+     "mut_out": "['list']"
+    },
+    "m020": {
+     "verdict": "differs",
+     "input": "('( ) (( )) (( )( ))',)",
+     "P_out": "['list', '()', '(())', '(()())']",
+     "mut_out": "['list']"
+    },
+    "m021": {
+     "verdict": "differs",
+     "input": "('( ) (( )) (( )( ))',)",
+     "P_out": "['list', '()', '(())', '(()())']",
+     "mut_out": "['list']"
+    },
+    "m022": {
+     "verdict": "differs",
+     "input": "('( ) (( )) (( )( ))',)",
+     "P_out": "['list', '()', '(())', '(()())']",
+     "mut_out": "['list', '()(()', ')(()', '()']"
+    },
+    "m023": {
+     "verdict": "differs",
+     "input": "('( ) (( )) (( )( ))',)",
+     "P_out": "['list', '()', '(())', '(()())']",
+     "mut_out": "['list', '()(()', ')(()', '()']"
+    },
+    "m024": {
+     "verdict": "differs",
+     "input": "('( ) (( )) (( )( ))',)",
+     "P_out": "['list', '()', '(())', '(()())']",
+     "mut_out": "['list']"
+    },
+    "m025": {
+     "verdict": "differs",
+     "input": "('( ) (( )) (( )( ))',)",
+     "P_out": "['list', '()', '(())', '(()())']",
+     "mut_out": "['list', '()', '()(())', '()(())(()())']"
+    },
+    "m026": {
+     "verdict": "differs",
+     "input": "('( ) (( )) (( )( ))',)",
+     "P_out": "['list', '()', '(())', '(()())']",
+     "mut_out": "['list', '()(()', ')(()', '()']"
+    },
+    "m027": {
+     "verdict": "differs",
+     "input": "('( ) (( )) (( )( ))',)",
+     "P_out": "['list', '()', '(())', '(()())']",
+     "mut_out": "['list']"
+    },
+    "m028": {
+     "verdict": "differs",
+     "input": "('( ) (( )) (( )( ))',)",
+     "P_out": "['list', '()', '(())', '(()())']",
+     "mut_out": "['list', '(_)', '(_(_)_)', '(_(_)_(_)_)']"
+    }
+   }
+  },
+  "HumanEval/5": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "([1, 2, 3], 4)",
+     "P_out": "['list', 1, 4, 2, 4, 3]",
+     "mut_out": "EXC:NameError"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "([1, 2, 3], 4)",
+     "P_out": "['list', 1, 4, 2, 4, 3]",
+     "mut_out": "['list', 1, 4, 2, 4]"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "([1, 2, 3], 4)",
+     "P_out": "['list', 1, 4, 2, 4, 3]",
+     "mut_out": "None"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "([], 4)",
+     "P_out": "['list']",
+     "mut_out": "EXC:IndexError"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "([], 4)",
+     "P_out": "['list']",
+     "mut_out": "EXC:IndexError"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "([], 4)",
+     "P_out": "['list']",
+     "mut_out": "None"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "([1, 2, 3], 4)",
+     "P_out": "['list', 1, 4, 2, 4, 3]",
+     "mut_out": "['list', 4, 4, 3]"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "([1, 2, 3], 4)",
+     "P_out": "['list', 1, 4, 2, 4, 3]",
+     "mut_out": "['list', 1, 2, 3]"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "([1, 2, 3], 4)",
+     "P_out": "['list', 1, 4, 2, 4, 3]",
+     "mut_out": "['list', 1, 4, 3]"
+    },
+    "m009": {
+     "verdict": "differs",
+     "input": "([1, 2, 3], 4)",
+     "P_out": "['list', 1, 4, 2, 4, 3]",
+     "mut_out": "['list', 1, 4, 2, 4, 2]"
+    },
+    "m010": {
+     "verdict": "differs",
+     "input": "([1, 2, 3], 4)",
+     "P_out": "['list', 1, 4, 2, 4, 3]",
+     "mut_out": "['list', 1, 4, 3]"
+    },
+    "m011": {
+     "verdict": "differs",
+     "input": "([1, 2, 3], 4)",
+     "P_out": "['list', 1, 4, 2, 4, 3]",
+     "mut_out": "['list', 3]"
+    },
+    "m012": {
+     "verdict": "differs",
+     "input": "([1, 2, 3], 4)",
+     "P_out": "['list', 1, 4, 2, 4, 3]",
+     "mut_out": "['list', 1, 4, 2, 4, 2]"
+    },
+    "m013": {
+     "verdict": "differs",
+     "input": "([1, 2, 3], 4)",
+     "P_out": "['list', 1, 4, 2, 4, 3]",
+     "mut_out": "['list', 1, 4, 2, 4, 1]"
+    }
+   }
+  },
+  "HumanEval/6": {
+   "n_inputs": 378,
+   "n_valid": 378,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "('(()()) ((())) () ((())()())',)",
+     "P_out": "['list', 2, 3, 1, 3]",
+     "mut_out": "None"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "('(()()) ((())) () ((())()())',)",
+     "P_out": "['list', 2, 3, 1, 3]",
+     "mut_out": "EXC:UnboundLocalError"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "('(()()) ((())) () ((())()())',)",
+     "P_out": "['list', 2, 3, 1, 3]",
+     "mut_out": "EXC:UnboundLocalError"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "('(()()) ((())) () ((())()())',)",
+     "P_out": "['list', 2, 3, 1, 3]",
+     "mut_out": "['list', None, None, None, None]"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "('(()()) ((())) () ((())()())',)",
+     "P_out": "['list', 2, 3, 1, 3]",
+     "mut_out": "['list', 3, 4, 2, 4]"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "('(()()) ((())) () ((())()())',)",
+     "P_out": "['list', 2, 3, 1, 3]",
+     "mut_out": "['list', 1, 2, 0, 2]"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "(')()(',)",
+     "P_out": "['list', 0]",
+     "mut_out": "['list', 1]"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "('(())( ) (((())))',)",
+     "P_out": "['list', 2, 0, 4]",
+     "mut_out": "['list', 2, -1, 4]"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "('(()()) ((())) () ((())()())',)",
+     "P_out": "['list', 2, 3, 1, 3]",
+     "mut_out": "['list', 0, 0, 0, 0]"
+    },
+    "m009": {
+     "verdict": "differs",
+     "input": "('(()()) ((())) () ((())()())',)",
+     "P_out": "['list', 2, 3, 1, 3]",
+     "mut_out": "['list', 0, 0, 0, 0]"
+    },
+    "m010": {
+     "verdict": "differs",
+     "input": "('(()()) ((())) () ((())()())',)",
+     "P_out": "['list', 2, 3, 1, 3]",
+     "mut_out": "['list', 0, 0, 0, 0]"
+    },
+    "m011": {
+     "verdict": "differs",
+     "input": "('(()()) ((())) () ((())()())',)",
+     "P_out": "['list', 2, 3, 1, 3]",
+     "mut_out": "['list', 0, 0, 0, 0]"
+    },
+    "m012": {
+     "verdict": "differs",
+     "input": "('(()()) ((())) () ((())()())',)",
+     "P_out": "['list', 2, 3, 1, 3]",
+     "mut_out": "['list', 0, 0, 0, 0]"
+    },
+    "m013": {
+     "verdict": "differs",
+     "input": "('(()()) ((())) () ((())()())',)",
+     "P_out": "['list', 2, 3, 1, 3]",
+     "mut_out": "['list', 4, 3, 1, 8]"
+    },
+    "m014": {
+     "verdict": "differs",
+     "input": "('(()()) ((())) () ((())()())',)",
+     "P_out": "['list', 2, 3, 1, 3]",
+     "mut_out": "['list', 3, 3, 1, 5]"
+    },
+    "m015": {
+     "verdict": "differs",
+     "input": "('(()()) ((())) () ((())()())',)",
+     "P_out": "['list', 2, 3, 1, 3]",
+     "mut_out": "['list']"
+    },
+    "m016": {
+     "verdict": "differs",
+     "input": "('(()()) ((())) () ((())()())',)",
+     "P_out": "['list', 2, 3, 1, 3]",
+     "mut_out": "['list', 0, 0, 0, 0]"
+    },
+    "m017": {
+     "verdict": "differs",
+     "input": "('(()()) ((())) () ((())()())',)",
+     "P_out": "['list', 2, 3, 1, 3]",
+     "mut_out": "['list', 5, 6, 2, 7]"
+    },
+    "m018": {
+     "verdict": "differs",
+     "input": "('(()()) ((())) () ((())()())',)",
+     "P_out": "['list', 2, 3, 1, 3]",
+     "mut_out": "['list', 0, 0, 0, 0]"
+    },
+    "m019": {
+     "verdict": "differs",
+     "input": "('(()(()))',)",
+     "P_out": "['list', 3]",
+     "mut_out": "['list', 2]"
+    },
+    "m020": {
+     "verdict": "differs",
+     "input": "('(()()) ((())) () ((())()())',)",
+     "P_out": "['list', 2, 3, 1, 3]",
+     "mut_out": "['list', 3, 3, 1, 5]"
+    },
+    "m021": {
+     "verdict": "differs",
+     "input": "('(()()) ((())) () ((())()())',)",
+     "P_out": "['list', 2, 3, 1, 3]",
+     "mut_out": "EXC:ValueError"
+    }
+   }
+  },
+  "HumanEval/7": {
+   "n_inputs": 249,
+   "n_valid": 249,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "([], 'a')",
+     "P_out": "['list']",
+     "mut_out": "None"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "(['abc', 'bacd', 'cde', 'array'], 'a')",
+     "P_out": "['list', 'abc', 'bacd', 'array']",
+     "mut_out": "['list', 'cde']"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "(['abc', 'bacd', 'cde', 'array'], 'a')",
+     "P_out": "['list', 'abc', 'bacd', 'array']",
+     "mut_out": "['list', 'cde']"
+    }
+   }
+  },
+  "HumanEval/8": {
+   "n_inputs": 382,
+   "n_valid": 382,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "([],)",
+     "P_out": "['tuple', 0, 1]",
+     "mut_out": "EXC:UnboundLocalError"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "([],)",
+     "P_out": "['tuple', 0, 1]",
+     "mut_out": "EXC:UnboundLocalError"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "([],)",
+     "P_out": "['tuple', 0, 1]",
+     "mut_out": "None"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "([],)",
+     "P_out": "['tuple', 0, 1]",
+     "mut_out": "['tuple', 1, 1]"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "([],)",
+     "P_out": "['tuple', 0, 1]",
+     "mut_out": "['tuple', -1, 1]"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "([],)",
+     "P_out": "['tuple', 0, 1]",
+     "mut_out": "['tuple', 0, 2]"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "([],)",
+     "P_out": "['tuple', 0, 1]",
+     "mut_out": "['tuple', 0, 0]"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "([1, 2, 3, 4],)",
+     "P_out": "['tuple', 10, 24]",
+     "mut_out": "['tuple', -10, 24]"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "([1, 2, 3, 4],)",
+     "P_out": "['tuple', 10, 24]",
+     "mut_out": "['tuple', 0, 24]"
+    },
+    "m009": {
+     "verdict": "differs",
+     "input": "([1, 2, 3, 4],)",
+     "P_out": "['tuple', 10, 24]",
+     "mut_out": "['tuple', 10, 0.041666667]"
+    },
+    "m010": {
+     "verdict": "differs",
+     "input": "([1, 2, 3, 4],)",
+     "P_out": "['tuple', 10, 24]",
+     "mut_out": "['tuple', 10, 1]"
+    }
+   }
+  },
+  "HumanEval/12": {
+   "n_inputs": 137,
+   "n_valid": 137,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "(['a', 'b', 'c'],)",
+     "P_out": "'a'",
+     "mut_out": "EXC:NameError"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "([],)",
+     "P_out": "None",
+     "mut_out": "EXC:ValueError"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "([],)",
+     "P_out": "None",
+     "mut_out": "EXC:ValueError"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "(['a', 'b', 'c'],)",
+     "P_out": "'a'",
+     "mut_out": "None"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "(['a', 'b', 'c'],)",
+     "P_out": "'a'",
+     "mut_out": "None"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "(['a', 'b', 'c'],)",
+     "P_out": "'a'",
+     "mut_out": "None"
+    }
+   }
+  },
+  "HumanEval/15": {
+   "n_inputs": 35,
+   "n_valid": 35,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "(0,)",
+     "P_out": "'0'",
+     "mut_out": "None"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "(5,)",
+     "P_out": "'0 1 2 3 4 5'",
+     "mut_out": "'012345'"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "(0,)",
+     "P_out": "'0'",
+     "mut_out": "''"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "(0,)",
+     "P_out": "'0'",
+     "mut_out": "'0 1'"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "(0,)",
+     "P_out": "'0'",
+     "mut_out": "''"
+    }
+   }
+  },
+  "HumanEval/22": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "(['a', 3.14, 5],)",
+     "P_out": "['list', 5]",
+     "mut_out": "None"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "(['a', 3.14, 5],)",
+     "P_out": "['list', 5]",
+     "mut_out": "['list', 'a', 3.14]"
+    }
+   }
+  },
+  "HumanEval/23": {
+   "n_inputs": 114,
+   "n_valid": 114,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "('',)",
+     "P_out": "0",
+     "mut_out": "None"
+    }
+   }
+  },
+  "HumanEval/26": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "([1, 2, 3, 2, 4],)",
+     "P_out": "['list', 1, 3, 4]",
+     "mut_out": "EXC:NameError"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "([1, 2, 3, 2, 4],)",
+     "P_out": "['list', 1, 3, 4]",
+     "mut_out": "None"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "([1, 2, 3, 2, 4],)",
+     "P_out": "['list', 1, 3, 4]",
+     "mut_out": "['list']"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "([1, 2, 3, 2, 4],)",
+     "P_out": "['list', 1, 3, 4]",
+     "mut_out": "['list', 1, 2, 3, 2, 4]"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "([1, 2, 3, 2, 4],)",
+     "P_out": "['list', 1, 3, 4]",
+     "mut_out": "['list', 2, 2]"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "([1, 2, 3, 2, 4],)",
+     "P_out": "['list', 1, 3, 4]",
+     "mut_out": "['list', 1, 2, 3, 2, 4]"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "([1, 2, 3, 2, 4],)",
+     "P_out": "['list', 1, 3, 4]",
+     "mut_out": "['list']"
+    }
+   }
+  },
+  "HumanEval/28": {
+   "n_inputs": 104,
+   "n_valid": 104,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "([],)",
+     "P_out": "''",
+     "mut_out": "None"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "(['a', 'b', 'c'],)",
+     "P_out": "'abc'",
+     "mut_out": "'a_b_c'"
+    }
+   }
+  },
+  "HumanEval/33": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {
+    "m000": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "([5, 6, 3, 4, 8, 9, 2],)",
+     "P_out": "['list', 2, 6, 3, 4, 8, 9, 5]",
+     "mut_out": "['list', 5, 6, 3, 4, 8, 9, 2]"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "([1, 2, 3],)",
+     "P_out": "['list', 1, 2, 3]",
+     "mut_out": "None"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "([5, 6, 3, 4, 8, 9, 2],)",
+     "P_out": "['list', 2, 6, 3, 4, 8, 9, 5]",
+     "mut_out": "EXC:ValueError"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "([1, 2, 3],)",
+     "P_out": "['list', 1, 2, 3]",
+     "mut_out": "EXC:ValueError"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "([5, 6, 3, 4, 8, 9, 2],)",
+     "P_out": "['list', 2, 6, 3, 4, 8, 9, 5]",
+     "mut_out": "EXC:ValueError"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "([1, 2, 3],)",
+     "P_out": "['list', 1, 2, 3]",
+     "mut_out": "EXC:ValueError"
+    }
+   }
+  },
+  "HumanEval/35": {
+   "n_inputs": 400,
+   "n_valid": 399,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "([1, 2, 3],)",
+     "P_out": "3",
+     "mut_out": "EXC:UnboundLocalError"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "([1, 2, 3],)",
+     "P_out": "3",
+     "mut_out": "None"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "([7],)",
+     "P_out": "7",
+     "mut_out": "EXC:IndexError"
+    },
+    "m003": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m004": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "([1, 2, 3],)",
+     "P_out": "3",
+     "mut_out": "1"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "([1, 2, 3],)",
+     "P_out": "3",
+     "mut_out": "1"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "([1, 2, 3],)",
+     "P_out": "3",
+     "mut_out": "1"
+    }
+   }
+  },
+  "HumanEval/39": {
+   "n_inputs": 28,
+   "n_valid": 12,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "(1,)",
+     "P_out": "2",
+     "mut_out": "EXC:NameError"
+    },
+    "m001": {
+     "verdict": "timeout"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "(1,)",
+     "P_out": "2",
+     "mut_out": "None"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "(1,)",
+     "P_out": "2",
+     "mut_out": "None"
+    },
+    "m004": {
+     "verdict": "timeout"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "(1,)",
+     "P_out": "2",
+     "mut_out": "3"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "(1,)",
+     "P_out": "2",
+     "mut_out": "1"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "(1,)",
+     "P_out": "2",
+     "mut_out": "1"
+    },
+    "m008": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m009": {
+     "verdict": "timeout"
+    },
+    "m010": {
+     "verdict": "timeout"
+    },
+    "m011": {
+     "verdict": "differs",
+     "input": "(0,)",
+     "P_out": "1",
+     "mut_out": "0"
+    },
+    "m012": {
+     "verdict": "differs",
+     "input": "(2,)",
+     "P_out": "3",
+     "mut_out": "EXC:OverflowError"
+    },
+    "m013": {
+     "verdict": "timeout"
+    },
+    "m014": {
+     "verdict": "differs",
+     "input": "(1,)",
+     "P_out": "2",
+     "mut_out": "1"
+    },
+    "m015": {
+     "verdict": "timeout"
+    },
+    "m016": {
+     "verdict": "timeout"
+    },
+    "m017": {
+     "verdict": "differs",
+     "input": "(1,)",
+     "P_out": "2",
+     "mut_out": "1"
+    },
+    "m018": {
+     "verdict": "differs",
+     "input": "(1,)",
+     "P_out": "2",
+     "mut_out": "1"
+    },
+    "m019": {
+     "verdict": "differs",
+     "input": "(1,)",
+     "P_out": "2",
+     "mut_out": "None"
+    },
+    "m020": {
+     "verdict": "differs",
+     "input": "(1,)",
+     "P_out": "2",
+     "mut_out": "3"
+    },
+    "m021": {
+     "verdict": "differs",
+     "input": "(1,)",
+     "P_out": "2",
+     "mut_out": "1"
+    },
+    "m022": {
+     "verdict": "differs",
+     "input": "(1,)",
+     "P_out": "2",
+     "mut_out": "1"
+    },
+    "m023": {
+     "verdict": "differs",
+     "input": "(4,)",
+     "P_out": "13",
+     "mut_out": "8"
+    },
+    "m024": {
+     "verdict": "differs",
+     "input": "(2,)",
+     "P_out": "3",
+     "mut_out": "EXC:OverflowError"
+    },
+    "m025": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "5",
+     "mut_out": "8"
+    },
+    "m026": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "5",
+     "mut_out": "8"
+    },
+    "m027": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m028": {
+     "verdict": "timeout"
+    },
+    "m029": {
+     "verdict": "timeout"
+    },
+    "m030": {
+     "verdict": "timeout"
+    },
+    "m031": {
+     "verdict": "differs",
+     "input": "(1,)",
+     "P_out": "2",
+     "mut_out": "1"
+    },
+    "m032": {
+     "verdict": "differs",
+     "input": "(1,)",
+     "P_out": "2",
+     "mut_out": "3"
+    },
+    "m033": {
+     "verdict": "differs",
+     "input": "(4,)",
+     "P_out": "13",
+     "mut_out": "8"
+    },
+    "m034": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m035": {
+     "verdict": "differs",
+     "input": "(4,)",
+     "P_out": "13",
+     "mut_out": "8"
+    },
+    "m036": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "5",
+     "mut_out": "8"
+    },
+    "m037": {
+     "verdict": "differs",
+     "input": "(4,)",
+     "P_out": "13",
+     "mut_out": "8"
+    },
+    "m038": {
+     "verdict": "differs",
+     "input": "(4,)",
+     "P_out": "13",
+     "mut_out": "8"
+    },
+    "m039": {
+     "verdict": "differs",
+     "input": "(1,)",
+     "P_out": "2",
+     "mut_out": "EXC:MemoryError"
+    },
+    "m040": {
+     "verdict": "differs",
+     "input": "(1,)",
+     "P_out": "2",
+     "mut_out": "1"
+    },
+    "m041": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m042": {
+     "verdict": "differs",
+     "input": "(4,)",
+     "P_out": "13",
+     "mut_out": "8"
+    },
+    "m043": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m044": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m045": {
+     "verdict": "differs",
+     "input": "(2,)",
+     "P_out": "3",
+     "mut_out": "2"
+    },
+    "m046": {
+     "verdict": "differs",
+     "input": "(1,)",
+     "P_out": "2",
+     "mut_out": "EXC:IndexError"
+    },
+    "m047": {
+     "verdict": "differs",
+     "input": "(1,)",
+     "P_out": "2",
+     "mut_out": "3"
+    },
+    "m048": {
+     "verdict": "differs",
+     "input": "(1,)",
+     "P_out": "2",
+     "mut_out": "EXC:MemoryError"
+    },
+    "m049": {
+     "verdict": "differs",
+     "input": "(1,)",
+     "P_out": "2",
+     "mut_out": "1"
+    },
+    "m050": {
+     "verdict": "differs",
+     "input": "(1,)",
+     "P_out": "2",
+     "mut_out": "0"
+    },
+    "m051": {
+     "verdict": "differs",
+     "input": "(2,)",
+     "P_out": "3",
+     "mut_out": "EXC:OverflowError"
+    },
+    "m052": {
+     "verdict": "differs",
+     "input": "(1,)",
+     "P_out": "2",
+     "mut_out": "EXC:MemoryError"
+    },
+    "m053": {
+     "verdict": "differs",
+     "input": "(1,)",
+     "P_out": "2",
+     "mut_out": "EXC:IndexError"
+    },
+    "m054": {
+     "verdict": "differs",
+     "input": "(2,)",
+     "P_out": "3",
+     "mut_out": "EXC:OverflowError"
+    }
+   }
+  },
+  "HumanEval/40": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "([1, 3, 5, 0],)",
+     "P_out": "False",
+     "mut_out": "None"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "([1, 3, 5, 0],)",
+     "P_out": "False",
+     "mut_out": "True"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "([1, -2],)",
+     "P_out": "False",
+     "mut_out": "True"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "([0, 0, 0],)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "([1, -2],)",
+     "P_out": "False",
+     "mut_out": "True"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "([1, -2],)",
+     "P_out": "False",
+     "mut_out": "True"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "([1, 3, 5, 0],)",
+     "P_out": "False",
+     "mut_out": "True"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "([1, 3, 5, 0],)",
+     "P_out": "False",
+     "mut_out": "True"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "([1, 3, -2, 1],)",
+     "P_out": "True",
+     "mut_out": "None"
+    },
+    "m009": {
+     "verdict": "differs",
+     "input": "([1, 3, -2, 1],)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m010": {
+     "verdict": "differs",
+     "input": "([0, 0],)",
+     "P_out": "False",
+     "mut_out": "True"
+    },
+    "m011": {
+     "verdict": "differs",
+     "input": "([1, 2, 3, 7],)",
+     "P_out": "False",
+     "mut_out": "True"
+    },
+    "m012": {
+     "verdict": "differs",
+     "input": "([1, 3, -2, 1],)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m013": {
+     "verdict": "differs",
+     "input": "([1, 3, -2, 1],)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m014": {
+     "verdict": "differs",
+     "input": "([1, 3, -2, 1],)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m015": {
+     "verdict": "differs",
+     "input": "([1, 3, -2, 1],)",
+     "P_out": "True",
+     "mut_out": "False"
+    }
+   }
+  },
+  "HumanEval/44": {
+   "n_inputs": 245,
+   "n_valid": 231,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "(8, 3)",
+     "P_out": "'22'",
+     "mut_out": "EXC:UnboundLocalError"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "(8, 3)",
+     "P_out": "'22'",
+     "mut_out": "None"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "(8, 3)",
+     "P_out": "'22'",
+     "mut_out": "'22_'"
+    },
+    "m003": {
+     "verdict": "timeout"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "(8, 3)",
+     "P_out": "'22'",
+     "mut_out": "''"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "(8, 3)",
+     "P_out": "'22'",
+     "mut_out": "''"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "(8, 3)",
+     "P_out": "'22'",
+     "mut_out": "''"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "(8, 3)",
+     "P_out": "'22'",
+     "mut_out": "'5e-3241e-3232.5e-3238e-3232.3e-3227e-3222.105e-3216.32e-3211.895e-3205.685e-3201.7055e-3195.1165e-3191.534943e-3184.604825e-3181.3814476e-3174.144342e-3171.2433026e-3163.7299079e-3161.11897237e-3153."
+    },
+    "m008": {
+     "verdict": "timeout"
+    },
+    "m009": {
+     "verdict": "differs",
+     "input": "(8, 2)",
+     "P_out": "'1000'",
+     "mut_out": "'000'"
+    },
+    "m010": {
+     "verdict": "timeout"
+    },
+    "m011": {
+     "verdict": "differs",
+     "input": "(8, 3)",
+     "P_out": "'22'",
+     "mut_out": "EXC:TypeError"
+    },
+    "m012": {
+     "verdict": "differs",
+     "input": "(8, 3)",
+     "P_out": "'22'",
+     "mut_out": "'02'"
+    }
+   }
+  },
+  "HumanEval/45": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "(5, 3)",
+     "P_out": "7.5",
+     "mut_out": "None"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "(5, 3)",
+     "P_out": "7.5",
+     "mut_out": "30.0"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "(5, 3)",
+     "P_out": "7.5",
+     "mut_out": "0.833333333"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "(5, 3)",
+     "P_out": "7.5",
+     "mut_out": "5.0"
+    }
+   }
+  },
+  "HumanEval/48": {
+   "n_inputs": 76,
+   "n_valid": 76,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "('',)",
+     "P_out": "True",
+     "mut_out": "None"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "('',)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "('aba',)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "('aba',)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "('zbcd',)",
+     "P_out": "False",
+     "mut_out": "None"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "('zbcd',)",
+     "P_out": "False",
+     "mut_out": "True"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "('aba',)",
+     "P_out": "True",
+     "mut_out": "EXC:IndexError"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "('aba',)",
+     "P_out": "True",
+     "mut_out": "EXC:IndexError"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "('aba',)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m009": {
+     "verdict": "differs",
+     "input": "('aba',)",
+     "P_out": "True",
+     "mut_out": "EXC:IndexError"
+    }
+   }
+  },
+  "HumanEval/50": {
+   "n_inputs": 48,
+   "n_valid": 48,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "('fgh',)",
+     "P_out": "'abc'",
+     "mut_out": "None"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "('fgh',)",
+     "P_out": "'abc'",
+     "mut_out": "'a_b_c'"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "('fgh',)",
+     "P_out": "'abc'",
+     "mut_out": "EXC:ValueError"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "('fgh',)",
+     "P_out": "'abc'",
+     "mut_out": "'aaa'"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "('fgh',)",
+     "P_out": "'abc'",
+     "mut_out": "'mno'"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "('a',)",
+     "P_out": "'v'",
+     "mut_out": "'w'"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "('a',)",
+     "P_out": "'v'",
+     "mut_out": "'u'"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "('fgh',)",
+     "P_out": "'abc'",
+     "mut_out": "EXC:TypeError"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "('fgh',)",
+     "P_out": "'abc'",
+     "mut_out": "'klm'"
+    },
+    "m009": {
+     "verdict": "differs",
+     "input": "('fgh',)",
+     "P_out": "'abc'",
+     "mut_out": "'zab'"
+    },
+    "m010": {
+     "verdict": "differs",
+     "input": "('fgh',)",
+     "P_out": "'abc'",
+     "mut_out": "'bcd'"
+    },
+    "m011": {
+     "verdict": "differs",
+     "input": "('fgh',)",
+     "P_out": "'abc'",
+     "mut_out": "EXC:TypeError"
+    }
+   }
+  },
+  "HumanEval/55": {
+   "n_inputs": 44,
+   "n_valid": 31,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "(10,)",
+     "P_out": "55",
+     "mut_out": "None"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "(10,)",
+     "P_out": "55",
+     "mut_out": "0"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "(10,)",
+     "P_out": "55",
+     "mut_out": "0"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "(10,)",
+     "P_out": "55",
+     "mut_out": "EXC:TypeError"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "(10,)",
+     "P_out": "55",
+     "mut_out": "1"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "(10,)",
+     "P_out": "55",
+     "mut_out": "1"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "(10,)",
+     "P_out": "55",
+     "mut_out": "EXC:TypeError"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "(10,)",
+     "P_out": "55",
+     "mut_out": "-1"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "(10,)",
+     "P_out": "55",
+     "mut_out": "EXC:RecursionError"
+    },
+    "m009": {
+     "verdict": "differs",
+     "input": "(10,)",
+     "P_out": "55",
+     "mut_out": "EXC:RecursionError"
+    },
+    "m010": {
+     "verdict": "differs",
+     "input": "(10,)",
+     "P_out": "55",
+     "mut_out": "89"
+    },
+    "m011": {
+     "verdict": "differs",
+     "input": "(10,)",
+     "P_out": "55",
+     "mut_out": "21"
+    },
+    "m012": {
+     "verdict": "differs",
+     "input": "(10,)",
+     "P_out": "55",
+     "mut_out": "EXC:RecursionError"
+    },
+    "m013": {
+     "verdict": "differs",
+     "input": "(10,)",
+     "P_out": "55",
+     "mut_out": "EXC:RecursionError"
+    },
+    "m014": {
+     "verdict": "differs",
+     "input": "(10,)",
+     "P_out": "55",
+     "mut_out": "110"
+    },
+    "m015": {
+     "verdict": "differs",
+     "input": "(10,)",
+     "P_out": "55",
+     "mut_out": "0"
+    },
+    "m016": {
+     "verdict": "differs",
+     "input": "(10,)",
+     "P_out": "55",
+     "mut_out": "EXC:RecursionError"
+    },
+    "m017": {
+     "verdict": "differs",
+     "input": "(10,)",
+     "P_out": "55",
+     "mut_out": "EXC:RecursionError"
+    },
+    "m018": {
+     "verdict": "differs",
+     "input": "(10,)",
+     "P_out": "55",
+     "mut_out": "0"
+    },
+    "m019": {
+     "verdict": "differs",
+     "input": "(10,)",
+     "P_out": "55",
+     "mut_out": "EXC:RecursionError"
+    },
+    "m020": {
+     "verdict": "differs",
+     "input": "(10,)",
+     "P_out": "55",
+     "mut_out": "EXC:RecursionError"
+    },
+    "m021": {
+     "verdict": "differs",
+     "input": "(10,)",
+     "P_out": "55",
+     "mut_out": "512"
+    }
+   }
+  },
+  "HumanEval/56": {
+   "n_inputs": 60,
+   "n_valid": 60,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "('<',)",
+     "P_out": "False",
+     "mut_out": "EXC:UnboundLocalError"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "('<',)",
+     "P_out": "False",
+     "mut_out": "None"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "('<>',)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "('<',)",
+     "P_out": "False",
+     "mut_out": "True"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "('<',)",
+     "P_out": "False",
+     "mut_out": "True"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "('<>',)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "('<>',)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "('<>',)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "('<',)",
+     "P_out": "False",
+     "mut_out": "True"
+    },
+    "m009": {
+     "verdict": "differs",
+     "input": "('<>',)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m010": {
+     "verdict": "differs",
+     "input": "('<>',)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m011": {
+     "verdict": "differs",
+     "input": "('<>',)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m012": {
+     "verdict": "differs",
+     "input": "('<>',)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m013": {
+     "verdict": "differs",
+     "input": "('<>',)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m014": {
+     "verdict": "differs",
+     "input": "('><<>',)",
+     "P_out": "False",
+     "mut_out": "None"
+    },
+    "m015": {
+     "verdict": "differs",
+     "input": "('<',)",
+     "P_out": "False",
+     "mut_out": "True"
+    },
+    "m016": {
+     "verdict": "differs",
+     "input": "('<>',)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m017": {
+     "verdict": "differs",
+     "input": "('<>',)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m018": {
+     "verdict": "differs",
+     "input": "('<>',)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m019": {
+     "verdict": "differs",
+     "input": "('<',)",
+     "P_out": "False",
+     "mut_out": "True"
+    },
+    "m020": {
+     "verdict": "differs",
+     "input": "('<>',)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m021": {
+     "verdict": "differs",
+     "input": "('<>',)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m022": {
+     "verdict": "differs",
+     "input": "('<>',)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m023": {
+     "verdict": "differs",
+     "input": "('><<>',)",
+     "P_out": "False",
+     "mut_out": "True"
+    },
+    "m024": {
+     "verdict": "differs",
+     "input": "('><<>',)",
+     "P_out": "False",
+     "mut_out": "True"
+    }
+   }
+  },
+  "HumanEval/57": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "([1, 20, 4, 10],)",
+     "P_out": "False",
+     "mut_out": "None"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "([1, 2, 4, 20],)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "([1, 2, 4, 20],)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "([1, 2, 4, 20],)",
+     "P_out": "True",
+     "mut_out": "None"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "([1, 20, 4, 10],)",
+     "P_out": "False",
+     "mut_out": "True"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "([1, 2, 4, 20],)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "([1, 20, 4, 10],)",
+     "P_out": "False",
+     "mut_out": "True"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "([1, 2, 4, 20],)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "([4, 1, 0, -10],)",
+     "P_out": "True",
+     "mut_out": "False"
+    }
+   }
+  },
+  "HumanEval/58": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "([1, 4, 3, 34, 653, 2, 5], [5, 7, 1, 5, 9, 653, 121])",
+     "P_out": "['list', 1, 5, 653]",
+     "mut_out": "EXC:NameError"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "([1, 4, 3, 34, 653, 2, 5], [5, 7, 1, 5, 9, 653, 121])",
+     "P_out": "['list', 1, 5, 653]",
+     "mut_out": "None"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "([1, 4, 3, 34, 653, 2, 5], [5, 7, 1, 5, 9, 653, 121])",
+     "P_out": "['list', 1, 5, 653]",
+     "mut_out": "['list', 1, 2, 3, 4, 5, 34, 653]"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "([1, 4, 3, 34, 653, 2, 5], [5, 7, 1, 5, 9, 653, 121])",
+     "P_out": "['list', 1, 5, 653]",
+     "mut_out": "['list', 1, 2, 3, 4, 5, 34, 653]"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "([1, 4, 3, 34, 653, 2, 5], [5, 7, 1, 5, 9, 653, 121])",
+     "P_out": "['list', 1, 5, 653]",
+     "mut_out": "['list']"
+    }
+   }
+  },
+  "HumanEval/59": {
+   "n_inputs": 166,
+   "n_valid": 166,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "(13195,)",
+     "P_out": "29",
+     "mut_out": "EXC:UnboundLocalError"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "(13195,)",
+     "P_out": "29",
+     "mut_out": "None"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "(13195,)",
+     "P_out": "29",
+     "mut_out": "1"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "(-100,)",
+     "P_out": "1",
+     "mut_out": "2"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "(-100,)",
+     "P_out": "1",
+     "mut_out": "0"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "(2048,)",
+     "P_out": "2",
+     "mut_out": "1"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "(13195,)",
+     "P_out": "29",
+     "mut_out": "1"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "(13195,)",
+     "P_out": "29",
+     "mut_out": "1"
+    },
+    "m008": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m009": {
+     "verdict": "differs",
+     "input": "(13195,)",
+     "P_out": "29",
+     "mut_out": "1"
+    },
+    "m010": {
+     "verdict": "differs",
+     "input": "(2048,)",
+     "P_out": "2",
+     "mut_out": "1"
+    },
+    "m011": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m012": {
+     "verdict": "differs",
+     "input": "(331,)",
+     "P_out": "331",
+     "mut_out": "1"
+    },
+    "m013": {
+     "verdict": "differs",
+     "input": "(13195,)",
+     "P_out": "29",
+     "mut_out": "13195"
+    },
+    "m014": {
+     "verdict": "differs",
+     "input": "(13195,)",
+     "P_out": "29",
+     "mut_out": "13195"
+    },
+    "m015": {
+     "verdict": "differs",
+     "input": "(13195,)",
+     "P_out": "29",
+     "mut_out": "1"
+    },
+    "m016": {
+     "verdict": "differs",
+     "input": "(2048,)",
+     "P_out": "2",
+     "mut_out": "1"
+    },
+    "m017": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m018": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m019": {
+     "verdict": "differs",
+     "input": "(2048,)",
+     "P_out": "2",
+     "mut_out": "4"
+    },
+    "m020": {
+     "verdict": "differs",
+     "input": "(13195,)",
+     "P_out": "29",
+     "mut_out": "1"
+    },
+    "m021": {
+     "verdict": "differs",
+     "input": "(13195,)",
+     "P_out": "29",
+     "mut_out": "1"
+    },
+    "m022": {
+     "verdict": "differs",
+     "input": "(13195,)",
+     "P_out": "29",
+     "mut_out": "1"
+    },
+    "m023": {
+     "verdict": "differs",
+     "input": "(13195,)",
+     "P_out": "29",
+     "mut_out": "1"
+    },
+    "m024": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m025": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m026": {
+     "verdict": "differs",
+     "input": "(331,)",
+     "P_out": "331",
+     "mut_out": "1"
+    },
+    "m027": {
+     "verdict": "differs",
+     "input": "(13195,)",
+     "P_out": "29",
+     "mut_out": "13187"
+    },
+    "m028": {
+     "verdict": "differs",
+     "input": "(2048,)",
+     "P_out": "2",
+     "mut_out": "4"
+    },
+    "m029": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m030": {
+     "verdict": "differs",
+     "input": "(13195,)",
+     "P_out": "29",
+     "mut_out": "13195"
+    },
+    "m031": {
+     "verdict": "differs",
+     "input": "(13195,)",
+     "P_out": "29",
+     "mut_out": "1"
+    },
+    "m032": {
+     "verdict": "differs",
+     "input": "(13195,)",
+     "P_out": "29",
+     "mut_out": "13195"
+    },
+    "m033": {
+     "verdict": "differs",
+     "input": "(13195,)",
+     "P_out": "29",
+     "mut_out": "13195"
+    },
+    "m034": {
+     "verdict": "differs",
+     "input": "(13195,)",
+     "P_out": "29",
+     "mut_out": "1"
+    },
+    "m035": {
+     "verdict": "differs",
+     "input": "(13195,)",
+     "P_out": "29",
+     "mut_out": "733"
+    },
+    "m036": {
+     "verdict": "differs",
+     "input": "(13195,)",
+     "P_out": "29",
+     "mut_out": "1"
+    }
+   }
+  },
+  "HumanEval/62": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "([3, 1, 2, 4, 5],)",
+     "P_out": "['list', 1, 4, 12, 20]",
+     "mut_out": "None"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "([3, 1, 2, 4, 5],)",
+     "P_out": "['list', 1, 4, 12, 20]",
+     "mut_out": "['list', 1.0, 1.0, 0.75, 0.8]"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "([3, 1, 2, 4, 5],)",
+     "P_out": "['list', 1, 4, 12, 20]",
+     "mut_out": "['list', 4, 12, 20]"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "([3, 1, 2, 4, 5],)",
+     "P_out": "['list', 1, 4, 12, 20]",
+     "mut_out": "['list', 0, 1, 4, 12, 20]"
+    }
+   }
+  },
+  "HumanEval/68": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "([4, 2, 3],)",
+     "P_out": "['list', 2, 1]",
+     "mut_out": "EXC:NameError"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "([4, 2, 3],)",
+     "P_out": "['list', 2, 1]",
+     "mut_out": "None"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "([4, 2, 3],)",
+     "P_out": "['list', 2, 1]",
+     "mut_out": "['list']"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "([4, 2, 3],)",
+     "P_out": "['list', 2, 1]",
+     "mut_out": "['list']"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "([],)",
+     "P_out": "['list']",
+     "mut_out": "None"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "([4, 2, 3],)",
+     "P_out": "['list', 2, 1]",
+     "mut_out": "['list']"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "([4, 2, 3],)",
+     "P_out": "['list', 2, 1]",
+     "mut_out": "['list']"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "([1, 3, 5],)",
+     "P_out": "['list']",
+     "mut_out": "None"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "([0],)",
+     "P_out": "['list', 0, 0]",
+     "mut_out": "['list']"
+    },
+    "m009": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m010": {
+     "verdict": "differs",
+     "input": "([4, 2, 3],)",
+     "P_out": "['list', 2, 1]",
+     "mut_out": "['list', 3, 2]"
+    },
+    "m011": {
+     "verdict": "differs",
+     "input": "([4, 2, 3],)",
+     "P_out": "['list', 2, 1]",
+     "mut_out": "['list']"
+    },
+    "m012": {
+     "verdict": "differs",
+     "input": "([4, 2, 3],)",
+     "P_out": "['list', 2, 1]",
+     "mut_out": "['list', 3, 2]"
+    },
+    "m013": {
+     "verdict": "differs",
+     "input": "([4, 2, 3],)",
+     "P_out": "['list', 2, 1]",
+     "mut_out": "['list']"
+    },
+    "m014": {
+     "verdict": "differs",
+     "input": "([4, 2, 3],)",
+     "P_out": "['list', 2, 1]",
+     "mut_out": "['list', 3, 2]"
+    },
+    "m015": {
+     "verdict": "differs",
+     "input": "([1, 2, 3],)",
+     "P_out": "['list', 2, 1]",
+     "mut_out": "['list', 1, 0]"
+    }
+   }
+  },
+  "HumanEval/70": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "([1, 2, 3, 4],)",
+     "P_out": "['list', 1, 4, 2, 3]",
+     "mut_out": "EXC:NameError"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "([1, 2, 3, 4],)",
+     "P_out": "['list', 1, 4, 2, 3]",
+     "mut_out": "None"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "([1, 2, 3, 4],)",
+     "P_out": "['list', 1, 4, 2, 3]",
+     "mut_out": "['list']"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "([1, 2, 3, 4],)",
+     "P_out": "['list', 1, 4, 2, 3]",
+     "mut_out": "EXC:IndexError"
+    },
+    "m004": {
+     "verdict": "timeout"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "([1, 2, 3, 4],)",
+     "P_out": "['list', 1, 4, 2, 3]",
+     "mut_out": "['list', 1, 2, 3, 4]"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "([1, 2, 3, 4],)",
+     "P_out": "['list', 1, 4, 2, 3]",
+     "mut_out": "['list', 4, 1, 3, 2]"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "([1, 2, 3, 4],)",
+     "P_out": "['list', 1, 4, 2, 3]",
+     "mut_out": "['list', 1, 2, 3, 4]"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "([1, 2, 3, 4],)",
+     "P_out": "['list', 1, 4, 2, 3]",
+     "mut_out": "['list', 4, 1, 3, 2]"
+    },
+    "m009": {
+     "verdict": "differs",
+     "input": "([1, 2, 3, 4],)",
+     "P_out": "['list', 1, 4, 2, 3]",
+     "mut_out": "EXC:IndexError"
+    },
+    "m010": {
+     "verdict": "differs",
+     "input": "([1, 2, 3, 4],)",
+     "P_out": "['list', 1, 4, 2, 3]",
+     "mut_out": "EXC:IndexError"
+    },
+    "m011": {
+     "verdict": "differs",
+     "input": "([1, 2, 3, 4],)",
+     "P_out": "['list', 1, 4, 2, 3]",
+     "mut_out": "EXC:ValueError"
+    }
+   }
+  },
+  "HumanEval/71": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "(3, 4, 5)",
+     "P_out": "6.0",
+     "mut_out": "EXC:NameError"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "(3, 4, 5)",
+     "P_out": "6.0",
+     "mut_out": "EXC:UnboundLocalError"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "(2, 2, 2)",
+     "P_out": "1.73",
+     "mut_out": "1.732050808"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "(3, 4, 5)",
+     "P_out": "6.0",
+     "mut_out": "None"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "(1, 2, 10)",
+     "P_out": "-1",
+     "mut_out": "EXC:TypeError"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "(3, 4, 5)",
+     "P_out": "6.0",
+     "mut_out": "-1"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "(1, 2, 10)",
+     "P_out": "-1",
+     "mut_out": "None"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "(3, 4, 5)",
+     "P_out": "6.0",
+     "mut_out": "437.63"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "(3, 4, 5)",
+     "P_out": "6.0",
+     "mut_out": "18.0"
+    },
+    "m009": {
+     "verdict": "differs",
+     "input": "(1, 2, 3)",
+     "P_out": "-1",
+     "mut_out": "0.0"
+    },
+    "m010": {
+     "verdict": "differs",
+     "input": "(3, 4, 5)",
+     "P_out": "6.0",
+     "mut_out": "-1"
+    },
+    "m011": {
+     "verdict": "differs",
+     "input": "(1, 2, 1)",
+     "P_out": "-1",
+     "mut_out": "0.0"
+    },
+    "m012": {
+     "verdict": "differs",
+     "input": "(3, 4, 5)",
+     "P_out": "6.0",
+     "mut_out": "-1"
+    },
+    "m013": {
+     "verdict": "differs",
+     "input": "(2, 1, 1)",
+     "P_out": "-1",
+     "mut_out": "0.0"
+    },
+    "m014": {
+     "verdict": "differs",
+     "input": "(3, 4, 5)",
+     "P_out": "6.0",
+     "mut_out": "-1"
+    },
+    "m015": {
+     "verdict": "differs",
+     "input": "(1, 2, 10)",
+     "P_out": "-1",
+     "mut_out": "1"
+    },
+    "m016": {
+     "verdict": "differs",
+     "input": "(3, 4, 5)",
+     "P_out": "6.0",
+     "mut_out": "EXC:TypeError"
+    },
+    "m017": {
+     "verdict": "differs",
+     "input": "(3, 4, 5)",
+     "P_out": "6.0",
+     "mut_out": "0.0"
+    },
+    "m018": {
+     "verdict": "differs",
+     "input": "(3, 4, 5)",
+     "P_out": "6.0",
+     "mut_out": "77.77"
+    },
+    "m019": {
+     "verdict": "differs",
+     "input": "(10, 5, 7)",
+     "P_out": "16.25",
+     "mut_out": "4.06"
+    },
+    "m020": {
+     "verdict": "differs",
+     "input": "(3, 4, 5)",
+     "P_out": "6.0",
+     "mut_out": "216.0"
+    },
+    "m021": {
+     "verdict": "differs",
+     "input": "(2, 2, 2)",
+     "P_out": "1.73",
+     "mut_out": "1.732"
+    },
+    "m022": {
+     "verdict": "differs",
+     "input": "(2, 2, 2)",
+     "P_out": "1.73",
+     "mut_out": "1.7"
+    },
+    "m023": {
+     "verdict": "differs",
+     "input": "(3, 4, 5)",
+     "P_out": "6.0",
+     "mut_out": "-1"
+    },
+    "m024": {
+     "verdict": "differs",
+     "input": "(3, 4, 5)",
+     "P_out": "6.0",
+     "mut_out": "-1"
+    },
+    "m025": {
+     "verdict": "differs",
+     "input": "(3, 4, 5)",
+     "P_out": "6.0",
+     "mut_out": "-1"
+    },
+    "m026": {
+     "verdict": "differs",
+     "input": "(1, 2, 10)",
+     "P_out": "-1",
+     "mut_out": "-2"
+    },
+    "m027": {
+     "verdict": "differs",
+     "input": "(1, 2, 10)",
+     "P_out": "-1",
+     "mut_out": "0"
+    },
+    "m028": {
+     "verdict": "differs",
+     "input": "(3, 4, 5)",
+     "P_out": "6.0",
+     "mut_out": "EXC:TypeError"
+    },
+    "m029": {
+     "verdict": "differs",
+     "input": "(3, 4, 5)",
+     "P_out": "6.0",
+     "mut_out": "3.0"
+    },
+    "m030": {
+     "verdict": "differs",
+     "input": "(3, 4, 5)",
+     "P_out": "6.0",
+     "mut_out": "19.9"
+    },
+    "m031": {
+     "verdict": "differs",
+     "input": "(3, 4, 5)",
+     "P_out": "6.0",
+     "mut_out": "2.0"
+    },
+    "m032": {
+     "verdict": "differs",
+     "input": "(3, 4, 5)",
+     "P_out": "6.0",
+     "mut_out": "13.42"
+    },
+    "m033": {
+     "verdict": "differs",
+     "input": "(3, 4, 5)",
+     "P_out": "6.0",
+     "mut_out": "10.39"
+    }
+   }
+  },
+  "HumanEval/77": {
+   "n_inputs": 123,
+   "n_valid": 123,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "(-1,)",
+     "P_out": "True",
+     "mut_out": "EXC:TypeError"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "(1,)",
+     "P_out": "True",
+     "mut_out": "None"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "(1,)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "(1,)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "(64,)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "(64,)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "(1,)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "(64,)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "(64,)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m009": {
+     "verdict": "differs",
+     "input": "(64,)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m010": {
+     "verdict": "differs",
+     "input": "(64,)",
+     "P_out": "True",
+     "mut_out": "False"
+    }
+   }
+  },
+  "HumanEval/86": {
+   "n_inputs": 218,
+   "n_valid": 218,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "('Hi',)",
+     "P_out": "'Hi'",
+     "mut_out": "None"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "('Hello World!!!',)",
+     "P_out": "'Hello !!!Wdlor'",
+     "mut_out": "'Hello!!!Wdlor'"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "('Hi',)",
+     "P_out": "'Hi'",
+     "mut_out": "'H_i'"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "('Hi',)",
+     "P_out": "'Hi'",
+     "mut_out": "EXC:ValueError"
+    }
+   }
+  },
+  "HumanEval/87": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3, 4, 5, 6], [1, 2, 3, 4, 1, 6], [1, 2, 3, 4, 5, 1]], 1)",
+     "P_out": "['list', ['tuple', 0, 0], ['tuple', 1, 4], ['tuple', 1, 0], ['tuple', 2, 5], ['tuple', 2, 0]]",
+     "mut_out": "EXC:NameError"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3, 4, 5, 6], [1, 2, 3, 4, 1, 6], [1, 2, 3, 4, 5, 1]], 1)",
+     "P_out": "['list', ['tuple', 0, 0], ['tuple', 1, 4], ['tuple', 1, 0], ['tuple', 2, 5], ['tuple', 2, 0]]",
+     "mut_out": "None"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3, 4, 5, 6], [1, 2, 3, 4, 1, 6], [1, 2, 3, 4, 5, 1]], 1)",
+     "P_out": "['list', ['tuple', 0, 0], ['tuple', 1, 4], ['tuple', 1, 0], ['tuple', 2, 5], ['tuple', 2, 0]]",
+     "mut_out": "['list', ['tuple', 0, 5], ['tuple', 0, 4], ['tuple', 0, 3], ['tuple', 0, 2], ['tuple', 0, 1], ['tuple', 1, 5], ['tuple', 1, 3], ['tuple', 1, 2], ['tuple', 1, 1], ['tuple', 2, 4], ['tuple', 2, 3], ['tu"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3, 4, 5, 6], [1, 2, 3, 4, 1, 6], [1, 2, 3, 4, 5, 1]], 1)",
+     "P_out": "['list', ['tuple', 0, 0], ['tuple', 1, 4], ['tuple', 1, 0], ['tuple', 2, 5], ['tuple', 2, 0]]",
+     "mut_out": "['list', ['tuple', 0, 5], ['tuple', 0, 4], ['tuple', 0, 3], ['tuple', 0, 2], ['tuple', 0, 1], ['tuple', 1, 5], ['tuple', 1, 3], ['tuple', 1, 2], ['tuple', 1, 1], ['tuple', 2, 4], ['tuple', 2, 3], ['tu"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3, 4, 5, 6], [1, 2, 3, 4, 1, 6], [1, 2, 3, 4, 5, 1]], 1)",
+     "P_out": "['list', ['tuple', 0, 0], ['tuple', 1, 4], ['tuple', 1, 0], ['tuple', 2, 5], ['tuple', 2, 0]]",
+     "mut_out": "['list', ['tuple', 0, 0], ['tuple', 1, 0], ['tuple', 1, 4], ['tuple', 2, 0], ['tuple', 2, 5]]"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3, 4, 5, 6], [1, 2, 3, 4, 1, 6], [1, 2, 3, 4, 5, 1]], 1)",
+     "P_out": "['list', ['tuple', 0, 0], ['tuple', 1, 4], ['tuple', 1, 0], ['tuple', 2, 5], ['tuple', 2, 0]]",
+     "mut_out": "['list', ['tuple', 0, 0], ['tuple', 1, 0], ['tuple', 2, 0], ['tuple', 1, 4], ['tuple', 2, 5]]"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3, 4, 5, 6], [1, 2, 3, 4, 1, 6], [1, 2, 3, 4, 5, 1]], 1)",
+     "P_out": "['list', ['tuple', 0, 0], ['tuple', 1, 4], ['tuple', 1, 0], ['tuple', 2, 5], ['tuple', 2, 0]]",
+     "mut_out": "['list', ['tuple', 0, 0], ['tuple', 1, 0], ['tuple', 2, 0], ['tuple', 1, 4], ['tuple', 2, 5]]"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3, 4, 5, 6], [1, 2, 3, 4, 1, 6], [1, 2, 3, 4, 5, 1]], 1)",
+     "P_out": "['list', ['tuple', 0, 0], ['tuple', 1, 4], ['tuple', 1, 0], ['tuple', 2, 5], ['tuple', 2, 0]]",
+     "mut_out": "EXC:IndexError"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3, 4, 5, 6], [1, 2, 3, 4, 1, 6], [1, 2, 3, 4, 5, 1]], 1)",
+     "P_out": "['list', ['tuple', 0, 0], ['tuple', 1, 4], ['tuple', 1, 0], ['tuple', 2, 5], ['tuple', 2, 0]]",
+     "mut_out": "['list', ['tuple', 0, 0], ['tuple', 1, 0], ['tuple', 1, 4], ['tuple', 2, 0], ['tuple', 2, 5]]"
+    }
+   }
+  },
+  "HumanEval/93": {
+   "n_inputs": 204,
+   "n_valid": 204,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "('test',)",
+     "P_out": "'TGST'",
+     "mut_out": "EXC:NameError"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "('test',)",
+     "P_out": "'TGST'",
+     "mut_out": "EXC:NameError"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "('test',)",
+     "P_out": "'TGST'",
+     "mut_out": "'tgst'"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "('test',)",
+     "P_out": "'TGST'",
+     "mut_out": "None"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "('test',)",
+     "P_out": "'TGST'",
+     "mut_out": "'TEST'"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "('test',)",
+     "P_out": "'TGST'",
+     "mut_out": "'T_G_S_T'"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "('test',)",
+     "P_out": "'TGST'",
+     "mut_out": "EXC:KeyError"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "('test',)",
+     "P_out": "'TGST'",
+     "mut_out": "EXC:KeyError"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "('test',)",
+     "P_out": "'TGST'",
+     "mut_out": "'TCST'"
+    },
+    "m009": {
+     "verdict": "differs",
+     "input": "('test',)",
+     "P_out": "'TGST'",
+     "mut_out": "'THST'"
+    },
+    "m010": {
+     "verdict": "differs",
+     "input": "('test',)",
+     "P_out": "'TGST'",
+     "mut_out": "'TFST'"
+    }
+   }
+  },
+  "HumanEval/97": {
+   "n_inputs": 354,
+   "n_valid": 354,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "(148, 412)",
+     "P_out": "16",
+     "mut_out": "None"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "(148, 412)",
+     "P_out": "16",
+     "mut_out": "4.0"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "(148, 412)",
+     "P_out": "16",
+     "mut_out": "28"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "(148, 412)",
+     "P_out": "16",
+     "mut_out": "328"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "(148, 412)",
+     "P_out": "16",
+     "mut_out": "10"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "(148, 412)",
+     "P_out": "16",
+     "mut_out": "8"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "(148, 412)",
+     "P_out": "16",
+     "mut_out": "40"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "(148, 412)",
+     "P_out": "16",
+     "mut_out": "56"
+    }
+   }
+  },
+  "HumanEval/103": {
+   "n_inputs": 320,
+   "n_valid": 320,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "(1, 5)",
+     "P_out": "'0b11'",
+     "mut_out": "EXC:UnboundLocalError"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "(1, 5)",
+     "P_out": "'0b11'",
+     "mut_out": "None"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "(5, 5)",
+     "P_out": "'0b101'",
+     "mut_out": "-1"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "(1, 5)",
+     "P_out": "'0b11'",
+     "mut_out": "-1"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "(1, 5)",
+     "P_out": "'0b11'",
+     "mut_out": "-1"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "(7, 5)",
+     "P_out": "-1",
+     "mut_out": "None"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "(20, 33)",
+     "P_out": "'0b11010'",
+     "mut_out": "'0b11011'"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "(5, 5)",
+     "P_out": "'0b101'",
+     "mut_out": "'0b100'"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "(1, 5)",
+     "P_out": "'0b11'",
+     "mut_out": "'-0b11'"
+    },
+    "m009": {
+     "verdict": "differs",
+     "input": "(1, 5)",
+     "P_out": "'0b11'",
+     "mut_out": "'0b0'"
+    },
+    "m010": {
+     "verdict": "differs",
+     "input": "(7, 5)",
+     "P_out": "-1",
+     "mut_out": "1"
+    },
+    "m011": {
+     "verdict": "differs",
+     "input": "(1, 5)",
+     "P_out": "'0b11'",
+     "mut_out": "'0b1'"
+    },
+    "m012": {
+     "verdict": "differs",
+     "input": "(7, 5)",
+     "P_out": "-1",
+     "mut_out": "-2"
+    },
+    "m013": {
+     "verdict": "differs",
+     "input": "(7, 5)",
+     "P_out": "-1",
+     "mut_out": "0"
+    },
+    "m014": {
+     "verdict": "differs",
+     "input": "(1, 5)",
+     "P_out": "'0b11'",
+     "mut_out": "'0b100'"
+    },
+    "m015": {
+     "verdict": "differs",
+     "input": "(1, 5)",
+     "P_out": "'0b11'",
+     "mut_out": "'0b10'"
+    },
+    "m016": {
+     "verdict": "differs",
+     "input": "(1, 5)",
+     "P_out": "'0b11'",
+     "mut_out": "'0b1001011'"
+    },
+    "m017": {
+     "verdict": "differs",
+     "input": "(1, 5)",
+     "P_out": "'0b11'",
+     "mut_out": "'0b101'"
+    },
+    "m018": {
+     "verdict": "differs",
+     "input": "(1, 5)",
+     "P_out": "'0b11'",
+     "mut_out": "'0b10'"
+    },
+    "m019": {
+     "verdict": "differs",
+     "input": "(1, 5)",
+     "P_out": "'0b11'",
+     "mut_out": "'0b10'"
+    },
+    "m020": {
+     "verdict": "differs",
+     "input": "(1, 5)",
+     "P_out": "'0b11'",
+     "mut_out": "'0b100'"
+    }
+   }
+  },
+  "HumanEval/107": {
+   "n_inputs": 59,
+   "n_valid": 59,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "EXC:UnboundLocalError"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "EXC:UnboundLocalError"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "None"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 0, 0]"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 2, 2]"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 0, 2]"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 1, 3]"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 1, 1]"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 0, 0]"
+    },
+    "m009": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 1, 1]"
+    },
+    "m010": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 2, 2]"
+    },
+    "m011": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 0, 1]"
+    },
+    "m012": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 0, 3]"
+    },
+    "m013": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 0, 1]"
+    },
+    "m014": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 1, -2]"
+    },
+    "m015": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 1, 0]"
+    },
+    "m016": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 2, 2]"
+    },
+    "m017": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 1, 1]"
+    },
+    "m018": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 0, 1]"
+    },
+    "m019": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 1, 4]"
+    },
+    "m020": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 1, 0]"
+    },
+    "m021": {
+     "verdict": "differs",
+     "input": "(12,)",
+     "P_out": "['tuple', 4, 6]",
+     "mut_out": "['tuple', 6, 6]"
+    },
+    "m022": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 0, 2]"
+    },
+    "m023": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', -1, 2]"
+    },
+    "m024": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 0, 2]"
+    },
+    "m025": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 0, 2]"
+    },
+    "m026": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 1, 0]"
+    },
+    "m027": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 0, 1]"
+    },
+    "m028": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 0, 2]"
+    },
+    "m029": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 2, 2]"
+    },
+    "m030": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 0, 2]"
+    },
+    "m031": {
+     "verdict": "differs",
+     "input": "(12,)",
+     "P_out": "['tuple', 4, 6]",
+     "mut_out": "['tuple', 6, 6]"
+    },
+    "m032": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 1, 1]"
+    },
+    "m033": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 1, 0]"
+    },
+    "m034": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 0, 2]"
+    },
+    "m035": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 0, 2]"
+    },
+    "m036": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 0, 2]"
+    },
+    "m037": {
+     "verdict": "differs",
+     "input": "(12,)",
+     "P_out": "['tuple', 4, 6]",
+     "mut_out": "['tuple', 4, 5]"
+    },
+    "m038": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "EXC:ValueError"
+    },
+    "m039": {
+     "verdict": "differs",
+     "input": "(3,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 0, 2]"
+    },
+    "m040": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    }
+   }
+  },
+  "HumanEval/108": {
+   "n_inputs": 331,
+   "n_valid": 331,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "([],)",
+     "P_out": "0",
+     "mut_out": "None"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "([-1, 11, -11],)",
+     "P_out": "1",
+     "mut_out": "EXC:UnboundLocalError"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "([-1, 11, -11],)",
+     "P_out": "1",
+     "mut_out": "EXC:TypeError"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "([-1, 11, -11],)",
+     "P_out": "1",
+     "mut_out": "3"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "([-1, 11, -11],)",
+     "P_out": "1",
+     "mut_out": "EXC:TypeError"
+    },
+    "m005": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "([1, 1, 2],)",
+     "P_out": "3",
+     "mut_out": "0"
+    },
+    "m007": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "([-1, 11, -11],)",
+     "P_out": "1",
+     "mut_out": "EXC:ValueError"
+    },
+    "m009": {
+     "verdict": "differs",
+     "input": "([-1, 11, -11],)",
+     "P_out": "1",
+     "mut_out": "EXC:ValueError"
+    },
+    "m010": {
+     "verdict": "differs",
+     "input": "([-1, 11, -11],)",
+     "P_out": "1",
+     "mut_out": "EXC:ValueError"
+    },
+    "m011": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m012": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m013": {
+     "verdict": "differs",
+     "input": "([-1, 11, -11],)",
+     "P_out": "1",
+     "mut_out": "EXC:ValueError"
+    },
+    "m014": {
+     "verdict": "differs",
+     "input": "([-1, 11, -11],)",
+     "P_out": "1",
+     "mut_out": "EXC:IndexError"
+    },
+    "m015": {
+     "verdict": "differs",
+     "input": "([-12, -21],)",
+     "P_out": "1",
+     "mut_out": "0"
+    },
+    "m016": {
+     "verdict": "differs",
+     "input": "([-1, 11, -11],)",
+     "P_out": "1",
+     "mut_out": "EXC:ValueError"
+    },
+    "m017": {
+     "verdict": "differs",
+     "input": "([-1, 11, -11],)",
+     "P_out": "1",
+     "mut_out": "3"
+    },
+    "m018": {
+     "verdict": "differs",
+     "input": "([-1, 11, -11],)",
+     "P_out": "1",
+     "mut_out": "EXC:IndexError"
+    },
+    "m019": {
+     "verdict": "differs",
+     "input": "([-12, -21],)",
+     "P_out": "1",
+     "mut_out": "0"
+    },
+    "m020": {
+     "verdict": "differs",
+     "input": "([-1, 11, -11],)",
+     "P_out": "1",
+     "mut_out": "EXC:ValueError"
+    },
+    "m021": {
+     "verdict": "differs",
+     "input": "([-12, -21],)",
+     "P_out": "1",
+     "mut_out": "0"
+    },
+    "m022": {
+     "verdict": "differs",
+     "input": "([-1, 11, -11],)",
+     "P_out": "1",
+     "mut_out": "2"
+    },
+    "m023": {
+     "verdict": "differs",
+     "input": "([-1, 11, -11],)",
+     "P_out": "1",
+     "mut_out": "2"
+    },
+    "m024": {
+     "verdict": "differs",
+     "input": "([1, 1, 2],)",
+     "P_out": "3",
+     "mut_out": "0"
+    },
+    "m025": {
+     "verdict": "differs",
+     "input": "([-9],)",
+     "P_out": "0",
+     "mut_out": "1"
+    },
+    "m026": {
+     "verdict": "differs",
+     "input": "([-12, -21],)",
+     "P_out": "1",
+     "mut_out": "0"
+    },
+    "m027": {
+     "verdict": "differs",
+     "input": "([1, 1, 2],)",
+     "P_out": "3",
+     "mut_out": "1"
+    },
+    "m028": {
+     "verdict": "differs",
+     "input": "([-1, 11, -11],)",
+     "P_out": "1",
+     "mut_out": "2"
+    }
+   }
+  },
+  "HumanEval/114": {
+   "n_inputs": 400,
+   "n_valid": 399,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "([2, 3, 4, 1, 2, 4],)",
+     "P_out": "1",
+     "mut_out": "EXC:UnboundLocalError"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "([2, 3, 4, 1, 2, 4],)",
+     "P_out": "1",
+     "mut_out": "EXC:UnboundLocalError"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "([2, 3, 4, 1, 2, 4],)",
+     "P_out": "1",
+     "mut_out": "EXC:NameError"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "([2, 3, 4, 1, 2, 4],)",
+     "P_out": "1",
+     "mut_out": "None"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "([2, 3, 4, 1, 2, 4],)",
+     "P_out": "1",
+     "mut_out": "-1"
+    },
+    "m005": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "([-1, -2, -3],)",
+     "P_out": "-6",
+     "mut_out": "-7"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "([-1, -2, -3],)",
+     "P_out": "-6",
+     "mut_out": "-5"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "([2, 3, 4, 1, 2, 4],)",
+     "P_out": "1",
+     "mut_out": "-16"
+    },
+    "m009": {
+     "verdict": "differs",
+     "input": "([-1, -2, -3],)",
+     "P_out": "-6",
+     "mut_out": "-3"
+    },
+    "m010": {
+     "verdict": "differs",
+     "input": "([-1, -2, -3],)",
+     "P_out": "-6",
+     "mut_out": "-3"
+    },
+    "m011": {
+     "verdict": "differs",
+     "input": "([2, 3, 4, 1, 2, 4],)",
+     "P_out": "1",
+     "mut_out": "0"
+    },
+    "m012": {
+     "verdict": "differs",
+     "input": "([2, 3, 4, 1, 2, 4],)",
+     "P_out": "1",
+     "mut_out": "0"
+    },
+    "m013": {
+     "verdict": "differs",
+     "input": "([2, 3, 4, 1, 2, 4],)",
+     "P_out": "1",
+     "mut_out": "0"
+    },
+    "m014": {
+     "verdict": "differs",
+     "input": "([2, 3, 4, 1, 2, 4],)",
+     "P_out": "1",
+     "mut_out": "-1"
+    },
+    "m015": {
+     "verdict": "differs",
+     "input": "([2, 3, 4, 1, 2, 4],)",
+     "P_out": "1",
+     "mut_out": "-16"
+    },
+    "m016": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m017": {
+     "verdict": "differs",
+     "input": "([-1, -2, -3],)",
+     "P_out": "-6",
+     "mut_out": "-3"
+    },
+    "m018": {
+     "verdict": "differs",
+     "input": "([-1, -2, -3],)",
+     "P_out": "-6",
+     "mut_out": "-3"
+    },
+    "m019": {
+     "verdict": "differs",
+     "input": "([1, -2, 3, -4],)",
+     "P_out": "-4",
+     "mut_out": "-2"
+    },
+    "m020": {
+     "verdict": "differs",
+     "input": "([2, 3, 4, 1, 2, 4],)",
+     "P_out": "1",
+     "mut_out": "0"
+    },
+    "m021": {
+     "verdict": "differs",
+     "input": "([2, 3, 4, 1, 2, 4],)",
+     "P_out": "1",
+     "mut_out": "0"
+    },
+    "m022": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m023": {
+     "verdict": "differs",
+     "input": "([0, -2, 3, -4],)",
+     "P_out": "-4",
+     "mut_out": "-3"
+    },
+    "m024": {
+     "verdict": "differs",
+     "input": "([2, 3, 4, 1, 2, 4],)",
+     "P_out": "1",
+     "mut_out": "-1"
+    },
+    "m025": {
+     "verdict": "differs",
+     "input": "([1, -2, 3, -4],)",
+     "P_out": "-4",
+     "mut_out": "-3"
+    },
+    "m026": {
+     "verdict": "differs",
+     "input": "([2, 3, 4, 1, 2, 4],)",
+     "P_out": "1",
+     "mut_out": "-4"
+    }
+   }
+  },
+  "HumanEval/129": {
+   "n_inputs": 400,
+   "n_valid": 344,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)",
+     "P_out": "['list', 1, 2, 1]",
+     "mut_out": "EXC:NameError"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "([[2, 9, 8], [2, 7, 6], [3, 4, 5]], 2)",
+     "P_out": "['list', 1, 10]",
+     "mut_out": "EXC:UnboundLocalError"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)",
+     "P_out": "['list', 1, 2, 1]",
+     "mut_out": "EXC:NameError"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)",
+     "P_out": "['list', 1, 2, 1]",
+     "mut_out": "None"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "([[2, 9, 8], [2, 7, 6], [3, 4, 5]], 2)",
+     "P_out": "['list', 1, 10]",
+     "mut_out": "['list', 1, 8]"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "([[2, 9, 8], [2, 7, 6], [3, 4, 5]], 2)",
+     "P_out": "['list', 1, 10]",
+     "mut_out": "['list', 1, 2.0]"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "([[2, 9, 8], [2, 7, 6], [3, 4, 5]], 2)",
+     "P_out": "['list', 1, 10]",
+     "mut_out": "['list', 1, 11]"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "([[2, 9, 8], [2, 7, 6], [3, 4, 5]], 2)",
+     "P_out": "['list', 1, 10]",
+     "mut_out": "['list', 1, 9]"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)",
+     "P_out": "['list', 1, 2, 1]",
+     "mut_out": "['list', 2, 1, 2]"
+    },
+    "m009": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)",
+     "P_out": "['list', 1, 2, 1]",
+     "mut_out": "['list', 2, 1, 2]"
+    },
+    "m010": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)",
+     "P_out": "['list', 1, 2, 1]",
+     "mut_out": "['list', 2]"
+    },
+    "m011": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)",
+     "P_out": "['list', 1, 2, 1]",
+     "mut_out": "['list', 1, 1]"
+    },
+    "m012": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)",
+     "P_out": "['list', 1, 2, 1]",
+     "mut_out": "['list', 1, 6, 1]"
+    },
+    "m013": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)",
+     "P_out": "['list', 1, 2, 1]",
+     "mut_out": "['list', 1, 6, 1]"
+    },
+    "m014": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)",
+     "P_out": "['list', 1, 2, 1]",
+     "mut_out": "EXC:NameError"
+    },
+    "m015": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)",
+     "P_out": "['list', 1, 2, 1]",
+     "mut_out": "['list', 1, 10, 1]"
+    },
+    "m016": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)",
+     "P_out": "['list', 1, 2, 1]",
+     "mut_out": "['list', 1, 1, 2]"
+    },
+    "m017": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)",
+     "P_out": "['list', 1, 2, 1]",
+     "mut_out": "['list', 2, 1, 2]"
+    },
+    "m018": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)",
+     "P_out": "['list', 1, 2, 1]",
+     "mut_out": "['list', 2, 2, 2]"
+    },
+    "m019": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)",
+     "P_out": "['list', 1, 2, 1]",
+     "mut_out": "['list', 1, 1, 1]"
+    },
+    "m020": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)",
+     "P_out": "['list', 1, 2, 1]",
+     "mut_out": "['list', 1, 10, 1]"
+    },
+    "m021": {
+     "verdict": "differs",
+     "input": "([[3, 2], [1, 4]], 2)",
+     "P_out": "['list', 1, 3]",
+     "mut_out": "['list', 1, 4]"
+    },
+    "m022": {
+     "verdict": "differs",
+     "input": "([[3, 2], [1, 4]], 2)",
+     "P_out": "['list', 1, 3]",
+     "mut_out": "['list', 1, 4]"
+    },
+    "m023": {
+     "verdict": "differs",
+     "input": "([[3, 2], [1, 4]], 2)",
+     "P_out": "['list', 1, 3]",
+     "mut_out": "['list', 1, 4]"
+    },
+    "m024": {
+     "verdict": "differs",
+     "input": "([[4, 3], [2, 1]], 2)",
+     "P_out": "['list', 1, 2]",
+     "mut_out": "['list', 1, 3]"
+    },
+    "m025": {
+     "verdict": "differs",
+     "input": "([[4, 3], [2, 1]], 2)",
+     "P_out": "['list', 1, 2]",
+     "mut_out": "['list', 1, 3]"
+    },
+    "m026": {
+     "verdict": "differs",
+     "input": "([[4, 3], [2, 1]], 2)",
+     "P_out": "['list', 1, 2]",
+     "mut_out": "['list', 1, 3]"
+    },
+    "m027": {
+     "verdict": "differs",
+     "input": "([[4, 3], [2, 1]], 2)",
+     "P_out": "['list', 1, 2]",
+     "mut_out": "EXC:IndexError"
+    },
+    "m028": {
+     "verdict": "differs",
+     "input": "([[4, 3], [2, 1]], 2)",
+     "P_out": "['list', 1, 2]",
+     "mut_out": "EXC:IndexError"
+    },
+    "m029": {
+     "verdict": "differs",
+     "input": "([[1, 3], [2, 4]], 3)",
+     "P_out": "['list', 1, 2, 1]",
+     "mut_out": "['list', 1, 3, 1]"
+    },
+    "m030": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)",
+     "P_out": "['list', 1, 2, 1]",
+     "mut_out": "['list', 1, 4, 1]"
+    },
+    "m031": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)",
+     "P_out": "['list', 1, 2, 1]",
+     "mut_out": "['list', 1, 4, 1]"
+    },
+    "m032": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)",
+     "P_out": "['list', 1, 2, 1]",
+     "mut_out": "['list', 1, 4, 1]"
+    },
+    "m033": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)",
+     "P_out": "['list', 1, 2, 1]",
+     "mut_out": "['list', 1, 2, 2]"
+    },
+    "m034": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)",
+     "P_out": "['list', 1, 2, 1]",
+     "mut_out": "['list', 1, 1, 1]"
+    },
+    "m035": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)",
+     "P_out": "['list', 1, 2, 1]",
+     "mut_out": "['list', 2, 2, 2]"
+    },
+    "m036": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)",
+     "P_out": "['list', 1, 2, 1]",
+     "mut_out": "['list', 0, 2, 0]"
+    },
+    "m037": {
+     "verdict": "differs",
+     "input": "([[3, 2], [1, 4]], 2)",
+     "P_out": "['list', 1, 3]",
+     "mut_out": "['list', 1, 4]"
+    },
+    "m038": {
+     "verdict": "differs",
+     "input": "([[9, 1, 8], [2, 7, 6], [3, 4, 5]], 2)",
+     "P_out": "['list', 1, 7]",
+     "mut_out": "['list', 1, 4]"
+    },
+    "m039": {
+     "verdict": "differs",
+     "input": "([[4, 3], [2, 1]], 2)",
+     "P_out": "['list', 1, 2]",
+     "mut_out": "['list', 1, 3]"
+    },
+    "m040": {
+     "verdict": "differs",
+     "input": "([[5, 9, 3], [1, 6, 4], [7, 8, 2]], 3)",
+     "P_out": "['list', 1, 5, 1]",
+     "mut_out": "['list', 1, 4, 1]"
+    },
+    "m041": {
+     "verdict": "differs",
+     "input": "([[4, 3], [2, 1]], 2)",
+     "P_out": "['list', 1, 2]",
+     "mut_out": "EXC:IndexError"
+    },
+    "m042": {
+     "verdict": "differs",
+     "input": "([[4, 3], [2, 1]], 2)",
+     "P_out": "['list', 1, 2]",
+     "mut_out": "EXC:IndexError"
+    },
+    "m043": {
+     "verdict": "differs",
+     "input": "([[4, 3], [2, 1]], 2)",
+     "P_out": "['list', 1, 2]",
+     "mut_out": "EXC:IndexError"
+    },
+    "m044": {
+     "verdict": "differs",
+     "input": "([[4, 3], [2, 1]], 2)",
+     "P_out": "['list', 1, 2]",
+     "mut_out": "EXC:IndexError"
+    },
+    "m045": {
+     "verdict": "differs",
+     "input": "([[1, 2], [3, 4]], 3)",
+     "P_out": "['list', 1, 2, 1]",
+     "mut_out": "['list', 1, 3, 1]"
+    },
+    "m046": {
+     "verdict": "differs",
+     "input": "([[4, 3], [2, 1]], 2)",
+     "P_out": "['list', 1, 2]",
+     "mut_out": "EXC:IndexError"
+    },
+    "m047": {
+     "verdict": "differs",
+     "input": "([[4, 3], [2, 1]], 2)",
+     "P_out": "['list', 1, 2]",
+     "mut_out": "EXC:IndexError"
+    },
+    "m048": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)",
+     "P_out": "['list', 1, 2, 1]",
+     "mut_out": "['list', 1, 3, 1]"
+    },
+    "m049": {
+     "verdict": "differs",
+     "input": "([[4, 3], [2, 1]], 2)",
+     "P_out": "['list', 1, 2]",
+     "mut_out": "EXC:IndexError"
+    },
+    "m050": {
+     "verdict": "differs",
+     "input": "([[4, 3], [2, 1]], 2)",
+     "P_out": "['list', 1, 2]",
+     "mut_out": "['list', 1, 1]"
+    },
+    "m051": {
+     "verdict": "differs",
+     "input": "([[4, 3], [2, 1]], 2)",
+     "P_out": "['list', 1, 2]",
+     "mut_out": "['list', 1, 1]"
+    },
+    "m052": {
+     "verdict": "differs",
+     "input": "([[1, 9, 8], [2, 7, 6], [3, 4, 5]], 2)",
+     "P_out": "['list', 1, 2]",
+     "mut_out": "['list', 1, 3]"
+    },
+    "m053": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)",
+     "P_out": "['list', 1, 2, 1]",
+     "mut_out": "['list', 1, 3, 1]"
+    },
+    "m054": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)",
+     "P_out": "['list', 1, 2, 1]",
+     "mut_out": "['list', 1, 1, 1]"
+    },
+    "m055": {
+     "verdict": "differs",
+     "input": "([[4, 3], [2, 1]], 2)",
+     "P_out": "['list', 1, 2]",
+     "mut_out": "['list', 1, 1]"
+    },
+    "m056": {
+     "verdict": "differs",
+     "input": "([[4, 3], [2, 1]], 2)",
+     "P_out": "['list', 1, 2]",
+     "mut_out": "['list', 1, 1]"
+    },
+    "m057": {
+     "verdict": "differs",
+     "input": "([[5, 9, 3], [4, 1, 6], [7, 8, 2]], 1)",
+     "P_out": "['list', 1]",
+     "mut_out": "EXC:IndexError"
+    },
+    "m058": {
+     "verdict": "differs",
+     "input": "([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)",
+     "P_out": "['list', 1, 2, 1]",
+     "mut_out": "['list', 1, 1, 1]"
+    }
+   }
+  },
+  "HumanEval/135": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "([1, 2, 3],)",
+     "P_out": "-1",
+     "mut_out": "EXC:UnboundLocalError"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "([1, 2, 4, 3, 5],)",
+     "P_out": "3",
+     "mut_out": "EXC:UnboundLocalError"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "([1, 2, 4, 3, 5],)",
+     "P_out": "3",
+     "mut_out": "None"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "([1, 2, 3],)",
+     "P_out": "-1",
+     "mut_out": "1"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "([2, 1],)",
+     "P_out": "1",
+     "mut_out": "-1"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "([1, 2, 3],)",
+     "P_out": "-1",
+     "mut_out": "0"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "([1, 2, 4, 3, 5],)",
+     "P_out": "3",
+     "mut_out": "EXC:IndexError"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "([1, 2, 4, 3, 5],)",
+     "P_out": "3",
+     "mut_out": "-1"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "([1, 2, 4, 3, 5],)",
+     "P_out": "3",
+     "mut_out": "-1"
+    },
+    "m009": {
+     "verdict": "differs",
+     "input": "([1, 2, 4, 3, 5],)",
+     "P_out": "3",
+     "mut_out": "EXC:IndexError"
+    },
+    "m010": {
+     "verdict": "timeout"
+    },
+    "m011": {
+     "verdict": "differs",
+     "input": "([1, 2, 3],)",
+     "P_out": "-1",
+     "mut_out": "-2"
+    },
+    "m012": {
+     "verdict": "differs",
+     "input": "([1, 2, 3],)",
+     "P_out": "-1",
+     "mut_out": "0"
+    },
+    "m013": {
+     "verdict": "differs",
+     "input": "([1, 3, 3],)",
+     "P_out": "-1",
+     "mut_out": "2"
+    },
+    "m014": {
+     "verdict": "differs",
+     "input": "([1, 2, 4, 3, 5],)",
+     "P_out": "3",
+     "mut_out": "4"
+    },
+    "m015": {
+     "verdict": "differs",
+     "input": "([1, 2, 4, 3, 5],)",
+     "P_out": "3",
+     "mut_out": "4"
+    },
+    "m016": {
+     "verdict": "differs",
+     "input": "([1, 2, 4, 3, 5],)",
+     "P_out": "3",
+     "mut_out": "-1"
+    },
+    "m017": {
+     "verdict": "differs",
+     "input": "([5, 4, 3],)",
+     "P_out": "2",
+     "mut_out": "1"
+    },
+    "m018": {
+     "verdict": "timeout"
+    },
+    "m019": {
+     "verdict": "differs",
+     "input": "([1, 2, 4, 3, 5],)",
+     "P_out": "3",
+     "mut_out": "EXC:IndexError"
+    },
+    "m020": {
+     "verdict": "differs",
+     "input": "([1, 2, 4, 3, 5],)",
+     "P_out": "3",
+     "mut_out": "1"
+    },
+    "m021": {
+     "verdict": "differs",
+     "input": "([1, 2, 4, 3, 5],)",
+     "P_out": "3",
+     "mut_out": "-1"
+    }
+   }
+  },
+  "HumanEval/138": {
+   "n_inputs": 40,
+   "n_valid": 40,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "(4,)",
+     "P_out": "False",
+     "mut_out": "None"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "(4,)",
+     "P_out": "False",
+     "mut_out": "True"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "(8,)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "(8,)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "(4,)",
+     "P_out": "False",
+     "mut_out": "True"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "(8,)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "(8,)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "(8,)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "(8,)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m009": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m010": {
+     "verdict": "differs",
+     "input": "(8,)",
+     "P_out": "True",
+     "mut_out": "False"
+    },
+    "m011": {
+     "verdict": "differs",
+     "input": "(9,)",
+     "P_out": "False",
+     "mut_out": "True"
+    }
+   }
+  },
+  "HumanEval/139": {
+   "n_inputs": 28,
+   "n_valid": 28,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "(4,)",
+     "P_out": "288",
+     "mut_out": "EXC:UnboundLocalError"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "(4,)",
+     "P_out": "288",
+     "mut_out": "EXC:UnboundLocalError"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "(4,)",
+     "P_out": "288",
+     "mut_out": "None"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "(4,)",
+     "P_out": "288",
+     "mut_out": "4608"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "(4,)",
+     "P_out": "288",
+     "mut_out": "0"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "(4,)",
+     "P_out": "288",
+     "mut_out": "576"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "(4,)",
+     "P_out": "288",
+     "mut_out": "0"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "(4,)",
+     "P_out": "288",
+     "mut_out": "0.003472222"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "(4,)",
+     "P_out": "288",
+     "mut_out": "1"
+    },
+    "m009": {
+     "verdict": "differs",
+     "input": "(4,)",
+     "P_out": "288",
+     "mut_out": "0.003472222"
+    },
+    "m010": {
+     "verdict": "differs",
+     "input": "(4,)",
+     "P_out": "288",
+     "mut_out": "1"
+    },
+    "m011": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m012": {
+     "verdict": "differs",
+     "input": "(4,)",
+     "P_out": "288",
+     "mut_out": "0"
+    },
+    "m013": {
+     "verdict": "differs",
+     "input": "(4,)",
+     "P_out": "288",
+     "mut_out": "2"
+    },
+    "m014": {
+     "verdict": "differs",
+     "input": "(4,)",
+     "P_out": "288",
+     "mut_out": "34560"
+    },
+    "m015": {
+     "verdict": "differs",
+     "input": "(4,)",
+     "P_out": "288",
+     "mut_out": "12"
+    }
+   }
+  },
+  "HumanEval/143": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "('This is a test',)",
+     "P_out": "'is'",
+     "mut_out": "EXC:NameError"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "('This is a test',)",
+     "P_out": "'is'",
+     "mut_out": "None"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "('lets go for swimming',)",
+     "P_out": "'go for'",
+     "mut_out": "'go'"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "('lets go for swimming',)",
+     "P_out": "'go for'",
+     "mut_out": "'go'"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "('lets go for swimming',)",
+     "P_out": "'go for'",
+     "mut_out": "'go'"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "('This is a test',)",
+     "P_out": "'is'",
+     "mut_out": "'is a'"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "('This is a test',)",
+     "P_out": "'is'",
+     "mut_out": "'is a'"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "('This is a test',)",
+     "P_out": "'is'",
+     "mut_out": "'is a'"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "('lets go for swimming',)",
+     "P_out": "'go for'",
+     "mut_out": "'go'"
+    },
+    "m009": {
+     "verdict": "differs",
+     "input": "('This is a test',)",
+     "P_out": "'is'",
+     "mut_out": "'This a test'"
+    },
+    "m010": {
+     "verdict": "differs",
+     "input": "('This is a test',)",
+     "P_out": "'is'",
+     "mut_out": "''"
+    },
+    "m011": {
+     "verdict": "differs",
+     "input": "('This is a test',)",
+     "P_out": "'is'",
+     "mut_out": "'is a'"
+    },
+    "m012": {
+     "verdict": "differs",
+     "input": "('This is a test',)",
+     "P_out": "'is'",
+     "mut_out": "'is a'"
+    },
+    "m013": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m014": {
+     "verdict": "differs",
+     "input": "('This is a test',)",
+     "P_out": "'is'",
+     "mut_out": "'is a'"
+    },
+    "m015": {
+     "verdict": "differs",
+     "input": "('This is a test',)",
+     "P_out": "'is'",
+     "mut_out": "'This is test'"
+    },
+    "m016": {
+     "verdict": "differs",
+     "input": "('lets go for swimming',)",
+     "P_out": "'go for'",
+     "mut_out": "'go'"
+    },
+    "m017": {
+     "verdict": "differs",
+     "input": "('lets go for swimming',)",
+     "P_out": "'go for'",
+     "mut_out": "'go'"
+    },
+    "m018": {
+     "verdict": "differs",
+     "input": "('lets go for swimming',)",
+     "P_out": "'go for'",
+     "mut_out": "'go'"
+    },
+    "m019": {
+     "verdict": "differs",
+     "input": "('This is a test',)",
+     "P_out": "'is'",
+     "mut_out": "'This is test'"
+    },
+    "m020": {
+     "verdict": "differs",
+     "input": "('This is a test',)",
+     "P_out": "'is'",
+     "mut_out": "'This is a test'"
+    },
+    "m021": {
+     "verdict": "differs",
+     "input": "('This is a test',)",
+     "P_out": "'is'",
+     "mut_out": "'This is a test'"
+    },
+    "m022": {
+     "verdict": "differs",
+     "input": "('lets go for swimming',)",
+     "P_out": "'go for'",
+     "mut_out": "'gofor'"
+    },
+    "m023": {
+     "verdict": "differs",
+     "input": "('This is a test',)",
+     "P_out": "'is'",
+     "mut_out": "'This is test'"
+    },
+    "m024": {
+     "verdict": "differs",
+     "input": "('lets go for swimming',)",
+     "P_out": "'go for'",
+     "mut_out": "'go'"
+    },
+    "m025": {
+     "verdict": "differs",
+     "input": "('This is a test',)",
+     "P_out": "'is'",
+     "mut_out": "'This is test'"
+    },
+    "m026": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m027": {
+     "verdict": "differs",
+     "input": "('This is a test',)",
+     "P_out": "'is'",
+     "mut_out": "'This is test'"
+    },
+    "m028": {
+     "verdict": "differs",
+     "input": "('This is a test',)",
+     "P_out": "'is'",
+     "mut_out": "'This is a test'"
+    },
+    "m029": {
+     "verdict": "differs",
+     "input": "('lets go for swimming',)",
+     "P_out": "'go for'",
+     "mut_out": "'go'"
+    },
+    "m030": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m031": {
+     "verdict": "differs",
+     "input": "('This is a test',)",
+     "P_out": "'is'",
+     "mut_out": "'is a'"
+    }
+   }
+  },
+  "HumanEval/148": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "('Jupiter', 'Neptune')",
+     "P_out": "['tuple', 'Saturn', 'Uranus']",
+     "mut_out": "EXC:NameError"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "('Jupiter', 'Neptune')",
+     "P_out": "['tuple', 'Saturn', 'Uranus']",
+     "mut_out": "EXC:NameError"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "('Jupiter', 'Neptune')",
+     "P_out": "['tuple', 'Saturn', 'Uranus']",
+     "mut_out": "EXC:NameError"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "('Pluto', 'Mars')",
+     "P_out": "['tuple']",
+     "mut_out": "EXC:ValueError"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "('Jupiter', 'Neptune')",
+     "P_out": "['tuple', 'Saturn', 'Uranus']",
+     "mut_out": "['tuple']"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "('Earth', 'Earth')",
+     "P_out": "['tuple']",
+     "mut_out": "None"
+    },
+    "m006": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "('Jupiter', 'Neptune')",
+     "P_out": "['tuple', 'Saturn', 'Uranus']",
+     "mut_out": "['tuple']"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "('Jupiter', 'Neptune')",
+     "P_out": "['tuple', 'Saturn', 'Uranus']",
+     "mut_out": "['tuple']"
+    },
+    "m009": {
+     "verdict": "differs",
+     "input": "('Jupiter', 'Neptune')",
+     "P_out": "['tuple', 'Saturn', 'Uranus']",
+     "mut_out": "None"
+    },
+    "m010": {
+     "verdict": "differs",
+     "input": "('Earth', 'Mercury')",
+     "P_out": "['tuple', 'Venus']",
+     "mut_out": "None"
+    },
+    "m011": {
+     "verdict": "differs",
+     "input": "('Earth', 'Mercury')",
+     "P_out": "['tuple', 'Venus']",
+     "mut_out": "['tuple']"
+    },
+    "m012": {
+     "verdict": "differs",
+     "input": "('Earth', 'Mercury')",
+     "P_out": "['tuple', 'Venus']",
+     "mut_out": "['tuple', '']"
+    },
+    "m013": {
+     "verdict": "differs",
+     "input": "('Earth', 'Mercury')",
+     "P_out": "['tuple', 'Venus']",
+     "mut_out": "['tuple']"
+    },
+    "m014": {
+     "verdict": "differs",
+     "input": "('Mercury', 'Uranus')",
+     "P_out": "['tuple', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn']",
+     "mut_out": "['tuple', 'Venus', 'Earth', '', 'Jupiter', 'Saturn']"
+    },
+    "m015": {
+     "verdict": "differs",
+     "input": "('Jupiter', 'Neptune')",
+     "P_out": "['tuple', 'Saturn', 'Uranus']",
+     "mut_out": "['tuple']"
+    },
+    "m016": {
+     "verdict": "differs",
+     "input": "('Jupiter', 'Neptune')",
+     "P_out": "['tuple', 'Saturn', 'Uranus']",
+     "mut_out": "['tuple', '', 'Uranus']"
+    },
+    "m017": {
+     "verdict": "differs",
+     "input": "('Jupiter', 'Neptune')",
+     "P_out": "['tuple', 'Saturn', 'Uranus']",
+     "mut_out": "['tuple', 'Saturn', '']"
+    },
+    "m018": {
+     "verdict": "differs",
+     "input": "('Jupiter', 'Neptune')",
+     "P_out": "['tuple', 'Saturn', 'Uranus']",
+     "mut_out": "['tuple']"
+    },
+    "m019": {
+     "verdict": "differs",
+     "input": "('Jupiter', 'Neptune')",
+     "P_out": "['tuple', 'Saturn', 'Uranus']",
+     "mut_out": "['tuple']"
+    },
+    "m020": {
+     "verdict": "differs",
+     "input": "('Jupiter', 'Neptune')",
+     "P_out": "['tuple', 'Saturn', 'Uranus']",
+     "mut_out": "['tuple']"
+    },
+    "m021": {
+     "verdict": "differs",
+     "input": "('Jupiter', 'Neptune')",
+     "P_out": "['tuple', 'Saturn', 'Uranus']",
+     "mut_out": "['tuple']"
+    },
+    "m022": {
+     "verdict": "differs",
+     "input": "('Jupiter', 'Neptune')",
+     "P_out": "['tuple', 'Saturn', 'Uranus']",
+     "mut_out": "['tuple', 'Mars', 'Jupiter', 'Saturn', 'Uranus']"
+    },
+    "m023": {
+     "verdict": "differs",
+     "input": "('Earth', 'Mercury')",
+     "P_out": "['tuple', 'Venus']",
+     "mut_out": "['tuple']"
+    },
+    "m024": {
+     "verdict": "differs",
+     "input": "('Jupiter', 'Neptune')",
+     "P_out": "['tuple', 'Saturn', 'Uranus']",
+     "mut_out": "['tuple', 'Uranus']"
+    },
+    "m025": {
+     "verdict": "differs",
+     "input": "('Jupiter', 'Neptune')",
+     "P_out": "['tuple', 'Saturn', 'Uranus']",
+     "mut_out": "['tuple', 'Jupiter', 'Saturn', 'Uranus']"
+    },
+    "m026": {
+     "verdict": "differs",
+     "input": "('Earth', 'Mercury')",
+     "P_out": "['tuple', 'Venus']",
+     "mut_out": "['tuple']"
+    },
+    "m027": {
+     "verdict": "differs",
+     "input": "('Earth', 'Mercury')",
+     "P_out": "['tuple', 'Venus']",
+     "mut_out": "['tuple', 'Mercury', 'Venus']"
+    }
+   }
+  },
+  "HumanEval/149": {
+   "n_inputs": 171,
+   "n_valid": 171,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "(['b', 'dd', 'cc', 'aaaa'],)",
+     "P_out": "['list', 'cc', 'dd', 'aaaa']",
+     "mut_out": "['list', 'dd', 'cc', 'aaaa']"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "(['aa', 'a', 'aaa'],)",
+     "P_out": "['list', 'aa']",
+     "mut_out": "EXC:NameError"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "(['aa', 'a', 'aaa'],)",
+     "P_out": "['list', 'aa']",
+     "mut_out": "None"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "(['aa', 'a', 'aaa'],)",
+     "P_out": "['list', 'aa']",
+     "mut_out": "['list', 'a', 'aaa']"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "(['aa', 'a', 'aaa'],)",
+     "P_out": "['list', 'aa']",
+     "mut_out": "['list', 'a', 'aaa']"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "(['aa', 'a', 'aaa'],)",
+     "P_out": "['list', 'aa']",
+     "mut_out": "['list']"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "(['aa', 'a', 'aaa'],)",
+     "P_out": "['list', 'aa']",
+     "mut_out": "['list', 'a']"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "(['aa', 'a', 'aaa'],)",
+     "P_out": "['list', 'aa']",
+     "mut_out": "['list', 'a', 'aaa']"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "(['aa', 'a', 'aaa'],)",
+     "P_out": "['list', 'aa']",
+     "mut_out": "['list']"
+    },
+    "m009": {
+     "verdict": "differs",
+     "input": "(['aa', 'a', 'aaa'],)",
+     "P_out": "['list', 'aa']",
+     "mut_out": "['list', 'aaa']"
+    },
+    "m010": {
+     "verdict": "differs",
+     "input": "(['aa', 'a', 'aaa'],)",
+     "P_out": "['list', 'aa']",
+     "mut_out": "['list', 'a', 'aa', 'aaa']"
+    }
+   }
+  },
+  "HumanEval/151": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "([1, 3, 2, 0],)",
+     "P_out": "10",
+     "mut_out": "None"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "([1, 3, 2, 0],)",
+     "P_out": "10",
+     "mut_out": "8"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "([1, 3, 2, 0],)",
+     "P_out": "10",
+     "mut_out": "28"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "([1, 3, 2, 0],)",
+     "P_out": "10",
+     "mut_out": "4"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "([1, 3, 2, 0],)",
+     "P_out": "10",
+     "mut_out": "14"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "([1, 3, 2, 0],)",
+     "P_out": "10",
+     "mut_out": "4"
+    },
+    "m006": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "([1, 3, 2, 0],)",
+     "P_out": "10",
+     "mut_out": "0"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "([1, 3, 2, 0],)",
+     "P_out": "10",
+     "mut_out": "4"
+    },
+    "m009": {
+     "verdict": "differs",
+     "input": "([1, 3, 2, 0],)",
+     "P_out": "10",
+     "mut_out": "0"
+    },
+    "m010": {
+     "verdict": "differs",
+     "input": "([1, 3, 2, 0],)",
+     "P_out": "10",
+     "mut_out": "9"
+    },
+    "m011": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m012": {
+     "verdict": "differs",
+     "input": "([1, 3, 2, 0],)",
+     "P_out": "10",
+     "mut_out": "13"
+    },
+    "m013": {
+     "verdict": "differs",
+     "input": "([1, 3, 2, 0],)",
+     "P_out": "10",
+     "mut_out": "4"
+    },
+    "m014": {
+     "verdict": "differs",
+     "input": "([1, 3, 2, 0],)",
+     "P_out": "10",
+     "mut_out": "14"
+    },
+    "m015": {
+     "verdict": "differs",
+     "input": "([1, 3, 2, 0],)",
+     "P_out": "10",
+     "mut_out": "0"
+    },
+    "m016": {
+     "verdict": "differs",
+     "input": "([1, 3, 2, 0],)",
+     "P_out": "10",
+     "mut_out": "5"
+    },
+    "m017": {
+     "verdict": "differs",
+     "input": "([1, 3, 2, 0],)",
+     "P_out": "10",
+     "mut_out": "0"
+    }
+   }
+  },
+  "HumanEval/152": {
+   "n_inputs": 400,
+   "n_valid": 400,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "([1, 2, 3, 4, 5, 1], [1, 2, 3, 4, 2, -2])",
+     "P_out": "['list', 0, 0, 0, 0, 3, 3]",
+     "mut_out": "None"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "([1, 2, 3, 4, 5, 1], [1, 2, 3, 4, 2, -2])",
+     "P_out": "['list', 0, 0, 0, 0, 3, 3]",
+     "mut_out": "['list', 2, 4, 6, 8, 7, 1]"
+    }
+   }
+  },
+  "HumanEval/155": {
+   "n_inputs": 136,
+   "n_valid": 136,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "(-12,)",
+     "P_out": "['tuple', 1, 1]",
+     "mut_out": "EXC:UnboundLocalError"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "(-12,)",
+     "P_out": "['tuple', 1, 1]",
+     "mut_out": "EXC:UnboundLocalError"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "(-12,)",
+     "P_out": "['tuple', 1, 1]",
+     "mut_out": "None"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "(-12,)",
+     "P_out": "['tuple', 1, 1]",
+     "mut_out": "['tuple', 2, 1]"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "(-12,)",
+     "P_out": "['tuple', 1, 1]",
+     "mut_out": "['tuple', 0, 1]"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "(-12,)",
+     "P_out": "['tuple', 1, 1]",
+     "mut_out": "['tuple', 1, 2]"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "(-12,)",
+     "P_out": "['tuple', 1, 1]",
+     "mut_out": "['tuple', 1, 0]"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "(123,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 2, 1]"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "(123,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 2, 1]"
+    },
+    "m009": {
+     "verdict": "differs",
+     "input": "(-12,)",
+     "P_out": "['tuple', 1, 1]",
+     "mut_out": "['tuple', -1, 1]"
+    },
+    "m010": {
+     "verdict": "differs",
+     "input": "(-12,)",
+     "P_out": "['tuple', 1, 1]",
+     "mut_out": "['tuple', 0, 1]"
+    },
+    "m011": {
+     "verdict": "differs",
+     "input": "(-12,)",
+     "P_out": "['tuple', 1, 1]",
+     "mut_out": "['tuple', 1, -1]"
+    },
+    "m012": {
+     "verdict": "differs",
+     "input": "(-12,)",
+     "P_out": "['tuple', 1, 1]",
+     "mut_out": "['tuple', 1, 0]"
+    },
+    "m013": {
+     "verdict": "differs",
+     "input": "(2468,)",
+     "P_out": "['tuple', 4, 0]",
+     "mut_out": "['tuple', 0, 4]"
+    },
+    "m014": {
+     "verdict": "differs",
+     "input": "(123,)",
+     "P_out": "['tuple', 1, 2]",
+     "mut_out": "['tuple', 2, 1]"
+    },
+    "m015": {
+     "verdict": "differs",
+     "input": "(-12,)",
+     "P_out": "['tuple', 1, 1]",
+     "mut_out": "['tuple', 0, 2]"
+    },
+    "m016": {
+     "verdict": "differs",
+     "input": "(-12,)",
+     "P_out": "['tuple', 1, 1]",
+     "mut_out": "['tuple', 2, 1]"
+    },
+    "m017": {
+     "verdict": "differs",
+     "input": "(-12,)",
+     "P_out": "['tuple', 1, 1]",
+     "mut_out": "['tuple', 0, 1]"
+    },
+    "m018": {
+     "verdict": "differs",
+     "input": "(-12,)",
+     "P_out": "['tuple', 1, 1]",
+     "mut_out": "['tuple', 1, 2]"
+    },
+    "m019": {
+     "verdict": "differs",
+     "input": "(-12,)",
+     "P_out": "['tuple', 1, 1]",
+     "mut_out": "['tuple', 1, 0]"
+    },
+    "m020": {
+     "verdict": "differs",
+     "input": "(-12,)",
+     "P_out": "['tuple', 1, 1]",
+     "mut_out": "['tuple', 0, 2]"
+    },
+    "m021": {
+     "verdict": "differs",
+     "input": "(-12,)",
+     "P_out": "['tuple', 1, 1]",
+     "mut_out": "['tuple', 2, 0]"
+    }
+   }
+  },
+  "HumanEval/156": {
+   "n_inputs": 155,
+   "n_valid": 140,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "(19,)",
+     "P_out": "'xix'",
+     "mut_out": "EXC:NameError"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "(19,)",
+     "P_out": "'xix'",
+     "mut_out": "EXC:NameError"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "(19,)",
+     "P_out": "'xix'",
+     "mut_out": "EXC:UnboundLocalError"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "(19,)",
+     "P_out": "'xix'",
+     "mut_out": "EXC:UnboundLocalError"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "(19,)",
+     "P_out": "'xix'",
+     "mut_out": "None"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "(19,)",
+     "P_out": "'xix'",
+     "mut_out": "EXC:IndexError"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "(1000,)",
+     "P_out": "'m'",
+     "mut_out": "'cmc'"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "(19,)",
+     "P_out": "'xix'",
+     "mut_out": "'_xix'"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "(19,)",
+     "P_out": "'xix'",
+     "mut_out": "''"
+    },
+    "m009": {
+     "verdict": "differs",
+     "input": "(19,)",
+     "P_out": "'xix'",
+     "mut_out": "EXC:UnboundLocalError"
+    },
+    "m010": {
+     "verdict": "differs",
+     "input": "(19,)",
+     "P_out": "'xix'",
+     "mut_out": "''"
+    },
+    "m011": {
+     "verdict": "differs",
+     "input": "(19,)",
+     "P_out": "'xix'",
+     "mut_out": "EXC:IndexError"
+    },
+    "m012": {
+     "verdict": "differs",
+     "input": "(19,)",
+     "P_out": "'xix'",
+     "mut_out": "EXC:IndexError"
+    },
+    "m013": {
+     "verdict": "timeout"
+    },
+    "m014": {
+     "verdict": "differs",
+     "input": "(152,)",
+     "P_out": "'clii'",
+     "mut_out": "'cli'"
+    },
+    "m015": {
+     "verdict": "differs",
+     "input": "(152,)",
+     "P_out": "'clii'",
+     "mut_out": "EXC:ZeroDivisionError"
+    },
+    "m016": {
+     "verdict": "differs",
+     "input": "(4,)",
+     "P_out": "'iv'",
+     "mut_out": "'iiii'"
+    },
+    "m017": {
+     "verdict": "differs",
+     "input": "(4,)",
+     "P_out": "'iv'",
+     "mut_out": "'ivi'"
+    },
+    "m018": {
+     "verdict": "differs",
+     "input": "(426,)",
+     "P_out": "'cdxxvi'",
+     "mut_out": "'cdxxv'"
+    },
+    "m019": {
+     "verdict": "differs",
+     "input": "(426,)",
+     "P_out": "'cdxxvi'",
+     "mut_out": "'cdxxvii'"
+    },
+    "m020": {
+     "verdict": "differs",
+     "input": "(19,)",
+     "P_out": "'xix'",
+     "mut_out": "'xviv'"
+    },
+    "m021": {
+     "verdict": "differs",
+     "input": "(19,)",
+     "P_out": "'xix'",
+     "mut_out": "'xixi'"
+    },
+    "m022": {
+     "verdict": "differs",
+     "input": "(19,)",
+     "P_out": "'xix'",
+     "mut_out": "'xviii'"
+    },
+    "m023": {
+     "verdict": "differs",
+     "input": "(19,)",
+     "P_out": "'xix'",
+     "mut_out": "'xxi'"
+    },
+    "m024": {
+     "verdict": "differs",
+     "input": "(944,)",
+     "P_out": "'cmxliv'",
+     "mut_out": "'cmxliii'"
+    },
+    "m025": {
+     "verdict": "differs",
+     "input": "(944,)",
+     "P_out": "'cmxliv'",
+     "mut_out": "'cmxlv'"
+    },
+    "m026": {
+     "verdict": "differs",
+     "input": "(152,)",
+     "P_out": "'clii'",
+     "mut_out": "'cli'"
+    },
+    "m027": {
+     "verdict": "differs",
+     "input": "(152,)",
+     "P_out": "'clii'",
+     "mut_out": "'cliii'"
+    },
+    "m028": {
+     "verdict": "differs",
+     "input": "(90,)",
+     "P_out": "'xc'",
+     "mut_out": "'lxl'"
+    },
+    "m029": {
+     "verdict": "differs",
+     "input": "(90,)",
+     "P_out": "'xc'",
+     "mut_out": "'xci'"
+    },
+    "m030": {
+     "verdict": "differs",
+     "input": "(152,)",
+     "P_out": "'clii'",
+     "mut_out": "'cli'"
+    },
+    "m031": {
+     "verdict": "differs",
+     "input": "(152,)",
+     "P_out": "'clii'",
+     "mut_out": "'cliii'"
+    },
+    "m032": {
+     "verdict": "differs",
+     "input": "(426,)",
+     "P_out": "'cdxxvi'",
+     "mut_out": "'cdxxv'"
+    },
+    "m033": {
+     "verdict": "differs",
+     "input": "(426,)",
+     "P_out": "'cdxxvi'",
+     "mut_out": "'cdxxvii'"
+    },
+    "m034": {
+     "verdict": "differs",
+     "input": "(852,)",
+     "P_out": "'dccclii'",
+     "mut_out": "'dcccli'"
+    },
+    "m035": {
+     "verdict": "differs",
+     "input": "(852,)",
+     "P_out": "'dccclii'",
+     "mut_out": "'dcccliii'"
+    },
+    "m036": {
+     "verdict": "differs",
+     "input": "(944,)",
+     "P_out": "'cmxliv'",
+     "mut_out": "'cmxliii'"
+    },
+    "m037": {
+     "verdict": "differs",
+     "input": "(944,)",
+     "P_out": "'cmxliv'",
+     "mut_out": "'cmxlv'"
+    },
+    "m038": {
+     "verdict": "differs",
+     "input": "(1000,)",
+     "P_out": "'m'",
+     "mut_out": "'cmc'"
+    },
+    "m039": {
+     "verdict": "differs",
+     "input": "(1000,)",
+     "P_out": "'m'",
+     "mut_out": "'mi'"
+    },
+    "m040": {
+     "verdict": "differs",
+     "input": "(152,)",
+     "P_out": "'clii'",
+     "mut_out": "'cl'"
+    },
+    "m041": {
+     "verdict": "differs",
+     "input": "(4,)",
+     "P_out": "'iv'",
+     "mut_out": "''"
+    },
+    "m042": {
+     "verdict": "differs",
+     "input": "(426,)",
+     "P_out": "'cdxxvi'",
+     "mut_out": "'cdxxi'"
+    },
+    "m043": {
+     "verdict": "differs",
+     "input": "(19,)",
+     "P_out": "'xix'",
+     "mut_out": "'x'"
+    },
+    "m044": {
+     "verdict": "differs",
+     "input": "(19,)",
+     "P_out": "'xix'",
+     "mut_out": "'ix'"
+    },
+    "m045": {
+     "verdict": "differs",
+     "input": "(944,)",
+     "P_out": "'cmxliv'",
+     "mut_out": "'cmiv'"
+    },
+    "m046": {
+     "verdict": "differs",
+     "input": "(152,)",
+     "P_out": "'clii'",
+     "mut_out": "'cii'"
+    },
+    "m047": {
+     "verdict": "differs",
+     "input": "(90,)",
+     "P_out": "'xc'",
+     "mut_out": "''"
+    },
+    "m048": {
+     "verdict": "differs",
+     "input": "(152,)",
+     "P_out": "'clii'",
+     "mut_out": "'lii'"
+    },
+    "m049": {
+     "verdict": "differs",
+     "input": "(426,)",
+     "P_out": "'cdxxvi'",
+     "mut_out": "'xxvi'"
+    },
+    "m050": {
+     "verdict": "differs",
+     "input": "(852,)",
+     "P_out": "'dccclii'",
+     "mut_out": "'ccclii'"
+    },
+    "m051": {
+     "verdict": "differs",
+     "input": "(944,)",
+     "P_out": "'cmxliv'",
+     "mut_out": "'xliv'"
+    },
+    "m052": {
+     "verdict": "differs",
+     "input": "(1000,)",
+     "P_out": "'m'",
+     "mut_out": "''"
+    },
+    "m053": {
+     "verdict": "timeout"
+    },
+    "m054": {
+     "verdict": "differs",
+     "input": "(19,)",
+     "P_out": "'xix'",
+     "mut_out": "'mcmdcdcxclxl'"
+    },
+    "m055": {
+     "verdict": "differs",
+     "input": "(19,)",
+     "P_out": "'xix'",
+     "mut_out": "EXC:TypeError"
+    },
+    "m056": {
+     "verdict": "differs",
+     "input": "(19,)",
+     "P_out": "'xix'",
+     "mut_out": "''"
+    },
+    "m057": {
+     "verdict": "timeout"
+    },
+    "m058": {
+     "verdict": "timeout"
+    },
+    "m059": {
+     "verdict": "differs",
+     "input": "(19,)",
+     "P_out": "'xix'",
+     "mut_out": "'xviiii'"
+    },
+    "m060": {
+     "verdict": "timeout"
+    },
+    "m061": {
+     "verdict": "timeout"
+    },
+    "m062": {
+     "verdict": "timeout"
+    }
+   }
+  },
+  "HumanEval/161": {
+   "n_inputs": 77,
+   "n_valid": 77,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "('1234',)",
+     "P_out": "'4321'",
+     "mut_out": "EXC:UnboundLocalError"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "('1234',)",
+     "P_out": "'4321'",
+     "mut_out": "EXC:UnboundLocalError"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "('1234',)",
+     "P_out": "'4321'",
+     "mut_out": "EXC:NameError"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "('1234',)",
+     "P_out": "'4321'",
+     "mut_out": "'43214321'"
+    },
+    "m004": {
+     "verdict": "differs",
+     "input": "('ab',)",
+     "P_out": "'AB'",
+     "mut_out": "None"
+    },
+    "m005": {
+     "verdict": "differs",
+     "input": "('1234',)",
+     "P_out": "'4321'",
+     "mut_out": "'1234'"
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "('1234',)",
+     "P_out": "'4321'",
+     "mut_out": "'1234'"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "('ab',)",
+     "P_out": "'AB'",
+     "mut_out": "EXC:IndexError"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "('ab',)",
+     "P_out": "'AB'",
+     "mut_out": "'BA'"
+    },
+    "m009": {
+     "verdict": "differs",
+     "input": "('#a@C',)",
+     "P_out": "'#A@c'",
+     "mut_out": "'#c@A'"
+    },
+    "m010": {
+     "verdict": "differs",
+     "input": "('ab',)",
+     "P_out": "'AB'",
+     "mut_out": "'Bb'"
+    },
+    "m011": {
+     "verdict": "differs",
+     "input": "('1234',)",
+     "P_out": "'4321'",
+     "mut_out": "'4321_'"
+    },
+    "m012": {
+     "verdict": "differs",
+     "input": "('1234',)",
+     "P_out": "'4321'",
+     "mut_out": "EXC:TypeError"
+    },
+    "m013": {
+     "verdict": "differs",
+     "input": "('1234',)",
+     "P_out": "'4321'",
+     "mut_out": "''"
+    },
+    "m014": {
+     "verdict": "differs",
+     "input": "('1234',)",
+     "P_out": "'4321'",
+     "mut_out": "'1234'"
+    },
+    "m015": {
+     "verdict": "differs",
+     "input": "('1234',)",
+     "P_out": "'4321'",
+     "mut_out": "'1234'"
+    },
+    "m016": {
+     "verdict": "differs",
+     "input": "('1234',)",
+     "P_out": "'4321'",
+     "mut_out": "None"
+    },
+    "m017": {
+     "verdict": "differs",
+     "input": "('1234',)",
+     "P_out": "'4321'",
+     "mut_out": "'1234'"
+    },
+    "m018": {
+     "verdict": "differs",
+     "input": "('ab',)",
+     "P_out": "'AB'",
+     "mut_out": "'ab'"
+    },
+    "m019": {
+     "verdict": "differs",
+     "input": "('ab',)",
+     "P_out": "'AB'",
+     "mut_out": "'BA'"
+    },
+    "m020": {
+     "verdict": "differs",
+     "input": "('ab',)",
+     "P_out": "'AB'",
+     "mut_out": "EXC:IndexError"
+    },
+    "m021": {
+     "verdict": "differs",
+     "input": "('ab',)",
+     "P_out": "'AB'",
+     "mut_out": "'Bb'"
+    },
+    "m022": {
+     "verdict": "differs",
+     "input": "('1234',)",
+     "P_out": "'4321'",
+     "mut_out": "'1234'"
+    },
+    "m023": {
+     "verdict": "differs",
+     "input": "('1234',)",
+     "P_out": "'4321'",
+     "mut_out": "'1234'"
+    },
+    "m024": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m025": {
+     "verdict": "differs",
+     "input": "('ab',)",
+     "P_out": "'AB'",
+     "mut_out": "'BA'"
+    },
+    "m026": {
+     "verdict": "differs",
+     "input": "('1234',)",
+     "P_out": "'4321'",
+     "mut_out": "''"
+    },
+    "m027": {
+     "verdict": "differs",
+     "input": "('1234',)",
+     "P_out": "'4321'",
+     "mut_out": "'42'"
+    },
+    "m028": {
+     "verdict": "differs",
+     "input": "('1234',)",
+     "P_out": "'4321'",
+     "mut_out": "EXC:ValueError"
+    }
+   }
+  },
+  "HumanEval/163": {
+   "n_inputs": 329,
+   "n_valid": 329,
+   "mutants": {
+    "m000": {
+     "verdict": "differs",
+     "input": "(2, 8)",
+     "P_out": "['list', 2, 4, 6, 8]",
+     "mut_out": "EXC:NameError"
+    },
+    "m001": {
+     "verdict": "differs",
+     "input": "(2, 8)",
+     "P_out": "['list', 2, 4, 6, 8]",
+     "mut_out": "EXC:NameError"
+    },
+    "m002": {
+     "verdict": "differs",
+     "input": "(2, 8)",
+     "P_out": "['list', 2, 4, 6, 8]",
+     "mut_out": "None"
+    },
+    "m003": {
+     "verdict": "differs",
+     "input": "(2, 8)",
+     "P_out": "['list', 2, 4, 6, 8]",
+     "mut_out": "['list', 4, 6, 8]"
+    },
+    "m004": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m005": {
+     "verdict": "no_difference",
+     "input": null,
+     "P_out": null,
+     "mut_out": null
+    },
+    "m006": {
+     "verdict": "differs",
+     "input": "(2, 8)",
+     "P_out": "['list', 2, 4, 6, 8]",
+     "mut_out": "['list', 2, 4, 6]"
+    },
+    "m007": {
+     "verdict": "differs",
+     "input": "(2, 8)",
+     "P_out": "['list', 2, 4, 6, 8]",
+     "mut_out": "['list', 3, 5, 7]"
+    },
+    "m008": {
+     "verdict": "differs",
+     "input": "(2, 8)",
+     "P_out": "['list', 2, 4, 6, 8]",
+     "mut_out": "['list', 3, 5, 7]"
+    },
+    "m009": {
+     "verdict": "differs",
+     "input": "(2, 8)",
+     "P_out": "['list', 2, 4, 6, 8]",
+     "mut_out": "['list', 2, 4, 6]"
+    },
+    "m010": {
+     "verdict": "differs",
+     "input": "(2, 8)",
+     "P_out": "['list', 2, 4, 6, 8]",
+     "mut_out": "['list']"
+    },
+    "m011": {
+     "verdict": "differs",
+     "input": "(2, 8)",
+     "P_out": "['list', 2, 4, 6, 8]",
+     "mut_out": "['list', 3, 5, 7]"
+    },
+    "m012": {
+     "verdict": "differs",
+     "input": "(2, 8)",
+     "P_out": "['list', 2, 4, 6, 8]",
+     "mut_out": "['list']"
+    },
+    "m013": {
+     "verdict": "differs",
+     "input": "(1, 3)",
+     "P_out": "['list', 2]",
+     "mut_out": "['list', 2, 4]"
+    },
+    "m014": {
+     "verdict": "differs",
+     "input": "(2, 8)",
+     "P_out": "['list', 2, 4, 6, 8]",
+     "mut_out": "['list', 2, 4, 6]"
+    },
+    "m015": {
+     "verdict": "differs",
+     "input": "(2, 8)",
+     "P_out": "['list', 2, 4, 6, 8]",
+     "mut_out": "['list', 3, 6]"
+    },
+    "m016": {
+     "verdict": "differs",
+     "input": "(2, 8)",
+     "P_out": "['list', 2, 4, 6, 8]",
+     "mut_out": "['list', 2, 3, 4, 5, 6, 7, 8]"
+    }
+   }
+  }
+ }
+}

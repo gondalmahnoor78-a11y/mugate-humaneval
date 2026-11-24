@@ -1,0 +1,11 @@
+\begin{tabular}{@{}lrrrrrrr@{}}
+\toprule
+Suite & Cases & Killed & Adj.\ MS (\%) & 95\% CI & Raw MS & Line cov. & Perfect\\
+ &  & /833 &  & (bootstrap) & (\%) & (\%) & tasks\\
+\midrule
+Human (reference) & -- & 813 & 97.6 & [95.6, 99.1] & 92.1 & 99.8 & 39/50\\
+Agent, vanilla & 265 & 802 & 96.3 & [93.3, 99.0] & 90.8 & 99.8 & 41/50\\
+Agent, +blind & 414 & 819 & 98.3 & [96.6, 99.7] & 92.8 & 99.8 & 45/50\\
+Agent, +gate R1 & 274 & 813 & 97.6 & [94.8, 99.5] & 92.1 & 99.8 & 42/50\\
+\bottomrule
+\end{tabular}

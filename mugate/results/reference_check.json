@@ -1,0 +1,807 @@
+{
+ "denison2024": {
+  "source": "arXiv",
+  "id": "2406.10162",
+  "found": true,
+  "title": "Sycophancy to Subterfuge: Investigating Reward-Tampering in Large Language Models",
+  "authors": [
+   "Carson Denison",
+   "Monte MacDiarmid",
+   "Fazl Barez",
+   "David Duvenaud",
+   "Shauna Kravec",
+   "Samuel Marks",
+   "Nicholas Schiefer",
+   "Ryan Soklaski",
+   "Alex Tamkin",
+   "Jared Kaplan",
+   "Buck Shlegeris",
+   "Samuel R. Bowman",
+   "Ethan Perez",
+   "Evan Hubinger"
+  ],
+  "published": "2024-06-14"
+ },
+ "wang2025mutgen": {
+  "source": "arXiv",
+  "id": "2506.02954",
+  "found": true,
+  "title": "Mutation-Guided Unit Test Generation with a Large Language Model",
+  "authors": [
+   "Guancheng Wang",
+   "Qinghua Xu",
+   "Lionel Briand",
+   "Kui Liu"
+  ],
+  "published": "2025-06-03"
+ },
+ "gabor2025evilgenie": {
+  "source": "arXiv",
+  "id": "2511.21654",
+  "found": true,
+  "title": "EvilGenie: A Reward Hacking Benchmark",
+  "authors": [
+   "Jonathan Gabor",
+   "Jayson Lynch",
+   "Jonathan Rosenfeld"
+  ],
+  "published": "2025-11-26"
+ },
+ "zhao2026specbench": {
+  "source": "arXiv",
+  "id": "2605.21384",
+  "found": true,
+  "title": "SpecBench: Measuring Reward Hacking in Long-Horizon Coding Agents",
+  "authors": [
+   "Bingchen Zhao",
+   "Dhruv Srikanth",
+   "Yuxiang Wu",
+   "Zhengyao Jiang"
+  ],
+  "published": "2026-05-20"
+ },
+ "raghavendra2026sweatlas": {
+  "source": "arXiv",
+  "id": "2605.08366",
+  "found": true,
+  "title": "SWE Atlas: Benchmarking Coding Agents Beyond Issue Resolution",
+  "authors": [
+   "Mohit Raghavendra",
+   "Soham Dan",
+   "Miguel Romero Calvo",
+   "Yannis Yiming He",
+   "Johannes Baptist Mols",
+   "Gautam Anand",
+   "Cole McCollum",
+   "Edgar Arakelyan",
+   "Vijay Bharadwaj",
+   "Andrew Park",
+   "Jeff Da",
+   "MohammadHossein Rezaei",
+   "Bing Liu",
+   "Brad Kenstler",
+   "Yunzhong He"
+  ],
+  "published": "2026-05-08"
+ },
+ "chang2026advertest": {
+  "source": "arXiv",
+  "id": "2602.08146",
+  "found": null,
+  "error": "HTTP Error 429: Unknown Error"
+ },
+ "taylor2025school": {
+  "source": "arXiv",
+  "id": "2508.17511",
+  "found": true,
+  "title": "School of Reward Hacks: Hacking harmless tasks generalizes to misaligned behavior in LLMs",
+  "authors": [
+   "Mia Taylor",
+   "James Chua",
+   "Jan Betley",
+   "Johannes Treutlein",
+   "Owain Evans"
+  ],
+  "published": "2025-08-24"
+ },
+ "chen2021codex": {
+  "source": "arXiv",
+  "id": "2107.03374",
+  "found": true,
+  "title": "Evaluating Large Language Models Trained on Code",
+  "authors": [
+   "Mark Chen",
+   "Jerry Tworek",
+   "Heewoo Jun",
+   "Qiming Yuan",
+   "Henrique Ponde de Oliveira Pinto",
+   "Jared Kaplan",
+   "Harri Edwards",
+   "Yuri Burda",
+   "Nicholas Joseph",
+   "Greg Brockman",
+   "Alex Ray",
+   "Raul Puri",
+   "Gretchen Krueger",
+   "Michael Petrov",
+   "Heidy Khlaaf",
+   "Girish Sastry",
+   "Pamela Mishkin",
+   "Brooke Chan",
+   "Scott Gray",
+   "Nick Ryder",
+   "Mikhail Pavlov",
+   "Alethea Power",
+   "Lukasz Kaiser",
+   "Mohammad Bavarian",
+   "Clemens Winter",
+   "Philippe Tillet",
+   "Felipe Petroski Such",
+   "Dave Cummings",
+   "Matthias Plappert",
+   "Fotios Chantzis",
+   "Elizabeth Barnes",
+   "Ariel Herbert-Voss",
+   "William Hebgen Guss",
+   "Alex Nichol",
+   "Alex Paino",
+   "Nikolas Tezak",
+   "Jie Tang",
+   "Igor Babuschkin",
+   "Suchir Balaji",
+   "Shantanu Jain",
+   "William Saunders",
+   "Christopher Hesse",
+   "Andrew N. Carr",
+   "Jan Leike",
+   "Josh Achiam",
+   "Vedant Misra",
+   "Evan Morikawa",
+   "Alec Radford",
+   "Matthew Knight",
+   "Miles Brundage",
+   "Mira Murati",
+   "Katie Mayer",
+   "Peter Welinder",
+   "Bob McGrew",
+   "Dario Amodei",
+   "Sam McCandlish",
+   "Ilya Sutskever",
+   "Wojciech Zaremba"
+  ],
+  "published": "2021-07-07"
+ },
+ "jimenez2024swebench": {
+  "source": "arXiv",
+  "id": "2310.06770",
+  "found": true,
+  "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+  "authors": [
+   "Carlos E. Jimenez",
+   "John Yang",
+   "Alexander Wettig",
+   "Shunyu Yao",
+   "Kexin Pei",
+   "Ofir Press",
+   "Karthik Narasimhan"
+  ],
+  "published": "2023-10-10"
+ },
+ "alshahwan2024testgen": {
+  "source": "Crossref",
+  "query": "Automated unit test improvement using large language models at Meta",
+  "top": [
+   {
+    "title": "Automated Unit Test Improvement using Large Language Models at Meta",
+    "doi": "10.1145/3663529.3663839",
+    "container": "Companion Proceedings of the 32nd ACM International Conference on the Foundations of Software Engineering",
+    "year": 2024,
+    "authors": [
+     "Nadia Alshahwan",
+     "Jubin Chheda",
+     "Anastasia Finogenova",
+     "Beliz Gokkaya",
+     "Mark Harman",
+     "Inna Harper",
+     "Alexandru Marginean",
+     "Shubho Sengupta",
+     "Eddy Wang"
+    ],
+    "page": "185-196",
+    "volume": null,
+    "issue": null
+   },
+   {
+    "title": "Automated Narrative Scoring Using Large Language Models",
+    "doi": "10.33009/ldbase.1714615997.1925",
+    "container": "LDbase",
+    "year": null,
+    "authors": [],
+    "page": null,
+    "volume": null,
+    "issue": null
+   },
+   {
+    "title": "A System for Automated Unit Test Generation using Large Language Models and Assessment of Generated Test Suites",
+    "doi": "10.1109/icstw64639.2025.10962454",
+    "container": "2025 IEEE International Conference on Software Testing, Verification and Validation Workshops (ICSTW)",
+    "year": 2025,
+    "authors": [
+     "Andrea Lops",
+     "Fedelucio Narducci",
+     "Azzurra Ragone",
+     "Michelantonio Trizio",
+     "Claudio Bartolini"
+    ],
+    "page": "29-36",
+    "volume": null,
+    "issue": null
+   }
+  ]
+ },
+ "foster2025ach": {
+  "source": "Crossref",
+  "query": "Mutation-guided LLM-based test generation at Meta",
+  "top": [
+   {
+    "title": "Mutation-Guided LLM-based Test Generation at Meta",
+    "doi": "10.1145/3696630.3728544",
+    "container": "Proceedings of the 33rd ACM International Conference on the Foundations of Software Engineering",
+    "year": 2025,
+    "authors": [
+     "Mark Harman",
+     "Jillian Ritchey",
+     "Inna Harper",
+     "Shubho Sengupta",
+     "Ke Mao",
+     "Abhishek Gulati",
+     "Christopher Foster",
+     "Herv\u00e9 Robert"
+    ],
+    "page": "180-191",
+    "volume": null,
+    "issue": null
+   },
+   {
+    "title": "Security Unit Test Generation for LLM-Produced Code Using Constraint-Based Mutation Authors",
+    "doi": "10.2139/ssrn.6143746",
+    "container": "",
+    "year": 2026,
+    "authors": [
+     "Sophie Maes",
+     "Jonas De Wilde",
+     "Liam Verhoeven"
+    ],
+    "page": null,
+    "volume": null,
+    "issue": null
+   },
+   {
+    "title": "Test Intention Guided LLM-Based Unit Test Generation",
+    "doi": "10.1109/icse55347.2025.00243",
+    "container": "2025 IEEE/ACM 47th International Conference on Software Engineering (ICSE)",
+    "year": 2025,
+    "authors": [
+     "Zifan Nan",
+     "Zhaoqiang Guo",
+     "Kui Liu",
+     "Xin Xia"
+    ],
+    "page": "1026-1038",
+    "volume": null,
+    "issue": null
+   }
+  ]
+ },
+ "schafer2024empirical": {
+  "source": "Crossref",
+  "query": "An empirical evaluation of using large language models for automated unit test generation",
+  "top": [
+   {
+    "title": "An Empirical Evaluation of Using Large Language Models for Automated Unit Test Generation",
+    "doi": "10.1109/tse.2023.3334955",
+    "container": "IEEE Transactions on Software Engineering",
+    "year": 2024,
+    "authors": [
+     "Max Sch\u00e4fer",
+     "Sarah Nadi",
+     "Aryaz Eghbali",
+     "Frank Tip"
+    ],
+    "page": "85-105",
+    "volume": "50",
+    "issue": "1"
+   },
+   {
+    "title": "An Empirical Study on Pragmatic Unit Test Generation with Large Language Models",
+    "doi": "10.21203/rs.3.rs-9194820/v1",
+    "container": "",
+    "year": 2026,
+    "authors": [
+     "Tian Lan",
+     "Kaiyuan Xue",
+     "Ruyuan Duan",
+     "Meng Sun"
+    ],
+    "page": null,
+    "volume": null,
+    "issue": null
+   },
+   {
+    "title": "Automated Code Comments Generation Using Large Language Models: Empirical Evaluation of T5 and BART",
+    "doi": "10.1109/access.2025.3597601",
+    "container": "IEEE Access",
+    "year": 2025,
+    "authors": [
+     "Dhan Prasad Ghale",
+     "Mohammad Dabbagh"
+    ],
+    "page": "141420-141433",
+    "volume": "13",
+    "issue": null
+   }
+  ]
+ },
+ "rehan2025harnessing": {
+  "source": "Crossref",
+  "query": "Harnessing large language models for automated software testing: a leap towards scalable test case generation",
+  "top": [
+   {
+    "title": "Harnessing Large Language Models for Automated Software Testing: A Leap Towards Scalable Test Case Generation",
+    "doi": "10.3390/electronics14071463",
+    "container": "Electronics",
+    "year": 2025,
+    "authors": [
+     "Shaheer Rehan",
+     "Baidaa Al-Bander",
+     "Amro Al-Said Ahmad"
+    ],
+    "page": "1463",
+    "volume": "14",
+    "issue": "7"
+   },
+   {
+    "title": "Automated Test Case Generation (ATCG): Leveraging Large Language Models for Software Testing",
+    "doi": "10.1109/commantel68363.2025.11368431",
+    "container": "2025 4th International Conference on Computing, Management and Telecommunications (ComManTel)",
+    "year": 2025,
+    "authors": [
+     "Vasim Shaikh",
+     "Vijay Walunj",
+     "Amarnath Hanumantharaya",
+     "Harsha Vanama"
+    ],
+    "page": "170-178",
+    "volume": null,
+    "issue": null
+   },
+   {
+    "title": "LARGE LANGUAGE MODEL-ASSISTED SOFTWARE TESTING WITH AUTOMATED TEST GENERATION AND COVERAGE OPTIMISATION",
+    "doi": "10.62441/actainnovations.v63i.2527",
+    "container": "Acta Innovations",
+    "year": 2026,
+    "authors": [],
+    "page": null,
+    "volume": "63",
+    "issue": "1"
+   }
+  ]
+ },
+ "deljouyi2025understandability": {
+  "source": "Crossref",
+  "query": "Leveraging large language models for enhancing the understandability of generated unit tests",
+  "top": [
+   {
+    "title": "Leveraging Large Language Models for Enhancing the Understandability of Generated Unit Tests",
+    "doi": "10.1109/icse55347.2025.00032",
+    "container": "2025 IEEE/ACM 47th International Conference on Software Engineering (ICSE)",
+    "year": 2025,
+    "authors": [
+     "Amirhossein Deljouyi",
+     "Roham Koohestani",
+     "Maliheh Izadi",
+     "Andy Zaidman"
+    ],
+    "page": "1449-1461",
+    "volume": null,
+    "issue": null
+   },
+   {
+    "title": "Quality Evaluation of Large Language Models Generated Unit Tests: Influence of Structured Output",
+    "doi": "10.15388/mitt.2025.32",
+    "container": "Vilnius University Open Series",
+    "year": 2025,
+    "authors": [
+     "Dovydas Marius Zapkus",
+     "Asta Slotkien\u0117"
+    ],
+    "page": "281-288",
+    "volume": null,
+    "issue": null
+   },
+   {
+    "title": "Leveraging Large Language Models in Education: Enhancing Learning and Teaching",
+    "doi": "10.18260/1-2-119-46353",
+    "container": "2023 ASEE Midwest Section Conference Proceedings",
+    "year": null,
+    "authors": [
+     "Hossein Saiedian"
+    ],
+    "page": null,
+    "volume": null,
+    "issue": null
+   }
+  ]
+ },
+ "dinella2022toga": {
+  "source": "Crossref",
+  "query": "TOGA: a neural method for test oracle generation",
+  "top": [
+   {
+    "title": "TOGA",
+    "doi": "10.1145/3510003.3510141",
+    "container": "Proceedings of the 44th International Conference on Software Engineering",
+    "year": 2022,
+    "authors": [
+     "Elizabeth Dinella",
+     "Gabriel Ryan",
+     "Todd Mytkowicz",
+     "Shuvendu K. Lahiri"
+    ],
+    "page": "2130-2141",
+    "volume": null,
+    "issue": null
+   },
+   {
+    "title": "Software test case generation &amp;amp; test oracle design using neural network",
+    "doi": "10.1109/iraniancee.2014.6999712",
+    "container": "2014 22nd Iranian Conference on Electrical Engineering (ICEE)",
+    "year": 2014,
+    "authors": [
+     "Negar Majma",
+     "Seyed Morteza Babamir"
+    ],
+    "page": "1168-1173",
+    "volume": null,
+    "issue": null
+   },
+   {
+    "title": "MD-ART: a test case generation method without test oracle problem",
+    "doi": "10.1145/2975954.2975959",
+    "container": "Proceedings of the 1st International Workshop on Specification, Comprehension, Testing, and Debugging of Concurrent Programs",
+    "year": 2016,
+    "authors": [
+     "Zhan-Wei Hui",
+     "Song Huang"
+    ],
+    "page": "27-34",
+    "volume": null,
+    "issue": null
+   }
+  ]
+ },
+ "he2024unitsyn": {
+  "source": "Crossref",
+  "query": "UniTSyn: a large-scale dataset capable of enhancing the prowess of large language models for program testing",
+  "top": [
+   {
+    "title": "UniTSyn: A Large-Scale Dataset Capable of Enhancing the Prowess of Large Language Models for Program Testing",
+    "doi": "10.1145/3650212.3680342",
+    "container": "Proceedings of the 33rd ACM SIGSOFT International Symposium on Software Testing and Analysis",
+    "year": 2024,
+    "authors": [
+     "Yifeng He",
+     "Jiabo Huang",
+     "Yuyang Rong",
+     "Yiwen Guo",
+     "Ethan Wang",
+     "Hao Chen"
+    ],
+    "page": "1061-1072",
+    "volume": null,
+    "issue": null
+   },
+   {
+    "title": "Enhancing large language models for Thai legal chatbots",
+    "doi": "10.58837/chula.the.2024.981",
+    "container": "",
+    "year": null,
+    "authors": [
+     "",
+     "Supachoke Hanwiboonwat"
+    ],
+    "page": null,
+    "volume": null,
+    "issue": null
+   },
+   {
+    "title": "Enhancing Large-Scale Code Understanding Through Goal Structuring Notation and Large Language Models",
+    "doi": "10.31577/cai_2025_5_1144",
+    "container": "Computing and Informatics",
+    "year": 2025,
+    "authors": [
+     "Zezhong Chen",
+     "Yuxin Deng",
+     "Wenjie Du"
+    ],
+    "page": "1144-1177",
+    "volume": "44",
+    "issue": "5"
+   }
+  ]
+ },
+ "hayet2025chatassert": {
+  "source": "Crossref",
+  "query": "ChatAssert: LLM-based test oracle generation with external tools assistance",
+  "top": [
+   {
+    "title": "ChatAssert: LLM-Based Test Oracle Generation With External Tools Assistance",
+    "doi": "10.1109/tse.2024.3519159",
+    "container": "IEEE Transactions on Software Engineering",
+    "year": 2025,
+    "authors": [
+     "Ishrak Hayet",
+     "Adam Scott",
+     "Marcelo d'Amorim"
+    ],
+    "page": "305-319",
+    "volume": "51",
+    "issue": "1"
+   },
+   {
+    "title": "Understanding LLM-Driven Test Oracle Generation",
+    "doi": "10.1109/aiware69974.2025.00011",
+    "container": "2025 2nd IEEE/ACM International Conference on AI-powered Software (AIware)",
+    "year": 2025,
+    "authors": [
+     "Adam Bodicoat",
+     "Gunel Jahangirova",
+     "Valerio Terragni"
+    ],
+    "page": "29-39",
+    "volume": null,
+    "issue": null
+   },
+   {
+    "title": "Doc2OracLL: Investigating the Impact of Documentation on LLM-Based Test Oracle Generation",
+    "doi": "10.1145/3729354",
+    "container": "Proceedings of the ACM on Software Engineering",
+    "year": 2025,
+    "authors": [
+     "Soneya Binta Hossain",
+     "Raygan Taylor",
+     "Matthew Dwyer"
+    ],
+    "page": "1870-1891",
+    "volume": "2",
+    "issue": "FSE"
+   }
+  ]
+ },
+ "hort2025semantic": {
+  "source": "Crossref",
+  "query": "Semantic-preserving transformations as mutation operators: a study on their effectiveness in defect detection",
+  "top": [
+   {
+    "title": "Semantic-Preserving Transformations as Mutation Operators: A Study on Their Effectiveness in Defect Detection",
+    "doi": "10.1109/icstw64639.2025.10962512",
+    "container": "2025 IEEE International Conference on Software Testing, Verification and Validation Workshops (ICSTW)",
+    "year": 2025,
+    "authors": [
+     "Max Hort",
+     "Linas Vidziunas",
+     "Leon Moonen"
+    ],
+    "page": "337-346",
+    "volume": null,
+    "issue": null
+   },
+   {
+    "title": "A Study on Information-Preserving Schema Transformations",
+    "doi": "10.1142/s1793351x20400024",
+    "container": "International Journal of Semantic Computing",
+    "year": 2020,
+    "authors": [
+     "Nonyelum Ndefo",
+     "Enrico Franconi"
+    ],
+    "page": "27-53",
+    "volume": "14",
+    "issue": "01"
+   },
+   {
+    "title": "Mutating UML State Machine Behavior with Semantic Mutation Operators",
+    "doi": "10.5220/0007735003850393",
+    "container": "Proceedings of the 14th International Conference on Evaluation of Novel Approaches to Software Engineering",
+    "year": 2019,
+    "authors": [
+     "Anna Derezinska",
+     "\u0141ukasz Zaremba"
+    ],
+    "page": "385-393",
+    "volume": null,
+    "issue": null
+   }
+  ]
+ },
+ "jia2011mutation": {
+  "source": "Crossref",
+  "query": "An analysis and survey of the development of mutation testing",
+  "top": [
+   {
+    "title": "Mutation Testing Advances: An Analysis and Survey",
+    "doi": "10.1016/bs.adcom.2018.03.015",
+    "container": "Advances in Computers",
+    "year": 2019,
+    "authors": [],
+    "page": "275-378",
+    "volume": null,
+    "issue": null
+   },
+   {
+    "title": "An Analysis and Survey of the Development of Mutation Testing",
+    "doi": "10.1109/tse.2010.62",
+    "container": "IEEE Transactions on Software Engineering",
+    "year": 2011,
+    "authors": [
+     "Yue Jia",
+     "Mark Harman"
+    ],
+    "page": "649-678",
+    "volume": "37",
+    "issue": "5"
+   },
+   {
+    "title": "Mutation Testing implements Grammar-Based Testing",
+    "doi": "10.1109/mutation.2006.11",
+    "container": "Second Workshop on Mutation Analysis (Mutation 2006 - ISSRE Workshops 2006)",
+    "year": 2006,
+    "authors": [
+     "Jeff Offutt",
+     "Paul Ammann",
+     "Lisa (Ling) Liu"
+    ],
+    "page": "12-12",
+    "volume": null,
+    "issue": null
+   }
+  ]
+ },
+ "papadakis2019mutation": {
+  "source": "Crossref",
+  "query": "Mutation testing advances: an analysis and survey",
+  "top": [
+   {
+    "title": "Mutation Testing Advances: An Analysis and Survey",
+    "doi": "10.1016/bs.adcom.2018.03.015",
+    "container": "Advances in Computers",
+    "year": 2019,
+    "authors": [],
+    "page": "275-378",
+    "volume": null,
+    "issue": null
+   },
+   {
+    "title": "Mutation Testing implements Grammar-Based Testing",
+    "doi": "10.1109/mutation.2006.11",
+    "container": "Second Workshop on Mutation Analysis (Mutation 2006 - ISSRE Workshops 2006)",
+    "year": 2006,
+    "authors": [
+     "Jeff Offutt",
+     "Paul Ammann",
+     "Lisa (Ling) Liu"
+    ],
+    "page": "12-12",
+    "volume": null,
+    "issue": null
+   },
+   {
+    "title": "Testing database applications using coverage analysis and mutation analysis",
+    "doi": "10.31274/etd-180810-3283",
+    "container": "",
+    "year": null,
+    "authors": [
+     "Tanmoy Sarkar"
+    ],
+    "page": null,
+    "volume": null,
+    "issue": null
+   }
+  ]
+ },
+ "just2014mutants": {
+  "source": "Crossref",
+  "query": "Are mutants a valid substitute for real faults in software testing?",
+  "top": [
+   {
+    "title": "Are mutants a valid substitute for real faults in software testing?",
+    "doi": "10.1145/2635868.2635929",
+    "container": "Proceedings of the 22nd ACM SIGSOFT International Symposium on Foundations of Software Engineering",
+    "year": 2014,
+    "authors": [
+     "Ren\u00e9 Just",
+     "Darioush Jalali",
+     "Laura Inozemtseva",
+     "Michael D. Ernst",
+     "Reid Holmes",
+     "Gordon Fraser"
+    ],
+    "page": "654-665",
+    "volume": null,
+    "issue": null
+   },
+   {
+    "title": "Re-visiting the coupling between mutants and real faults with Defects4J 2.0",
+    "doi": "10.1109/icstw55395.2022.00042",
+    "container": "2022 IEEE International Conference on Software Testing, Verification and Validation Workshops (ICSTW)",
+    "year": 2022,
+    "authors": [
+     "Thomas Laurent",
+     "Stephen Gaffney",
+     "Anthony Ventresque"
+    ],
+    "page": "189-198",
+    "volume": null,
+    "issue": null
+   },
+   {
+    "title": "Using mutants to help developers distinguish and debug (compiler) faults",
+    "doi": "10.1002/stvr.1727",
+    "container": "Software Testing, Verification and Reliability",
+    "year": 2020,
+    "authors": [
+     "Josie Holmes",
+     "Alex Groce"
+    ],
+    "page": null,
+    "volume": "30",
+    "issue": "2"
+   }
+  ]
+ },
+ "liu2023evalplus": {
+  "source": "Crossref",
+  "query": "Is your code generated by ChatGPT really correct? Rigorous evaluation of large language models for code generation",
+  "top": [
+   {
+    "title": "Is Your Code Generated by ChatGPT Really Correct? Rigorous Evaluation of Large Language Models for Code Generation",
+    "doi": "10.52202/075280-0943",
+    "container": "Advances in Neural Information Processing Systems 36",
+    "year": 2023,
+    "authors": [
+     "Jiawei Liu",
+     "Chunqiu Steven Xia",
+     "Yuyao Wang",
+     "Lingming Zhang"
+    ],
+    "page": "21558-21572",
+    "volume": null,
+    "issue": null
+   },
+   {
+    "title": "Evaluation and Distillation of Source Code Generation Tasks by Large Language Models",
+    "doi": "10.56902/etdcrp.2026.69",
+    "container": "",
+    "year": null,
+    "authors": [
+     "Danny Brahman"
+    ],
+    "page": null,
+    "volume": null,
+    "issue": null
+   },
+   {
+    "title": "Empirical Evaluation of the Energy Impact of Large Language Models for Code Generation and Optimization",
+    "doi": "10.70675/9e4a6bb8z3db2z4fb5za6c8z0e7452f94b8e",
+    "container": "",
+    "year": null,
+    "authors": [
+     "Tristan Coignion"
+    ],
+    "page": null,
+    "volume": null,
+    "issue": null
+   }
+  ]
+ }
+}

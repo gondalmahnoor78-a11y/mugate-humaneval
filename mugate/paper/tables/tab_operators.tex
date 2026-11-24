@@ -1,0 +1,15 @@
+\begin{tabular}{@{}llp{6.3cm}rrr@{}}
+\toprule
+Op. & Group & Mutation & Gen. & Killable & Surv.\\
+\midrule
+AOR & gate & Arithmetic operator replacement (\texttt{+}$\leftrightarrow$\texttt{-}, \texttt{*}$\leftrightarrow$\texttt{/}, \texttt{//}$\to$\texttt{/}, \texttt{\%}$\to$\texttt{//}, \texttt{**}$\to$\texttt{*}) & 105 & 100 & 5\\
+ROR & gate & Relational operator replacement (\texttt{<}$\to$\texttt{<=}/\texttt{>}, \texttt{==}$\leftrightarrow$\texttt{!=}, \texttt{in}$\leftrightarrow$\texttt{not in}, \dots) & 85 & 79 & 6\\
+LCR & gate & Logical connector replacement (\texttt{and}$\leftrightarrow$\texttt{or}) & 9 & 9 & 0\\
+UOD & gate & Unary operator deletion (\texttt{not}, unary \texttt{-}) & 20 & 20 & 0\\
+CND & gate & Condition negation (\texttt{if}, \texttt{while}, ternary, comprehension filter) & 63 & 63 & 0\\
+CRP & held-out & Constant replacement ($c\pm1$, Boolean flip, string $\to$ \texttt{\textquotesingle\textquotesingle}) & 404 & 371 & 35\\
+RVR & held-out & Return value replacement ($\to$ \texttt{None}) & 73 & 69 & 4\\
+SDL & held-out & Statement deletion (assignment/expression $\to$ \texttt{pass}) & 124 & 122 & 2\\
+BCR & held-out & \texttt{break}$\leftrightarrow$\texttt{continue} & 0 & 0 & 0\\
+\bottomrule
+\end{tabular}

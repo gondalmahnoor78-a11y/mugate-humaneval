@@ -1,0 +1,2099 @@
+{
+ "n_tasks": 50,
+ "n_mutants": 883,
+ "n_killable": 833,
+ "n_gate_mutants": 282,
+ "n_held_mutants": 601,
+ "mutants_by_op": {
+  "SDL": 124,
+  "RVR": 73,
+  "CRP": 404,
+  "ROR": 85,
+  "CND": 63,
+  "AOR": 105,
+  "UOD": 20,
+  "LCR": 9
+ },
+ "killable_by_op": {
+  "SDL": 122,
+  "RVR": 69,
+  "CRP": 371,
+  "ROR": 79,
+  "CND": 63,
+  "AOR": 100,
+  "UOD": 20,
+  "LCR": 9
+ },
+ "survivor_classes": {
+  "equivalent_precondition": 14,
+  "equivalent_audit": 36,
+  "killable": 2
+ },
+ "n_survivors": 52,
+ "survivors_by_op": {
+  "CRP": 35,
+  "SDL": 2,
+  "ROR": 6,
+  "RVR": 4,
+  "AOR": 5
+ },
+ "audit_seed_stability": {
+  "1": {
+   "differs": 15,
+   "no_difference": 36,
+   "timeout": 1
+  },
+  "2": {
+   "differs": 15,
+   "no_difference": 36,
+   "timeout": 1
+  },
+  "3": {
+   "differs": 15,
+   "no_difference": 36,
+   "timeout": 1
+  },
+  "4": {
+   "differs": 15,
+   "no_difference": 36,
+   "timeout": 1
+  },
+  "0": {
+   "differs": 15,
+   "no_difference": 36,
+   "timeout": 1
+  }
+ },
+ "repair": {
+  "vanilla": {
+   "raw": 266,
+   "kept": 265
+  },
+  "blind": {
+   "raw": 150,
+   "kept": 149
+  },
+  "gate": {
+   "raw": 9,
+   "kept": 9
+  }
+ },
+ "dropped_cases": [
+  {
+   "task": "HumanEval/44",
+   "round": "vanilla",
+   "case": "((0, 2), '0')",
+   "outcome": "AssertionError"
+  },
+  {
+   "task": "HumanEval/97",
+   "round": "blind",
+   "case": "((-9, -9), 81)",
+   "outcome": "AssertionError"
+  }
+ ],
+ "suites": {
+  "human": {
+   "adj": {
+    "killed": 813,
+    "total": 833,
+    "ms": 0.9759903961584634,
+    "ci95": [
+     0.9563917886246628,
+     0.9906893712639755
+    ],
+    "ci95_seed_range": [
+     [
+      0.9561752988047809,
+      0.9565217391304348
+     ],
+     [
+      0.9904661016949152,
+      0.9908629441624366
+     ]
+    ]
+   },
+   "raw": {
+    "killed": 813,
+    "total": 883,
+    "ms": 0.9207248018120046
+   },
+   "adj_gate": {
+    "killed": 266,
+    "total": 271,
+    "ms": 0.981549815498155
+   },
+   "adj_held": {
+    "killed": 547,
+    "total": 562,
+    "ms": 0.9733096085409253
+   },
+   "per_task_mean_sd": [
+    0.9789712909095262,
+    0.05717885702340055
+   ],
+   "tasks_perfect": 39,
+   "delta_gate": -0.008240206957229712,
+   "by_op": {
+    "AOR": {
+     "killed": 98,
+     "total": 100
+    },
+    "ROR": {
+     "killed": 76,
+     "total": 79
+    },
+    "LCR": {
+     "killed": 9,
+     "total": 9
+    },
+    "UOD": {
+     "killed": 20,
+     "total": 20
+    },
+    "CND": {
+     "killed": 63,
+     "total": 63
+    },
+    "CRP": {
+     "killed": 357,
+     "total": 371
+    },
+    "RVR": {
+     "killed": 68,
+     "total": 69
+    },
+    "SDL": {
+     "killed": 122,
+     "total": 122
+    },
+    "BCR": {
+     "killed": 0,
+     "total": 0
+    }
+   }
+  },
+  "vanilla": {
+   "adj": {
+    "killed": 802,
+    "total": 833,
+    "ms": 0.9627851140456183,
+    "ci95": [
+     0.9326571053408139,
+     0.9903363366033824
+    ],
+    "ci95_seed_range": [
+     [
+      0.9322404371584699,
+      0.9332638164754953
+     ],
+     [
+      0.9898605830164765,
+      0.990625
+     ]
+    ]
+   },
+   "raw": {
+    "killed": 802,
+    "total": 883,
+    "ms": 0.9082672706681767
+   },
+   "adj_gate": {
+    "killed": 264,
+    "total": 271,
+    "ms": 0.974169741697417
+   },
+   "adj_held": {
+    "killed": 538,
+    "total": 562,
+    "ms": 0.9572953736654805
+   },
+   "per_task_mean_sd": [
+    0.9821319950202303,
+    0.049646528066606986
+   ],
+   "tasks_perfect": 41,
+   "delta_gate": -0.016874368031936537,
+   "by_op": {
+    "AOR": {
+     "killed": 97,
+     "total": 100
+    },
+    "ROR": {
+     "killed": 76,
+     "total": 79
+    },
+    "LCR": {
+     "killed": 9,
+     "total": 9
+    },
+    "UOD": {
+     "killed": 20,
+     "total": 20
+    },
+    "CND": {
+     "killed": 62,
+     "total": 63
+    },
+    "CRP": {
+     "killed": 349,
+     "total": 371
+    },
+    "RVR": {
+     "killed": 69,
+     "total": 69
+    },
+    "SDL": {
+     "killed": 120,
+     "total": 122
+    },
+    "BCR": {
+     "killed": 0,
+     "total": 0
+    }
+   }
+  },
+  "blind": {
+   "adj": {
+    "killed": 819,
+    "total": 833,
+    "ms": 0.9831932773109243,
+    "ci95": [
+     0.9660966213957929,
+     0.9972414489814654
+    ],
+    "ci95_seed_range": [
+     [
+      0.9659090909090909,
+      0.966321243523316
+     ],
+     [
+      0.9971469329529244,
+      0.9973009446693657
+     ]
+    ]
+   },
+   "raw": {
+    "killed": 819,
+    "total": 883,
+    "ms": 0.927519818799547
+   },
+   "adj_gate": {
+    "killed": 266,
+    "total": 271,
+    "ms": 0.981549815498155
+   },
+   "adj_held": {
+    "killed": 553,
+    "total": 562,
+    "ms": 0.9839857651245552
+   },
+   "per_task_mean_sd": [
+    0.9936452225334578,
+    0.022061404781240048
+   ],
+   "tasks_perfect": 45,
+   "delta_gate": 0.002435949626400147,
+   "by_op": {
+    "AOR": {
+     "killed": 99,
+     "total": 100
+    },
+    "ROR": {
+     "killed": 76,
+     "total": 79
+    },
+    "LCR": {
+     "killed": 9,
+     "total": 9
+    },
+    "UOD": {
+     "killed": 20,
+     "total": 20
+    },
+    "CND": {
+     "killed": 62,
+     "total": 63
+    },
+    "CRP": {
+     "killed": 363,
+     "total": 371
+    },
+    "RVR": {
+     "killed": 69,
+     "total": 69
+    },
+    "SDL": {
+     "killed": 121,
+     "total": 122
+    },
+    "BCR": {
+     "killed": 0,
+     "total": 0
+    }
+   }
+  },
+  "gate": {
+   "adj": {
+    "killed": 813,
+    "total": 833,
+    "ms": 0.9759903961584634,
+    "ci95": [
+     0.948342463920356,
+     0.9946563696702027
+    ],
+    "ci95_seed_range": [
+     [
+      0.9476248477466505,
+      0.9495305164319249
+     ],
+     [
+      0.9945945945945946,
+      0.9947159841479525
+     ]
+    ]
+   },
+   "raw": {
+    "killed": 813,
+    "total": 883,
+    "ms": 0.9207248018120046
+   },
+   "adj_gate": {
+    "killed": 271,
+    "total": 271,
+    "ms": 1.0
+   },
+   "adj_held": {
+    "killed": 542,
+    "total": 562,
+    "ms": 0.9644128113879004
+   },
+   "per_task_mean_sd": [
+    0.9892806878306878,
+    0.031416269616218365
+   ],
+   "tasks_perfect": 42,
+   "delta_gate": -0.03558718861209964,
+   "by_op": {
+    "AOR": {
+     "killed": 100,
+     "total": 100
+    },
+    "ROR": {
+     "killed": 79,
+     "total": 79
+    },
+    "LCR": {
+     "killed": 9,
+     "total": 9
+    },
+    "UOD": {
+     "killed": 20,
+     "total": 20
+    },
+    "CND": {
+     "killed": 63,
+     "total": 63
+    },
+    "CRP": {
+     "killed": 351,
+     "total": 371
+    },
+    "RVR": {
+     "killed": 69,
+     "total": 69
+    },
+    "SDL": {
+     "killed": 122,
+     "total": 122
+    },
+    "BCR": {
+     "killed": 0,
+     "total": 0
+    }
+   }
+  },
+  "W1": {
+   "adj": {
+    "killed": 185,
+    "total": 833,
+    "ms": 0.22208883553421369,
+    "ci95": [
+     0.1685665755453067,
+     0.2758932310458572
+    ],
+    "ci95_seed_range": [
+     [
+      0.16722408026755853,
+      0.1693548387096774
+     ],
+     [
+      0.2753246753246753,
+      0.2770663562281723
+     ]
+    ]
+   },
+   "raw": {
+    "killed": 185,
+    "total": 883,
+    "ms": 0.20951302378255945
+   },
+   "adj_gate": {
+    "killed": 59,
+    "total": 271,
+    "ms": 0.2177121771217712
+   },
+   "adj_held": {
+    "killed": 126,
+    "total": 562,
+    "ms": 0.22419928825622776
+   },
+   "per_task_mean_sd": [
+    0.19557685128238403,
+    0.1739490569335057
+   ],
+   "tasks_perfect": 0,
+   "delta_gate": 0.006487111134456547,
+   "by_op": {
+    "AOR": {
+     "killed": 25,
+     "total": 100
+    },
+    "ROR": {
+     "killed": 12,
+     "total": 79
+    },
+    "LCR": {
+     "killed": 2,
+     "total": 9
+    },
+    "UOD": {
+     "killed": 7,
+     "total": 20
+    },
+    "CND": {
+     "killed": 13,
+     "total": 63
+    },
+    "CRP": {
+     "killed": 55,
+     "total": 371
+    },
+    "RVR": {
+     "killed": 4,
+     "total": 69
+    },
+    "SDL": {
+     "killed": 67,
+     "total": 122
+    },
+    "BCR": {
+     "killed": 0,
+     "total": 0
+    }
+   }
+  },
+  "W2": {
+   "adj": {
+    "killed": 186,
+    "total": 833,
+    "ms": 0.22328931572629052,
+    "ci95": [
+     0.17033251804911173,
+     0.27652777515252897
+    ],
+    "ci95_seed_range": [
+     [
+      0.16906077348066298,
+      0.17088607594936708
+     ],
+     [
+      0.2759051186017478,
+      0.2774566473988439
+     ]
+    ]
+   },
+   "raw": {
+    "killed": 186,
+    "total": 883,
+    "ms": 0.21064552661381652
+   },
+   "adj_gate": {
+    "killed": 60,
+    "total": 271,
+    "ms": 0.22140221402214022
+   },
+   "adj_held": {
+    "killed": 126,
+    "total": 562,
+    "ms": 0.22419928825622776
+   },
+   "per_task_mean_sd": [
+    0.19634608205161486,
+    0.17332400688923533
+   ],
+   "tasks_perfect": 0,
+   "delta_gate": 0.0027970742340875376,
+   "by_op": {
+    "AOR": {
+     "killed": 25,
+     "total": 100
+    },
+    "ROR": {
+     "killed": 12,
+     "total": 79
+    },
+    "LCR": {
+     "killed": 3,
+     "total": 9
+    },
+    "UOD": {
+     "killed": 7,
+     "total": 20
+    },
+    "CND": {
+     "killed": 13,
+     "total": 63
+    },
+    "CRP": {
+     "killed": 55,
+     "total": 371
+    },
+    "RVR": {
+     "killed": 4,
+     "total": 69
+    },
+    "SDL": {
+     "killed": 67,
+     "total": 122
+    },
+    "BCR": {
+     "killed": 0,
+     "total": 0
+    }
+   }
+  },
+  "W3": {
+   "adj": {
+    "killed": 265,
+    "total": 833,
+    "ms": 0.31812725090036015,
+    "ci95": [
+     0.2638189719181999,
+     0.37522567640505444
+    ],
+    "ci95_seed_range": [
+     [
+      0.26216814159292035,
+      0.2645569620253165
+     ],
+     [
+      0.37483085250338294,
+      0.37595628415300547
+     ]
+    ]
+   },
+   "raw": {
+    "killed": 265,
+    "total": 883,
+    "ms": 0.3001132502831257
+   },
+   "adj_gate": {
+    "killed": 76,
+    "total": 271,
+    "ms": 0.28044280442804426
+   },
+   "adj_held": {
+    "killed": 189,
+    "total": 562,
+    "ms": 0.33629893238434166
+   },
+   "per_task_mean_sd": [
+    0.36632261870881266,
+    0.21028391101764232
+   ],
+   "tasks_perfect": 2,
+   "delta_gate": 0.05585612795629741,
+   "by_op": {
+    "AOR": {
+     "killed": 30,
+     "total": 100
+    },
+    "ROR": {
+     "killed": 19,
+     "total": 79
+    },
+    "LCR": {
+     "killed": 3,
+     "total": 9
+    },
+    "UOD": {
+     "killed": 7,
+     "total": 20
+    },
+    "CND": {
+     "killed": 17,
+     "total": 63
+    },
+    "CRP": {
+     "killed": 56,
+     "total": 371
+    },
+    "RVR": {
+     "killed": 66,
+     "total": 69
+    },
+    "SDL": {
+     "killed": 67,
+     "total": 122
+    },
+    "BCR": {
+     "killed": 0,
+     "total": 0
+    }
+   }
+  },
+  "W4": {
+   "adj": {
+    "killed": 28,
+    "total": 833,
+    "ms": 0.03361344537815126,
+    "ci95": [
+     0.00388674641535488,
+     0.07261304988910293
+    ],
+    "ci95_seed_range": [
+     [
+      0.0038022813688212928,
+      0.003942181340341655
+     ],
+     [
+      0.07194244604316546,
+      0.0735826296743064
+     ]
+    ]
+   },
+   "raw": {
+    "killed": 28,
+    "total": 883,
+    "ms": 0.031710079275198186
+   },
+   "adj_gate": {
+    "killed": 8,
+    "total": 271,
+    "ms": 0.02952029520295203
+   },
+   "adj_held": {
+    "killed": 20,
+    "total": 562,
+    "ms": 0.03558718861209965
+   },
+   "per_task_mean_sd": [
+    0.016792014132439664,
+    0.058792667986326215
+   ],
+   "tasks_perfect": 0,
+   "delta_gate": 0.006066893409147619,
+   "by_op": {
+    "AOR": {
+     "killed": 4,
+     "total": 100
+    },
+    "ROR": {
+     "killed": 2,
+     "total": 79
+    },
+    "LCR": {
+     "killed": 0,
+     "total": 9
+    },
+    "UOD": {
+     "killed": 1,
+     "total": 20
+    },
+    "CND": {
+     "killed": 1,
+     "total": 63
+    },
+    "CRP": {
+     "killed": 12,
+     "total": 371
+    },
+    "RVR": {
+     "killed": 1,
+     "total": 69
+    },
+    "SDL": {
+     "killed": 7,
+     "total": 122
+    },
+    "BCR": {
+     "killed": 0,
+     "total": 0
+    }
+   }
+  },
+  "W5": {
+   "adj": {
+    "killed": 562,
+    "total": 833,
+    "ms": 0.6746698679471789,
+    "ci95": [
+     0.5932643183590555,
+     0.7591771937456706
+    ],
+    "ci95_seed_range": [
+     [
+      0.5921205098493627,
+      0.5945663531870429
+     ],
+     [
+      0.757162346521146,
+      0.7609427609427609
+     ]
+    ]
+   },
+   "raw": {
+    "killed": 562,
+    "total": 883,
+    "ms": 0.636466591166478
+   },
+   "adj_gate": {
+    "killed": 197,
+    "total": 271,
+    "ms": 0.7269372693726938
+   },
+   "adj_held": {
+    "killed": 365,
+    "total": 562,
+    "ms": 0.6494661921708185
+   },
+   "per_task_mean_sd": [
+    0.7178221392729011,
+    0.276942274266717
+   ],
+   "tasks_perfect": 15,
+   "delta_gate": -0.0774710772018753,
+   "by_op": {
+    "AOR": {
+     "killed": 76,
+     "total": 100
+    },
+    "ROR": {
+     "killed": 55,
+     "total": 79
+    },
+    "LCR": {
+     "killed": 5,
+     "total": 9
+    },
+    "UOD": {
+     "killed": 11,
+     "total": 20
+    },
+    "CND": {
+     "killed": 50,
+     "total": 63
+    },
+    "CRP": {
+     "killed": 215,
+     "total": 371
+    },
+    "RVR": {
+     "killed": 55,
+     "total": 69
+    },
+    "SDL": {
+     "killed": 95,
+     "total": 122
+    },
+    "BCR": {
+     "killed": 0,
+     "total": 0
+    }
+   }
+  },
+  "W6": {
+   "adj": {
+    "killed": 0,
+    "total": 833,
+    "ms": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "ci95_seed_range": [
+     [
+      0.0,
+      0.0
+     ],
+     [
+      0.0,
+      0.0
+     ]
+    ]
+   },
+   "raw": {
+    "killed": 0,
+    "total": 883,
+    "ms": 0.0
+   },
+   "adj_gate": {
+    "killed": 0,
+    "total": 271,
+    "ms": 0.0
+   },
+   "adj_held": {
+    "killed": 0,
+    "total": 562,
+    "ms": 0.0
+   },
+   "per_task_mean_sd": [
+    0.0,
+    0.0
+   ],
+   "tasks_perfect": 0,
+   "delta_gate": 0.0,
+   "by_op": {
+    "AOR": {
+     "killed": 0,
+     "total": 100
+    },
+    "ROR": {
+     "killed": 0,
+     "total": 79
+    },
+    "LCR": {
+     "killed": 0,
+     "total": 9
+    },
+    "UOD": {
+     "killed": 0,
+     "total": 20
+    },
+    "CND": {
+     "killed": 0,
+     "total": 63
+    },
+    "CRP": {
+     "killed": 0,
+     "total": 371
+    },
+    "RVR": {
+     "killed": 0,
+     "total": 69
+    },
+    "SDL": {
+     "killed": 0,
+     "total": 122
+    },
+    "BCR": {
+     "killed": 0,
+     "total": 0
+    }
+   }
+  },
+  "W7": {
+   "adj": {
+    "killed": 0,
+    "total": 833,
+    "ms": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "ci95_seed_range": [
+     [
+      0.0,
+      0.0
+     ],
+     [
+      0.0,
+      0.0
+     ]
+    ]
+   },
+   "raw": {
+    "killed": 0,
+    "total": 883,
+    "ms": 0.0
+   },
+   "adj_gate": {
+    "killed": 0,
+    "total": 271,
+    "ms": 0.0
+   },
+   "adj_held": {
+    "killed": 0,
+    "total": 562,
+    "ms": 0.0
+   },
+   "per_task_mean_sd": [
+    0.0,
+    0.0
+   ],
+   "tasks_perfect": 0,
+   "delta_gate": 0.0,
+   "by_op": {
+    "AOR": {
+     "killed": 0,
+     "total": 100
+    },
+    "ROR": {
+     "killed": 0,
+     "total": 79
+    },
+    "LCR": {
+     "killed": 0,
+     "total": 9
+    },
+    "UOD": {
+     "killed": 0,
+     "total": 20
+    },
+    "CND": {
+     "killed": 0,
+     "total": 63
+    },
+    "CRP": {
+     "killed": 0,
+     "total": 371
+    },
+    "RVR": {
+     "killed": 0,
+     "total": 69
+    },
+    "SDL": {
+     "killed": 0,
+     "total": 122
+    },
+    "BCR": {
+     "killed": 0,
+     "total": 0
+    }
+   }
+  }
+ },
+ "comparisons": {
+  "vanilla-human": {
+   "diff_pp": -1.3205282112845138,
+   "ci95_pp": [
+    -4.656761287323632,
+    1.7986273491522309
+   ],
+   "wilcoxon_W+": 22.0,
+   "n_nonzero": 8,
+   "wilcoxon_p": 0.6240645324651698,
+   "tasks_better": 5,
+   "tasks_worse": 3,
+   "sign_p": 0.7265625,
+   "mutants_only_a": 10,
+   "mutants_only_b": 21
+  },
+  "blind-vanilla": {
+   "diff_pp": 2.0408163265306123,
+   "ci95_pp": [
+    0.31373924411722154,
+    4.30436877932677
+   ],
+   "wilcoxon_W+": 21.0,
+   "n_nonzero": 6,
+   "wilcoxon_p": 0.03603168621823358,
+   "tasks_better": 6,
+   "tasks_worse": 0,
+   "sign_p": 0.03125,
+   "mutants_only_a": 17,
+   "mutants_only_b": 0
+  },
+  "gate-vanilla": {
+   "diff_pp": 1.3205282112845138,
+   "ci95_pp": [
+    0.0,
+    2.968771015447391
+   ],
+   "wilcoxon_W+": 6.0,
+   "n_nonzero": 3,
+   "wilcoxon_p": 0.18144920772142037,
+   "tasks_better": 3,
+   "tasks_worse": 0,
+   "sign_p": 0.25,
+   "mutants_only_a": 11,
+   "mutants_only_b": 0
+  },
+  "gate-blind": {
+   "diff_pp": -0.7202881152460985,
+   "ci95_pp": [
+    -3.295270446924394,
+    1.4954504947246994
+   ],
+   "wilcoxon_W+": 9.0,
+   "n_nonzero": 7,
+   "wilcoxon_p": 0.44687282071083084,
+   "tasks_better": 2,
+   "tasks_worse": 5,
+   "sign_p": 0.453125,
+   "mutants_only_a": 7,
+   "mutants_only_b": 13
+  },
+  "gate-human": {
+   "diff_pp": 0.0,
+   "ci95_pp": [
+    -3.381455174665617,
+    2.9805408618469564
+   ],
+   "wilcoxon_W+": 34.0,
+   "n_nonzero": 9,
+   "wilcoxon_p": 0.19251757243647138,
+   "tasks_better": 6,
+   "tasks_worse": 3,
+   "sign_p": 0.5078125,
+   "mutants_only_a": 15,
+   "mutants_only_b": 15
+  },
+  "blind-human": {
+   "diff_pp": 0.7202881152460985,
+   "ci95_pp": [
+    -1.5181195246076529,
+    3.271533525880397
+   ],
+   "wilcoxon_W+": 36.5,
+   "n_nonzero": 9,
+   "wilcoxon_p": 0.1091212854742424,
+   "tasks_better": 7,
+   "tasks_worse": 2,
+   "sign_p": 0.1796875,
+   "mutants_only_a": 16,
+   "mutants_only_b": 10
+  }
+ },
+ "coverage": {
+  "human": {
+   "mean": 0.9983333333333333,
+   "tasks_full": 49
+  },
+  "vanilla": {
+   "mean": 0.9983333333333333,
+   "tasks_full": 49
+  },
+  "blind": {
+   "mean": 0.9983333333333333,
+   "tasks_full": 49
+  },
+  "gate": {
+   "mean": 0.9983333333333333,
+   "tasks_full": 49
+  }
+ },
+ "vanilla_full_coverage_but_ms_below_1": [
+  {
+   "task": "HumanEval/40",
+   "ms": 0.75,
+   "killed": 12,
+   "killable": 16
+  },
+  {
+   "task": "HumanEval/156",
+   "ms": 0.8095238095238095,
+   "killed": 51,
+   "killable": 63
+  },
+  {
+   "task": "HumanEval/129",
+   "ms": 0.8518518518518519,
+   "killed": 46,
+   "killable": 54
+  },
+  {
+   "task": "HumanEval/68",
+   "ms": 0.9333333333333333,
+   "killed": 14,
+   "killable": 15
+  },
+  {
+   "task": "HumanEval/71",
+   "ms": 0.9411764705882353,
+   "killed": 32,
+   "killable": 34
+  },
+  {
+   "task": "HumanEval/6",
+   "ms": 0.95,
+   "killed": 19,
+   "killable": 20
+  },
+  {
+   "task": "HumanEval/135",
+   "ms": 0.9523809523809523,
+   "killed": 20,
+   "killable": 21
+  },
+  {
+   "task": "HumanEval/114",
+   "ms": 0.9583333333333334,
+   "killed": 23,
+   "killable": 24
+  },
+  {
+   "task": "HumanEval/108",
+   "ms": 0.96,
+   "killed": 24,
+   "killable": 25
+  }
+ ],
+ "vanilla_cov_ms_pearson": -0.0519369096441444,
+ "gate_round": {
+  "tasks_with_survivors_shown": 11,
+  "survivors_shown": 18,
+  "tasks_revised": 4,
+  "extra_cases_total": 9,
+  "extra_cases_per_task": 0.18,
+  "blind_extra_cases_total": 149,
+  "vanilla_cases_total": 265,
+  "human_assert_lines": null,
+  "shown_killable": 7,
+  "shown_killed_after": 7
+ },
+ "exec_time_median_ms": 0.6307000294327736,
+ "evaluate_meta": {
+  "wall_s": 653.3464978002012,
+  "jobs": 2,
+  "timeout_s": 2.0,
+  "runner_stats": {
+   "spawns": 828,
+   "timeouts": 237,
+   "crashes": 0,
+   "items": 10226
+  }
+ },
+ "cost": {
+  "machine": {
+   "platform": "Windows-11-10.0.22631-SP0",
+   "processor": "AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD",
+   "cpu_count": 2,
+   "python": "3.12.10"
+  },
+  "gate_check_batched": {
+   "mean_per_task_s": 0.6695130880052844,
+   "sd_total_s": 2.1149735656997213,
+   "total_s_runs": [
+    31.648690400179476,
+    32.98565320111811,
+    35.79261959949508
+   ],
+   "per_task_mean_s": [
+    0.1609629999535779,
+    0.15888363340248665,
+    0.27731280013297993,
+    0.16032806659738222,
+    0.1505265667413672,
+    0.1519419999482731,
+    0.12011669995263219,
+    0.13777110011627278,
+    0.0,
+    0.14557249983772635,
+    0.0,
+    0.0,
+    0.12819633337979516,
+    7.889876566827297,
+    0.1750588665405909,
+    12.60289206650729,
+    0.13369480008259416,
+    0.13653026660904288,
+    0.205528166765968,
+    0.16381386651967964,
+    0.13145839981734753,
+    0.12513273349031806,
+    0.13271733357881507,
+    1.861945299897343,
+    0.13653703344364962,
+    0.13973156673212847,
+    0.15419846680015326,
+    0.516858133332183,
+    0.21686080005019903,
+    0.0,
+    0.12862833309918642,
+    0.1245242333970964,
+    0.12256153346970677,
+    0.12846326688304543,
+    0.14668063338225087,
+    0.13845983318363628,
+    0.161173933185637,
+    0.17352256644517183,
+    0.1327333333902061,
+    0.13579990016296506,
+    0.13699600007385015,
+    0.12569036660715938,
+    0.13675186674421033,
+    0.1530853334503869,
+    0.1985854998541375,
+    0.1293794666416943,
+    0.13162936673810086,
+    4.27023116654406,
+    0.20277269991735616,
+    0.28353800003727275
+   ]
+  },
+  "gate_check_isolated": {
+   "mean_per_task_s": 2.1725203386632104,
+   "sd_total_s": 2.680544183819553,
+   "total_s_runs": [
+    105.68556559970602,
+    110.93327700067312,
+    109.25920819910243
+   ],
+   "per_task_mean_s": [
+    1.3388570665071409,
+    0.6115132332779467,
+    0.6614974667318165,
+    0.296601500051717,
+    0.32571186668549973,
+    0.5617809666631123,
+    0.11556866656367977,
+    0.12805726658552885,
+    0.0,
+    0.3976340334241589,
+    0.0,
+    0.0,
+    0.36041990015655756,
+    33.235744400105126,
+    0.8233265001326799,
+    12.965551066678017,
+    0.26008023337150615,
+    0.5333540335608026,
+    0.5071187998789052,
+    0.9086009667565426,
+    1.0943241999484599,
+    0.5256897667422891,
+    0.25157759990543127,
+    3.3535928001316884,
+    0.15198679997896156,
+    0.873930633533746,
+    0.5263163999964794,
+    2.9638437000103295,
+    0.5559301331328849,
+    0.0,
+    0.3303664665048321,
+    0.681643333286047,
+    0.43273753331353265,
+    1.2477236334234476,
+    1.9176423664515216,
+    1.2356424666941166,
+    1.225498233300944,
+    2.9544644999938705,
+    1.3522399999201298,
+    0.7438654000870883,
+    0.43508446666722495,
+    1.6696232667503257,
+    1.516500666582336,
+    0.4666227999453743,
+    1.1734512333447735,
+    0.1364758334433039,
+    0.7116554665068785,
+    24.800430999913562,
+    0.7655746665162345,
+    0.5001636000039676
+   ]
+  },
+  "suite_on_P_only": {
+   "mean_per_task_s": 0.15790690732498963,
+   "sd_total_s": 1.5339302044495744,
+   "total_s_runs": [
+    9.58541589928791,
+    7.509317798074335,
+    6.591302401386201
+   ],
+   "per_task_mean_s": [
+    0.2740067333603899,
+    0.13664223331337175,
+    0.137763366724054,
+    0.14224840017656484,
+    0.13902496670683226,
+    0.152602000006785,
+    0.1250424332295855,
+    0.14356106659397483,
+    0.13600656654064855,
+    0.13688053345928589,
+    0.13907269993796945,
+    0.12008893334617217,
+    0.11580693333720167,
+    0.13785506676261625,
+    0.21797146663690606,
+    0.18186423337707916,
+    0.1268694664662083,
+    0.14445070006574193,
+    0.12395536666736007,
+    0.12297846656292677,
+    0.13223929982632399,
+    0.1440458333430191,
+    0.1285756000628074,
+    0.2181198000907898,
+    0.167613733249406,
+    0.17754643332834044,
+    0.12896360006804267,
+    0.13697163326044878,
+    0.14073746666933099,
+    0.1440772001321117,
+    0.14405090004826585,
+    0.39581966648499173,
+    0.20737226648877063,
+    0.13849399999404946,
+    0.13354709992806116,
+    0.12241626670584083,
+    0.1548430334466199,
+    0.20172633323818445,
+    0.23553499998524785,
+    0.15822690011312565,
+    0.15889743342995644,
+    0.159186700048546,
+    0.1781432332160572,
+    0.16909180007254085,
+    0.16545206665371856,
+    0.135191833289961,
+    0.13714503341664872,
+    0.14692243328318,
+    0.13595129984120527,
+    0.14374983326221505
+   ]
+  },
+  "n_gate_mutants": 282,
+  "scaling_human_suite_all_mutants_s": {
+   "1": [
+    125.58324529975653,
+    124.15114390011877,
+    123.77241880027577
+   ],
+   "2": [
+    65.56850159959868,
+    67.89940019976348,
+    71.2291345000267
+   ]
+  }
+ },
+ "survivors": [
+  {
+   "task": "HumanEval/6",
+   "mid": "m006",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-        max_depth = 0\n+        max_depth = 1",
+   "class": "equivalent_precondition",
+   "audit": {
+    "verdict": "differs",
+    "input": "(')()(',)",
+    "P_out": "['list', 0]",
+    "mut_out": "['list', 1]"
+   }
+  },
+  {
+   "task": "HumanEval/6",
+   "mid": "m007",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-        max_depth = 0\n+        max_depth = -1",
+   "class": "equivalent_precondition",
+   "audit": {
+    "verdict": "differs",
+    "input": "('(())( ) (((())))',)",
+    "P_out": "['list', 2, 0, 4]",
+    "mut_out": "['list', 2, -1, 4]"
+   }
+  },
+  {
+   "task": "HumanEval/33",
+   "mid": "m000",
+   "op": "SDL",
+   "group": "held",
+   "diff": "-    l = list(l)\n+    pass",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/35",
+   "mid": "m003",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-    m = l[0]\n+    m = l[-1]",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/35",
+   "mid": "m004",
+   "op": "ROR",
+   "group": "gate",
+   "diff": "-        if e > m:\n+        if e >= m:",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/39",
+   "mid": "m008",
+   "op": "RVR",
+   "group": "held",
+   "diff": "-            return False\n+            return None",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/39",
+   "mid": "m010",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-    f = [0, 1]\n+    f = [1, 1]",
+   "class": "equivalent_precondition",
+   "audit": {
+    "verdict": "timeout"
+   }
+  },
+  {
+   "task": "HumanEval/39",
+   "mid": "m011",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-    f = [0, 1]\n+    f = [-1, 1]",
+   "class": "equivalent_precondition",
+   "audit": {
+    "verdict": "differs",
+    "input": "(0,)",
+    "P_out": "1",
+    "mut_out": "0"
+   }
+  },
+  {
+   "task": "HumanEval/39",
+   "mid": "m027",
+   "op": "RVR",
+   "group": "held",
+   "diff": "-                return False\n+                return None",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/39",
+   "mid": "m034",
+   "op": "AOR",
+   "group": "gate",
+   "diff": "-        for k in range(2, min(int(math.sqrt(p)) + 1, p - 1)):\n+        for k in range(2, min(int(math.sqrt(p)) + 1, p + 1)):",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/39",
+   "mid": "m041",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-        for k in range(2, min(int(math.sqrt(p)) + 1, p - 1)):\n+        for k in range(2, min(int(math.sqrt(p)) + 2, p - 1)):",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/39",
+   "mid": "m043",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-        for k in range(2, min(int(math.sqrt(p)) + 1, p - 1)):\n+        for k in range(2, min(int(math.sqrt(p)) + 1, p - 2)):",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/39",
+   "mid": "m044",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-        for k in range(2, min(int(math.sqrt(p)) + 1, p - 1)):\n+        for k in range(2, min(int(math.sqrt(p)) + 1, p - 0)):",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/59",
+   "mid": "m003",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-    largest = 1\n+    largest = 2",
+   "class": "equivalent_precondition",
+   "audit": {
+    "verdict": "differs",
+    "input": "(-100,)",
+    "P_out": "1",
+    "mut_out": "2"
+   }
+  },
+  {
+   "task": "HumanEval/59",
+   "mid": "m004",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-    largest = 1\n+    largest = 0",
+   "class": "equivalent_precondition",
+   "audit": {
+    "verdict": "differs",
+    "input": "(-100,)",
+    "P_out": "1",
+    "mut_out": "0"
+   }
+  },
+  {
+   "task": "HumanEval/59",
+   "mid": "m008",
+   "op": "RVR",
+   "group": "held",
+   "diff": "-            return False\n+            return None",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/59",
+   "mid": "m011",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-    for j in range(2, n + 1):\n+    for j in range(1, n + 1):",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/59",
+   "mid": "m012",
+   "op": "AOR",
+   "group": "gate",
+   "diff": "-    for j in range(2, n + 1):\n+    for j in range(2, n - 1):",
+   "class": "equivalent_precondition",
+   "audit": {
+    "verdict": "differs",
+    "input": "(331,)",
+    "P_out": "331",
+    "mut_out": "1"
+   }
+  },
+  {
+   "task": "HumanEval/59",
+   "mid": "m017",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-        if k < 2:\n+        if k < 1:",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/59",
+   "mid": "m018",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-            return False\n+            return True",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/59",
+   "mid": "m024",
+   "op": "RVR",
+   "group": "held",
+   "diff": "-                return False\n+                return None",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/59",
+   "mid": "m025",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-    for j in range(2, n + 1):\n+    for j in range(2, n + 2):",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/59",
+   "mid": "m026",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-    for j in range(2, n + 1):\n+    for j in range(2, n + 0):",
+   "class": "equivalent_precondition",
+   "audit": {
+    "verdict": "differs",
+    "input": "(331,)",
+    "P_out": "331",
+    "mut_out": "1"
+   }
+  },
+  {
+   "task": "HumanEval/59",
+   "mid": "m029",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-        for i in range(2, k - 1):\n+        for i in range(2, k - 0):",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/68",
+   "mid": "m009",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-    if len(arr) == 0:\n+    if len(arr) == -1:",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/107",
+   "mid": "m040",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-        elif i % 2 == 0 and is_palindrome(i):\n+        elif i % 1 == 0 and is_palindrome(i):",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/108",
+   "mid": "m005",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-        neg = 1\n+        neg = 2",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/108",
+   "mid": "m007",
+   "op": "ROR",
+   "group": "gate",
+   "diff": "-        if n < 0:\n+        if n <= 0:",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/108",
+   "mid": "m011",
+   "op": "AOR",
+   "group": "gate",
+   "diff": "-        n[0] = n[0] * neg\n+        n[0] = n[0] / neg",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/108",
+   "mid": "m012",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-        if n < 0:\n+        if n < 1:",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/114",
+   "mid": "m005",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-    max_sum = 0\n+    max_sum = -1",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/114",
+   "mid": "m016",
+   "op": "ROR",
+   "group": "gate",
+   "diff": "-        if s < 0:\n+        if s <= 0:",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/114",
+   "mid": "m022",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-        if s < 0:\n+        if s < 1:",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/114",
+   "mid": "m023",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-        if s < 0:\n+        if s < -1:",
+   "class": "killable",
+   "audit": {
+    "verdict": "differs",
+    "input": "([0, -2, 3, -4],)",
+    "P_out": "-4",
+    "mut_out": "-3"
+   }
+  },
+  {
+   "task": "HumanEval/129",
+   "mid": "m001",
+   "op": "SDL",
+   "group": "held",
+   "diff": "-    val = n * n + 1\n+    pass",
+   "class": "equivalent_precondition",
+   "audit": {
+    "verdict": "differs",
+    "input": "([[2, 9, 8], [2, 7, 6], [3, 4, 5]], 2)",
+    "P_out": "['list', 1, 10]",
+    "mut_out": "EXC:UnboundLocalError"
+   }
+  },
+  {
+   "task": "HumanEval/129",
+   "mid": "m004",
+   "op": "AOR",
+   "group": "gate",
+   "diff": "-    val = n * n + 1\n+    val = n * n - 1",
+   "class": "equivalent_precondition",
+   "audit": {
+    "verdict": "differs",
+    "input": "([[2, 9, 8], [2, 7, 6], [3, 4, 5]], 2)",
+    "P_out": "['list', 1, 10]",
+    "mut_out": "['list', 1, 8]"
+   }
+  },
+  {
+   "task": "HumanEval/129",
+   "mid": "m005",
+   "op": "AOR",
+   "group": "gate",
+   "diff": "-    val = n * n + 1\n+    val = n / n + 1",
+   "class": "equivalent_precondition",
+   "audit": {
+    "verdict": "differs",
+    "input": "([[2, 9, 8], [2, 7, 6], [3, 4, 5]], 2)",
+    "P_out": "['list', 1, 10]",
+    "mut_out": "['list', 1, 2.0]"
+   }
+  },
+  {
+   "task": "HumanEval/129",
+   "mid": "m006",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-    val = n * n + 1\n+    val = n * n + 2",
+   "class": "equivalent_precondition",
+   "audit": {
+    "verdict": "differs",
+    "input": "([[2, 9, 8], [2, 7, 6], [3, 4, 5]], 2)",
+    "P_out": "['list', 1, 10]",
+    "mut_out": "['list', 1, 11]"
+   }
+  },
+  {
+   "task": "HumanEval/129",
+   "mid": "m007",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-    val = n * n + 1\n+    val = n * n + 0",
+   "class": "equivalent_precondition",
+   "audit": {
+    "verdict": "differs",
+    "input": "([[2, 9, 8], [2, 7, 6], [3, 4, 5]], 2)",
+    "P_out": "['list', 1, 10]",
+    "mut_out": "['list', 1, 9]"
+   }
+  },
+  {
+   "task": "HumanEval/129",
+   "mid": "m040",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-                if j != 0:\n+                if j != -1:",
+   "class": "killable",
+   "audit": {
+    "verdict": "differs",
+    "input": "([[5, 9, 3], [1, 6, 4], [7, 8, 2]], 3)",
+    "P_out": "['list', 1, 5, 1]",
+    "mut_out": "['list', 1, 4, 1]"
+   }
+  },
+  {
+   "task": "HumanEval/135",
+   "mid": "m013",
+   "op": "ROR",
+   "group": "gate",
+   "diff": "-        if arr[i] < arr[i - 1]:\n+        if arr[i] <= arr[i - 1]:",
+   "class": "equivalent_precondition",
+   "audit": {
+    "verdict": "differs",
+    "input": "([1, 3, 3],)",
+    "P_out": "-1",
+    "mut_out": "2"
+   }
+  },
+  {
+   "task": "HumanEval/138",
+   "mid": "m009",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-    return n % 2 == 0 and n >= 8\n+    return n % 2 == 0 and n >= 7",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/139",
+   "mid": "m011",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-    for i in range(1, n + 1):\n+    for i in range(2, n + 1):",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/143",
+   "mid": "m013",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-            flg = 1\n+            flg = 2",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/143",
+   "mid": "m026",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-                flg = 1\n+                flg = 2",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/143",
+   "mid": "m030",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-        if flg == 0 or len(word) == 2:\n+        if flg == 0 or len(word) == 3:",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/148",
+   "mid": "m006",
+   "op": "ROR",
+   "group": "gate",
+   "diff": "-    if planet1_index < planet2_index:\n+    if planet1_index <= planet2_index:",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/151",
+   "mid": "m006",
+   "op": "ROR",
+   "group": "gate",
+   "diff": "-    return sum([i ** 2 for i in lst if i > 0 and i % 2 != 0 and ('.' not in str(i))])\n+    return sum([i ** 2 for i in lst if i >= 0 and i % 2 != 0 and ('.' not in str(i))])",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/151",
+   "mid": "m011",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-    return sum([i ** 2 for i in lst if i > 0 and i % 2 != 0 and ('.' not in str(i))])\n+    return sum([i ** 2 for i in lst if i > -1 and i % 2 != 0 and ('.' not in str(i))])",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/161",
+   "mid": "m024",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-            flg = 1\n+            flg = 2",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/163",
+   "mid": "m004",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-    lower = max(2, min(a, b))\n+    lower = max(1, min(a, b))",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  },
+  {
+   "task": "HumanEval/163",
+   "mid": "m005",
+   "op": "CRP",
+   "group": "held",
+   "diff": "-    upper = min(8, max(a, b))\n+    upper = min(9, max(a, b))",
+   "class": "equivalent_audit",
+   "audit": {
+    "verdict": "no_difference",
+    "input": null,
+    "P_out": null,
+    "mut_out": null
+   }
+  }
+ ]
+}
